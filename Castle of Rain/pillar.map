@@ -1,0 +1,55 @@
+// Game: FALLSTRUKTUR - Castle of Rain
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -15 ) defaultTextures/metal 0 0 0 1 1
+( -64 -64 -16 ) ( -64 -64 -15 ) ( -63 -64 -16 ) defaultTextures/metal 0 0 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) defaultTextures/metal 0 0 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) defaultTextures/metal 0 0 0 1 1
+( 64 64 16 ) ( 65 64 16 ) ( 64 64 17 ) defaultTextures/metal 0 0 0 1 1
+( 64 64 16 ) ( 64 64 17 ) ( 64 65 16 ) defaultTextures/metal 0 0 0 1 1
+}
+// brush 1
+{
+( -48 -48 16 ) ( -48 -47 16 ) ( -48 -48 17 ) defaultTextures/metal 0 0 0 1 1
+( -48 -48 16 ) ( -48 -48 17 ) ( -47 -48 16 ) defaultTextures/metal 0 0 0 1 1
+( -48 -48 16 ) ( -47 -48 16 ) ( -48 -47 16 ) defaultTextures/metal 0 0 0 1 1
+( 48 48 32 ) ( 48 49 32 ) ( 49 48 32 ) defaultTextures/metal 0 0 0 1 1
+( 48 48 32 ) ( 49 48 32 ) ( 48 48 33 ) defaultTextures/metal 0 0 0 1 1
+( 48 48 32 ) ( 48 48 33 ) ( 48 49 32 ) defaultTextures/metal 0 0 0 1 1
+}
+// brush 2
+{
+( -32 -13.254833995939052 384 ) ( -32 13.254833995939059 32 ) ( -32 13.254833995939059 384 ) defaultTextures/metal 0 0 0 1 1
+( -13.25483399593906 -32 384 ) ( -32 -13.254833995939052 32 ) ( -32 -13.254833995939052 384 ) defaultTextures/metal 0 0 0 1 1
+( -13.254833995939041 32 384 ) ( -32 13.254833995939059 32 ) ( -13.254833995939041 32 32 ) defaultTextures/metal 0 0 0 1 1
+( 13.254833995939045 -32 384 ) ( -13.25483399593906 -32 32 ) ( -13.25483399593906 -32 384 ) defaultTextures/metal 0 0 0 1 1
+( 32 13.254833995939043 32 ) ( 13.254833995939045 -32 32 ) ( 32 -13.254833995939043 32 ) defaultTextures/metal 0 0 0 1 1
+( 32 13.254833995939043 384 ) ( -13.254833995939041 32 384 ) ( 13.254833995939045 32 384 ) defaultTextures/metal 0 0 0 1 1
+( 13.254833995939045 32 384 ) ( -13.254833995939041 32 32 ) ( 13.254833995939045 32 32 ) defaultTextures/metal 0 0 0 1 1
+( 32 -13.254833995939043 384 ) ( 13.254833995939045 -32 32 ) ( 13.254833995939045 -32 384 ) defaultTextures/metal 0 0 0 1 1
+( 32 13.254833995939043 384 ) ( 13.254833995939045 32 32 ) ( 32 13.254833995939043 32 ) defaultTextures/metal 0 0 0 1 1
+( 32 13.254833995939043 384 ) ( 32 -13.254833995939043 32 ) ( 32 -13.254833995939043 384 ) defaultTextures/metal 0 0 0 1 1
+}
+// brush 3
+{
+( -64 64 432 ) ( -64 63 432 ) ( -64 64 431 ) defaultTextures/metal 0 0 0 1 1
+( 64 -64 400 ) ( 65 -64 400 ) ( 64 -64 399 ) defaultTextures/metal 0 0 0 1 1
+( 64 -64 400 ) ( 64 -65 400 ) ( 65 -64 400 ) defaultTextures/metal 0 0 0 1 1
+( -64 64 432 ) ( -63 64 432 ) ( -64 63 432 ) defaultTextures/metal 0 0 0 1 1
+( -64 64 432 ) ( -64 64 431 ) ( -63 64 432 ) defaultTextures/metal 0 0 0 1 1
+( 64 -64 400 ) ( 64 -64 399 ) ( 64 -65 400 ) defaultTextures/metal 0 0 0 1 1
+}
+// brush 4
+{
+( -48 48 400 ) ( -48 47 400 ) ( -48 48 399 ) defaultTextures/metal 0 0 0 1 1
+( 48 -48 384 ) ( 49 -48 384 ) ( 48 -48 383 ) defaultTextures/metal 0 0 0 1 1
+( 48 -48 384 ) ( 48 -49 384 ) ( 49 -48 384 ) defaultTextures/metal 0 0 0 1 1
+( -48 48 400 ) ( -47 48 400 ) ( -48 47 400 ) defaultTextures/metal 0 0 0 1 1
+( -48 48 400 ) ( -48 48 399 ) ( -47 48 400 ) defaultTextures/metal 0 0 0 1 1
+( 48 -48 384 ) ( 48 -48 383 ) ( 48 -49 384 ) defaultTextures/metal 0 0 0 1 1
+}
+}

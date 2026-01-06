@@ -1,0 +1,42 @@
+// Game: FALLSTRUKTUR - Castle of Rain
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -128 -64 -16 ) ( -128 -63.375 -16 ) ( -128 -64 -15 ) defaultTextures/korb 0 0 0 1 1
+( -128 -64 -16 ) ( -128 -64 -15 ) ( -124.37500000000004 -64 -16 ) defaultTextures/korb 0 0 0 1 1
+( -128 -64 -16 ) ( -124.37500000000004 -64 -16 ) ( -128 -63.375 -16 ) defaultTextures/korb 0 0 0 1 1
+( 336 16 16 ) ( 336 16.624999999999996 16 ) ( 339.6250000000002 16 16 ) defaultTextures/korb 0 0 0 1 1
+( 336 16 16 ) ( 339.6250000000002 16 16 ) ( 336 16 17 ) defaultTextures/korb 0 0 0 1 1
+( 336 16 16 ) ( 336 16 17 ) ( 336 16.624999999999996 16 ) defaultTextures/korb 0 0 0 1 1
+}
+// brush 1
+{
+( -128 416 -16 ) ( -128 416.75 -16 ) ( -128 416 -15 ) defaultTextures/korb 0 0 0 1 1
+( -128 416 -16 ) ( -128 416 -15 ) ( -124.37500000000006 416 -16 ) defaultTextures/korb 0 0 0 1 1
+( -128 416 -16 ) ( -124.37500000000006 416 -16 ) ( -128 416.75 -16 ) defaultTextures/korb 0 0 0 1 1
+( 336 512 16 ) ( 336 512.75 16 ) ( 339.6250000000002 512 16 ) defaultTextures/korb 0 0 0 1 1
+( 336 512 16 ) ( 339.6250000000002 512 16 ) ( 336 512 17 ) defaultTextures/korb 0 0 0 1 1
+( 336 512 16 ) ( 336 512 17 ) ( 336 512.75 16 ) defaultTextures/korb 0 0 0 1 1
+}
+// brush 2
+{
+( 256 16 -16 ) ( 256 19.125 -16 ) ( 256 16 -15 ) defaultTextures/korb 0 0 0 1 1
+( 256 16 -16 ) ( 256 16 -15 ) ( 256.625 16 -16 ) defaultTextures/korb 0 0 0 1 1
+( 256 16 -16 ) ( 256.625 16 -16 ) ( 256 19.125 -16 ) defaultTextures/korb 0 0 0 1 1
+( 336 416 16 ) ( 336 419.125 16 ) ( 336.625 416 16 ) defaultTextures/korb 0 0 0 1 1
+( 336 416 16 ) ( 336.625 416 16 ) ( 336 416 17 ) defaultTextures/korb 0 0 0 1 1
+( 336 416 16 ) ( 336 416 17 ) ( 336 419.125 16 ) defaultTextures/korb 0 0 0 1 1
+}
+// brush 3
+{
+( -128 16 -16 ) ( -128 19.124999999999986 -16 ) ( -128 16 -15 ) defaultTextures/korb 0 0 0 1 1
+( -128 16 -16 ) ( -128 16 -15 ) ( -127.375 16 -16 ) defaultTextures/korb 0 0 0 1 1
+( -128 16 -16 ) ( -127.375 16 -16 ) ( -128 19.124999999999986 -16 ) defaultTextures/korb 0 0 0 1 1
+( -48 416 16 ) ( -48 419.125 16 ) ( -47.375 416 16 ) defaultTextures/korb 0 0 0 1 1
+( -48 416 16 ) ( -47.375 416 16 ) ( -48 416 17 ) defaultTextures/korb 0 0 0 1 1
+( -48 416 16 ) ( -48 416 17 ) ( -48 419.125 16 ) defaultTextures/korb 0 0 0 1 1
+}
+}

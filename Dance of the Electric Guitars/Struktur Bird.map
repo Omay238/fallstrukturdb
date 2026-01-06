@@ -1,0 +1,51 @@
+// Game: FALLSTRUKTUR - Dance of the Electronic Guitars
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 8 -8 6 ) ( 0 -8 0 ) ( 0 8 0 ) defaultTextures/dirtyBrick_seamless -40 22 0 1 1
+( 8 -8 6 ) ( 30 -8 4 ) ( 30 -8 2 ) defaultTextures/dirtyBrick_seamless 34 8 0 1 1
+( 30 8 2 ) ( 30 8 4 ) ( 8 8 6 ) defaultTextures/dirtyBrick_seamless 34 8 0 1 1
+( 0 8 0 ) ( 0 -8 0 ) ( 30 -8 2 ) defaultTextures/dirtyBrick_seamless 34 56 0 1 1
+( 8 8 6 ) ( 30 8 4 ) ( 30 -8 4 ) defaultTextures/dirtyBrick_seamless 34 56 0 1 1
+( 30 -8 4 ) ( 30 8 4 ) ( 30 8 2 ) defaultTextures/dirtyBrick_seamless -56 8 0 1 1
+}
+// brush 1
+{
+( -18 8 6 ) ( 2 8 18 ) ( 2 -8 18 ) defaultTextures/dirtyBrick_seamless -42 4 0 1 1
+( 0 8 0 ) ( -18 8 6 ) ( -18 -8 6 ) defaultTextures/dirtyBrick_seamless 34 56 0 1 1
+( 2 -8 18 ) ( 8 -8 6 ) ( 0 -8 0 ) defaultTextures/dirtyBrick_seamless 34 8 0 1 1
+( 0 8 0 ) ( 8 8 6 ) ( 2 8 18 ) defaultTextures/dirtyBrick_seamless 34 8 0 1 1
+( 8 -8 6 ) ( 8 8 6 ) ( 0 8 0 ) defaultTextures/dirtyBrick_seamless -64 2 0 1 1
+( 2 8 18 ) ( 8 8 6 ) ( 8 -8 6 ) defaultTextures/dirtyBrick_seamless 43 63 0 1 1
+}
+// brush 2
+{
+( -6 -10 18 ) ( -16 -10 8 ) ( -16 10 8 ) defaultTextures/stone3 -42 4 0 1 1
+( 2 -10 4 ) ( 2 10 4 ) ( -16 10 8 ) defaultTextures/stone3 34 56 0 1 1
+( -6 -10 18 ) ( 2 -10 4 ) ( -16 -10 8 ) defaultTextures/stone3 34 8 0 1 1
+( -16 10 8 ) ( 2 10 4 ) ( -6 10 18 ) defaultTextures/stone3 34 8 0 1 1
+( -6 10 18 ) ( 2 10 4 ) ( 2 -10 4 ) defaultTextures/stone3 29 75 0 1 1
+}
+// brush 3
+{
+( -18 8 6 ) ( -24 8 14 ) ( -24 -8 14 ) defaultTextures/dirtyBrick_seamless 16 72 0 1 1
+( -24 8 14 ) ( -14 8 24 ) ( -14 -8 24 ) defaultTextures/dirtyBrick_seamless -58 -26 0 1 1
+( -14 -8 24 ) ( 2 -8 18 ) ( -18 -8 6 ) defaultTextures/dirtyBrick_seamless 34 8 0 1 1
+( -18 8 6 ) ( 2 8 18 ) ( -14 8 24 ) defaultTextures/dirtyBrick_seamless 34.01626 8 0 1 1
+( -14 8 24 ) ( 2 8 18 ) ( 2 -8 18 ) defaultTextures/dirtyBrick_seamless 42 46 0 1 1
+( -18 8 6 ) ( -18 -8 6 ) ( 2 -8 18 ) defaultTextures/dirtyBrick_seamless -66 -16 0 1 1
+}
+// brush 4
+{
+( -20 -2 14 ) ( -20 0 12 ) ( -32 0 15 ) defaultTextures/dirtyBrick_seamless 2 8.000001 0 1 1
+( -32 0 15 ) ( -20 0 18 ) ( -20 -2 16 ) defaultTextures/dirtyBrick_seamless 2 8.000001 0 1 1
+( -20 0 12 ) ( -20 2 14 ) ( -32 0 15 ) defaultTextures/dirtyBrick_seamless 2 7.9999976 0 1 1
+( -32 0 15 ) ( -20 2 16 ) ( -20 0 18 ) defaultTextures/dirtyBrick_seamless 2 7.9999976 0 1 1
+( -20 -2 14 ) ( -32 0 15 ) ( -20 -2 16 ) defaultTextures/dirtyBrick_seamless 2 -10 0 1 1
+( -20 2 14 ) ( -20 2 16 ) ( -32 0 15 ) defaultTextures/dirtyBrick_seamless 2 -10 0 1 1
+( -20 0 18 ) ( -20 2 16 ) ( -20 2 14 ) defaultTextures/dirtyBrick_seamless -8 -10 0 1 1
+}
+}

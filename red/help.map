@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - My New Struktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -8 8 8 ) ( -8 -8 8 ) ( -8 -8 -8 ) __TB_empty 0 0 0 1 1
+( -8 -8 8 ) ( 8 -8 8 ) ( 8 -8 -8 ) __TB_empty 0 0 0 1 1
+( 8 -8 -8 ) ( 8 8 -8 ) ( -8 8 -8 ) __TB_empty 0 0 0 1 1
+( -8 8 8 ) ( 8 8 8 ) ( 8 -8 8 ) __TB_empty 0 0 0 1 1
+( 8 8 -8 ) ( 8 8 8 ) ( -8 8 8 ) __TB_empty 0 0 0 1 1
+( 8 -8 8 ) ( 8 8 8 ) ( 8 8 -8 ) __TB_empty 0 0 0 1 1
+}
+}

@@ -1,0 +1,13 @@
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 64 0 ) ( -64 -64 0 ) ( -64 -64 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+( -64 -64 0 ) ( 64 -64 0 ) ( 64 -64 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+( 64 -64 -16 ) ( 64 64 -16 ) ( -64 64 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+( -64 64 0 ) ( 64 64 0 ) ( 64 -64 0 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+( 64 64 -16 ) ( 64 64 0 ) ( -64 64 0 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+( 64 -64 0 ) ( 64 64 0 ) ( 64 64 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 1 1
+}
+}

@@ -1,0 +1,42 @@
+// Game: FALLSTRUKTUR - ICStruktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -6992 0 -704 ) ( -6992 80 -720 ) ( -6992 80 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -704 ) ( -6784 0 -720 ) ( -6784 0 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -720 ) ( -6784 0 -720 ) ( -6752 0 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -704 ) ( -6784 0 -704 ) ( -6784 80 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -704 ) ( -6784 80 -720 ) ( -6752 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -704 ) ( -6752 0 -720 ) ( -6752 0 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( -6992 0 -816 ) ( -6992 80 -832 ) ( -6992 80 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -816 ) ( -6784 0 -832 ) ( -6784 0 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -832 ) ( -6784 0 -832 ) ( -6752 0 -832 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -816 ) ( -6784 0 -816 ) ( -6784 80 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -816 ) ( -6784 80 -832 ) ( -6752 80 -832 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -816 ) ( -6752 0 -832 ) ( -6752 0 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( -6992 -16 -720 ) ( -6992 0 -816 ) ( -6992 0 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 -16 -720 ) ( -6784 -16 -816 ) ( -6784 -16 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -816 ) ( -6784 -16 -816 ) ( -6752 -16 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -720 ) ( -6784 -16 -720 ) ( -6784 0 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -720 ) ( -6784 0 -816 ) ( -6752 0 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 0 -720 ) ( -6752 -16 -816 ) ( -6752 -16 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+// brush 3
+{
+( -6992 80 -720 ) ( -6992 96 -816 ) ( -6992 96 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 80 -720 ) ( -6784 80 -816 ) ( -6784 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 96 -816 ) ( -6784 80 -816 ) ( -6752 80 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 96 -720 ) ( -6784 80 -720 ) ( -6784 96 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 96 -720 ) ( -6784 96 -816 ) ( -6752 96 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6752 96 -720 ) ( -6752 80 -816 ) ( -6752 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+}

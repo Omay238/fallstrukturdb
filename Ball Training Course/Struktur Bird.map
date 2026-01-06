@@ -1,0 +1,51 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 2 -8 14 ) ( -6 -8 8 ) ( -6 8 8 ) defaultTextures/stone2 -34 22 0 1 1
+( 2 -8 14 ) ( 24 -8 12 ) ( 24 -8 10 ) defaultTextures/stone2 40 16 0 1 1
+( 24 8 10 ) ( 24 8 12 ) ( 2 8 14 ) defaultTextures/stone2 40 16 0 1 1
+( -6 8 8 ) ( -6 -8 8 ) ( 24 -8 10 ) defaultTextures/stone2 40 56 0 1 1
+( 2 8 14 ) ( 24 8 12 ) ( 24 -8 12 ) defaultTextures/stone2 40 56 0 1 1
+( 24 -8 12 ) ( 24 8 12 ) ( 24 8 10 ) defaultTextures/stone2 -56 16 0 1 1
+}
+// brush 1
+{
+( -24 8 14 ) ( -4 8 26 ) ( -4 -8 26 ) defaultTextures/stone2 -36 4 0 1 1
+( -6 8 8 ) ( -24 8 14 ) ( -24 -8 14 ) defaultTextures/stone2 40 56 0 1 1
+( -4 -8 26 ) ( 2 -8 14 ) ( -6 -8 8 ) defaultTextures/stone2 40 16 0 1 1
+( -6 8 8 ) ( 2 8 14 ) ( -4 8 26 ) defaultTextures/stone2 40 16 0 1 1
+( 2 -8 14 ) ( 2 8 14 ) ( -6 8 8 ) defaultTextures/stone2 -58 2 0 1 1
+( -4 8 26 ) ( 2 8 14 ) ( 2 -8 14 ) defaultTextures/stone2 43 71 0 1 1
+}
+// brush 2
+{
+( -24 8 14 ) ( -30 8 22 ) ( -30 -8 22 ) defaultTextures/stone2 16 80 0 1 1
+( -30 8 22 ) ( -20 8 32 ) ( -20 -8 32 ) defaultTextures/stone2 -52 -26 0 1 1
+( -20 -8 32 ) ( -4 -8 26 ) ( -24 -8 14 ) defaultTextures/stone2 40 16 0 1 1
+( -24 8 14 ) ( -4 8 26 ) ( -20 8 32 ) defaultTextures/stone2 40.01626 16 0 1 1
+( -20 8 32 ) ( -4 8 26 ) ( -4 -8 26 ) defaultTextures/stone2 48 46 0 1 1
+( -24 8 14 ) ( -24 -8 14 ) ( -4 -8 26 ) defaultTextures/stone2 -60 -16 0 1 1
+}
+// brush 3
+{
+( -12 -10 26 ) ( -22 -10 16 ) ( -22 10 16 ) defaultTextures/stone4 -36 4 0 1 1
+( -4 -10 12 ) ( -4 10 12 ) ( -22 10 16 ) defaultTextures/stone4 40 56 0 1 1
+( -12 -10 26 ) ( -4 -10 12 ) ( -22 -10 16 ) defaultTextures/stone4 40 16 0 1 1
+( -22 10 16 ) ( -4 10 12 ) ( -12 10 26 ) defaultTextures/stone4 40 16 0 1 1
+( -12 10 26 ) ( -4 10 12 ) ( -4 -10 12 ) defaultTextures/stone4 29 83 0 1 1
+}
+// brush 4
+{
+( -26 -2 22 ) ( -26 0 20 ) ( -38 0 23 ) defaultTextures/stone2 8 8 0 1 1
+( -38 0 23 ) ( -26 0 26 ) ( -26 -2 24 ) defaultTextures/stone2 8 8 0 1 1
+( -26 0 20 ) ( -26 2 22 ) ( -38 0 23 ) defaultTextures/stone2 8 8 0 1 1
+( -38 0 23 ) ( -26 2 24 ) ( -26 0 26 ) defaultTextures/stone2 8 8 0 1 1
+( -26 -2 22 ) ( -38 0 23 ) ( -26 -2 24 ) defaultTextures/stone2 8 -2 0 1 1
+( -26 2 22 ) ( -26 2 24 ) ( -38 0 23 ) defaultTextures/stone2 8 -2 0 1 1
+( -26 0 26 ) ( -26 2 24 ) ( -26 2 22 ) defaultTextures/stone2 -8 -2 0 1 1
+}
+}

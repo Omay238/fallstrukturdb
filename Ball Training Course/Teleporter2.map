@@ -1,0 +1,24 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 1806 432 956 ) ( 1806 433 956 ) ( 1806 432 957 ) defaultTextures/Green_Dialogue_Button -16 -20 0 1 1
+( 1663 576 956 ) ( 1663 576 957 ) ( 1664 576 956 ) defaultTextures/Green_Dialogue_Button -31 -20 0 1 1
+( 1663 432 892 ) ( 1664 432 892 ) ( 1663 433 892 ) defaultTextures/Green_Dialogue_Button -31 16 0 1 1
+( 1791 560 894 ) ( 1791 561 894 ) ( 1792 560 894 ) defaultTextures/Green_Dialogue_Button -31 16 0 1 1
+( 1791 624 988 ) ( 1792 624 988 ) ( 1791 624 989 ) defaultTextures/Green_Dialogue_Button -31 -20 0 1 1
+( 1808 560 988 ) ( 1808 560 989 ) ( 1808 561 988 ) defaultTextures/Green_Dialogue_Button -16 -20 0 1 1
+}
+// brush 1
+{
+( -5488 543.5 900 ) ( -5488 542.5 900 ) ( -5488 542.5 896 ) defaultTextures/cobblestoneWhite 16 16 0 1 1
+( -5488 560 900 ) ( -5440 560 900 ) ( -5440 560 896 ) defaultTextures/cobblestoneWhite 0 16 0 1 1
+( -5440 542.5 880 ) ( -5440 543.5 880 ) ( -5488 543.5 880 ) defaultTextures/cobblestoneWhite 0 -16 0 1 1
+( -5488 543.5 896 ) ( -5440 543.5 896 ) ( -5440 542.5 896 ) defaultTextures/cobblestoneWhite 0 0 270 1 1
+( -5440 624 896 ) ( -5440 624 900 ) ( -5488 624 900 ) defaultTextures/cobblestoneWhite 0 16 0 1 1
+( -5472 542.5 900 ) ( -5472 543.5 900 ) ( -5472 543.5 896 ) defaultTextures/cobblestoneWhite 16 16 0 1 1
+}
+}

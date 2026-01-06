@@ -1,0 +1,1428 @@
+// Game: FALLSTRUKTUR - sovietdream
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -24 288 40 ) ( -24 152 -64 ) ( -24 152 -72 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+( -24 152 -64 ) ( 72 152 -64 ) ( 72 152 -72 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+( -24 288 40 ) ( 72 288 40 ) ( 72 152 -64 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+( 72 152 -72 ) ( 72 288 32 ) ( -24 288 32 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+( 72 288 32 ) ( 72 288 40 ) ( -24 288 40 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+( -22 224 -8.941176470588221 ) ( -22 218 -13.529411764705879 ) ( -22 218 114.47058823529412 ) defaultTextures/grainton2 24 0 0 1.1 0.61
+}
+// brush 1
+{
+( -696 520 -272 ) ( -696 384 -376 ) ( -696 384 -384 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 520 -272 ) ( -600 520 -272 ) ( -600 384 -376 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 -280 ) ( -600 512 -280 ) ( -472 512 -280 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 -280 ) ( -600 520 -272 ) ( -696 520 -272 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -602 516 -275.05882352941177 ) ( -602 512 -278.11764705882354 ) ( -602 512 -150.11764705882354 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+}
+// brush 2
+{
+( -696 520 144 ) ( -696 384 40 ) ( -696 384 32 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 384 40 ) ( -600 384 40 ) ( -600 384 32 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 520 144 ) ( -600 520 144 ) ( -600 384 40 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 136 ) ( -472 512 136 ) ( -600 512 136 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 384 32 ) ( -600 520 136 ) ( -696 520 136 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -602 516 -275.05882352941177 ) ( -602 512 -278.11764705882354 ) ( -602 512 -150.11764705882354 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+}
+// brush 3
+{
+( -552 664 -272 ) ( -552 568 -272 ) ( -552 568 -280 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -552 664 -272 ) ( -360 664 -168 ) ( -360 568 -168 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -496 570 -241.66666666666666 ) ( -500 570 -243.83333333333334 ) ( -500 570 -115.83333333333334 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -360 664 -176 ) ( -360 664 -168 ) ( -552 664 -272 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -552 664 -280 ) ( -552 568 -280 ) ( -360 568 -176 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -360 568 -168 ) ( -360 664 -168 ) ( -360 664 -176 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+}
+// brush 4
+{
+( -264 104 -168 ) ( -264 8 -168 ) ( -264 8 -176 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+( -264 104 -168 ) ( -72 104 -64 ) ( -72 8 -64 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+( -216 102 -142 ) ( -224 102 -146.33333333333337 ) ( -224 102 -18.33333333333337 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+( -72 104 -72 ) ( -72 104 -64 ) ( -264 104 -168 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+( -72 8 -72 ) ( -72 104 -72 ) ( -264 104 -176 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+( -72 8 -64 ) ( -72 104 -64 ) ( -72 104 -72 ) defaultTextures/grainton2 -8 9 90 1.06 0.75
+}
+// brush 5
+{
+( -602 516 -275.05882352941177 ) ( -602 512 -150.11764705882354 ) ( -602 512 -278.11764705882354 ) defaultTextures/grainton2 34 -178.42276 0 1.1 0.615
+( -696 520 -272 ) ( -600 520 -272 ) ( -600 384 -376 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -600 520 -280 ) ( -600 512 -280 ) ( -472 512 -280 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -600 520 -280 ) ( -600 520 -272 ) ( -696 520 -272 ) defaultTextures/grainton2 34 -178.42273 0 1.1 0.615
+( -600 384 -376 ) ( -600 520 -272 ) ( -600 520 -280 ) defaultTextures/grainton2 34 -178.42276 0 1.1 0.615
+}
+// brush 6
+{
+( -552 664 -272 ) ( -552 568 -272 ) ( -552 568 -280 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -552 664 -272 ) ( -360 664 -168 ) ( -360 568 -168 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -552 568 -272 ) ( -360 568 -168 ) ( -360 568 -176 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -496 570 -241.66666666666666 ) ( -500 570 -115.83333333333334 ) ( -500 570 -243.83333333333334 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -552 664 -280 ) ( -552 568 -280 ) ( -360 568 -176 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -360 568 -168 ) ( -360 664 -168 ) ( -360 664 -176 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+}
+// brush 7
+{
+( -22 224 -8.941176470588221 ) ( -22 218 114.47058823529412 ) ( -22 218 -13.529411764705879 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( -24 152 -64 ) ( 72 152 -64 ) ( 72 152 -72 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( -24 288 40 ) ( 72 288 40 ) ( 72 152 -64 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 152 -72 ) ( 72 288 32 ) ( -24 288 32 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 288 32 ) ( 72 288 40 ) ( -24 288 40 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 152 -64 ) ( 72 288 40 ) ( 72 288 32 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+}
+// brush 8
+{
+( -602 516 -275.05882352941177 ) ( -602 512 -150.11764705882354 ) ( -602 512 -278.11764705882354 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -696 384 40 ) ( -600 384 40 ) ( -600 384 32 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -696 520 144 ) ( -600 520 144 ) ( -600 384 40 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -600 520 136 ) ( -472 512 136 ) ( -600 512 136 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -600 384 32 ) ( -600 520 136 ) ( -696 520 136 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+( -600 384 40 ) ( -600 520 144 ) ( -600 520 136 ) defaultTextures/grainton2 34 -14 0 1.1 0.615
+}
+// brush 9
+{
+( -264 104 -168 ) ( -264 8 -168 ) ( -264 8 -176 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -264 104 -168 ) ( -72 104 -64 ) ( -72 8 -64 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -264 8 -168 ) ( -72 8 -64 ) ( -72 8 -72 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -216 102 -142 ) ( -224 102 -18.33333333333337 ) ( -224 102 -146.33333333333337 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -72 8 -72 ) ( -72 104 -72 ) ( -264 104 -176 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -72 8 -64 ) ( -72 104 -64 ) ( -72 104 -72 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+}
+// brush 10
+{
+( -72 8 -72 ) ( -72 9 -72 ) ( -72 8 -71 ) defaultTextures/grainton2 -8 0 0 1 1
+( -32 144 -64 ) ( -64 112 64 ) ( -64 112 -64 ) defaultTextures/grainton2 -8 0 0 1 1
+( -72 8 -72 ) ( -71 8 -72 ) ( -72 9 -72 ) defaultTextures/grainton2 -40 8 0 1 1
+( 72 152 -64 ) ( 72 153 -64 ) ( 73 152 -64 ) defaultTextures/grainton2 -40 8 0 1 1
+( 72 152 -64 ) ( 73 152 -64 ) ( 72 152 -63 ) defaultTextures/grainton2 -40 0 0 1 1
+( -22 152 -64 ) ( -72 102 -64 ) ( -72 102 64 ) defaultTextures/grainton2 -40 0 0 1 1
+}
+// brush 11
+{
+( -72 8 -72 ) ( -72 9 -72 ) ( -72 8 -71 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -22 152 -64 ) ( -72 102 64 ) ( -72 102 -64 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -72 8 -72 ) ( -72 8 -71 ) ( -71 8 -72 ) defaultTextures/dirtyConcrete_seamless -40 0 0 1 1
+( -72 8 -72 ) ( -71 8 -72 ) ( -72 9 -72 ) defaultTextures/dirtyConcrete_seamless -40 8 0 1 1
+( 72 152 -64 ) ( 72 153 -64 ) ( 73 152 -64 ) defaultTextures/dirtyConcrete_seamless -40 8 0 1 1
+( 72 152 -64 ) ( 73 152 -64 ) ( 72 152 -63 ) defaultTextures/dirtyConcrete_seamless -40 0 0 1 1
+( 72 152 -64 ) ( 72 152 -63 ) ( 72 153 -64 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+}
+// brush 12
+{
+( -602 520 -272 ) ( -598 524 -272 ) ( -598 524 -144 ) defaultTextures/grainton2 -8 -208 0 1 1
+( -696 520 -280 ) ( -696 520 -279 ) ( -695 520 -280 ) defaultTextures/grainton2 72 -208 0 1 1
+( -696 520 -280 ) ( -695 520 -280 ) ( -696 521 -280 ) defaultTextures/grainton2 72 8 0 1 1
+( -552 664 -272 ) ( -552 665 -272 ) ( -551 664 -272 ) defaultTextures/grainton2 72 8 0 1 1
+( -552 568 -272 ) ( -592 528 -272 ) ( -592 528 -144 ) defaultTextures/grainton2 72 -208 0 1 1
+( -552 664 -272 ) ( -552 664 -271 ) ( -552 665 -272 ) defaultTextures/grainton2 -8 -208 0 1 1
+}
+// brush 13
+{
+( -696 520 -280 ) ( -696 521 -280 ) ( -696 520 -279 ) defaultTextures/dirtyConcrete_seamless -8 -208 0 1 1
+( -696 520 -280 ) ( -696 520 -279 ) ( -695 520 -280 ) defaultTextures/dirtyConcrete_seamless 72 -208 0 1 1
+( -696 520 -280 ) ( -695 520 -280 ) ( -696 521 -280 ) defaultTextures/dirtyConcrete_seamless 72 8 0 1 1
+( -552 664 -272 ) ( -552 665 -272 ) ( -551 664 -272 ) defaultTextures/dirtyConcrete_seamless 72 8 0 1 1
+( -552 664 -272 ) ( -551 664 -272 ) ( -552 664 -271 ) defaultTextures/dirtyConcrete_seamless 72 -208 0 1 1
+( -602 520 -272 ) ( -598 524 -144 ) ( -598 524 -272 ) defaultTextures/dirtyConcrete_seamless 72 -208 0 1 1
+( -552 664 -272 ) ( -552 664 -271 ) ( -552 665 -272 ) defaultTextures/dirtyConcrete_seamless -8 -208 0 1 1
+}
+// brush 14
+{
+( -24 288 456 ) ( -24 152 352 ) ( -24 152 344 ) defaultTextures/grainton2 -231.99998 169.96716 0 1.1 0.61
+( -24 152 352 ) ( 72 152 352 ) ( 72 152 344 ) defaultTextures/grainton2 24.000004 169.96716 0 1.1 0.61
+( -24 288 456 ) ( 72 288 456 ) ( 72 152 352 ) defaultTextures/grainton2 24.000004 0 0 1.1 0.61
+( 72 152 344 ) ( 72 288 448 ) ( -24 288 448 ) defaultTextures/grainton2 24.000004 0 0 1.1 0.61
+( 72 288 448 ) ( 72 288 456 ) ( -24 288 456 ) defaultTextures/grainton2 24.000004 169.96716 0 1.1 0.61
+( -22 224 407.05882352941177 ) ( -22 218 402.47058823529414 ) ( -22 218 530.4705882352941 ) defaultTextures/grainton2 -231.99998 169.96716 0 1.1 0.61
+}
+// brush 15
+{
+( -696 520 144 ) ( -696 384 40 ) ( -696 384 32 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 520 144 ) ( -600 520 144 ) ( -600 384 40 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 136 ) ( -600 512 136 ) ( -472 512 136 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 136 ) ( -600 520 144 ) ( -696 520 144 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -602 516 140.94117647058823 ) ( -602 512 137.88235294117646 ) ( -602 512 265.88235294117646 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+}
+// brush 16
+{
+( -696 520 560 ) ( -696 384 456 ) ( -696 384 448 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 384 456 ) ( -600 384 456 ) ( -600 384 448 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -696 520 560 ) ( -600 520 560 ) ( -600 384 456 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 520 552 ) ( -472 512 552 ) ( -600 512 552 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -600 384 448 ) ( -600 520 552 ) ( -696 520 552 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+( -602 516 140.94117647058823 ) ( -602 512 137.88235294117646 ) ( -602 512 265.88235294117646 ) defaultTextures/dirtyBrick_seamless 192 -48 0 0.72 0.26
+}
+// brush 17
+{
+( -552 664 144 ) ( -552 568 144 ) ( -552 568 136 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -552 664 144 ) ( -360 664 248 ) ( -360 568 248 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -496 570 174.33333333333334 ) ( -500 570 172.16666666666666 ) ( -500 570 300.16666666666663 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -360 664 240 ) ( -360 664 248 ) ( -552 664 144 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -552 664 136 ) ( -552 568 136 ) ( -360 568 240 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+( -360 568 248 ) ( -360 664 248 ) ( -360 664 240 ) defaultTextures/dirtyBrick_seamless 97 36 90 0.72 0.275
+}
+// brush 18
+{
+( -264 104 248 ) ( -264 8 248 ) ( -264 8 240 ) defaultTextures/grainton2 -144.45284 8.999985 90 1.06 0.75
+( -264 104 248 ) ( -72 104 352 ) ( -72 8 352 ) defaultTextures/grainton2 -7.999954 9 90 1.06 0.75
+( -216 102 274 ) ( -224 102 269.66666666666663 ) ( -224 102 397.66666666666663 ) defaultTextures/grainton2 -144.45284 9 90 1.06 0.75
+( -72 104 344 ) ( -72 104 352 ) ( -264 104 248 ) defaultTextures/grainton2 -144.45284 9 90 1.06 0.75
+( -72 8 344 ) ( -72 104 344 ) ( -264 104 240 ) defaultTextures/grainton2 -7.999954 9 90 1.06 0.75
+( -72 8 352 ) ( -72 104 352 ) ( -72 104 344 ) defaultTextures/grainton2 -144.45287 8.999985 90 1.06 0.75
+}
+// brush 19
+{
+( -602 516 140.94117647058823 ) ( -602 512 265.88235294117646 ) ( -602 512 137.88235294117646 ) defaultTextures/grainton2 -221.99997 -13.999985 0 1.1 0.615
+( -696 520 144 ) ( -600 520 144 ) ( -600 384 40 ) defaultTextures/grainton2 34 242 0 1.1 0.615
+( -600 520 136 ) ( -600 512 136 ) ( -472 512 136 ) defaultTextures/grainton2 34 242 0 1.1 0.615
+( -600 520 136 ) ( -600 520 144 ) ( -696 520 144 ) defaultTextures/grainton2 34 -13.9999695 0 1.1 0.615
+( -600 384 40 ) ( -600 520 144 ) ( -600 520 136 ) defaultTextures/grainton2 -221.99997 -13.999985 0 1.1 0.615
+}
+// brush 20
+{
+( -552 664 144 ) ( -552 568 144 ) ( -552 568 136 ) defaultTextures/grainton2 -160.45285 9 90 1.06 0.75
+( -552 664 144 ) ( -360 664 248 ) ( -360 568 248 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -552 568 144 ) ( -360 568 248 ) ( -360 568 240 ) defaultTextures/grainton2 -160.45285 9 90 1.06 0.75
+( -496 570 174.33333333333334 ) ( -500 570 300.16666666666663 ) ( -500 570 172.16666666666666 ) defaultTextures/grainton2 -160.45285 9 90 1.06 0.75
+( -552 664 136 ) ( -552 568 136 ) ( -360 568 240 ) defaultTextures/grainton2 -24 9 90 1.06 0.75
+( -360 568 248 ) ( -360 664 248 ) ( -360 664 240 ) defaultTextures/grainton2 -160.45284 9 90 1.06 0.75
+}
+// brush 21
+{
+( -22 224 407.05882352941177 ) ( -22 218 530.4705882352941 ) ( -22 218 402.47058823529414 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( -24 152 352 ) ( 72 152 352 ) ( 72 152 344 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( -24 288 456 ) ( 72 288 456 ) ( 72 152 352 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 152 344 ) ( 72 288 448 ) ( -24 288 448 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 288 448 ) ( 72 288 456 ) ( -24 288 456 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+( 72 152 352 ) ( 72 288 456 ) ( 72 288 448 ) defaultTextures/dirtyBrick_seamless 280 -48 0 0.72 0.26
+}
+// brush 22
+{
+( -602 516 140.94117647058823 ) ( -602 512 265.88235294117646 ) ( -602 512 137.88235294117646 ) defaultTextures/grainton2 -221.99998 150.42273 0 1.1 0.615
+( -696 384 456 ) ( -600 384 456 ) ( -600 384 448 ) defaultTextures/grainton2 34 150.42279 0 1.1 0.615
+( -696 520 560 ) ( -600 520 560 ) ( -600 384 456 ) defaultTextures/grainton2 34 242 0 1.1 0.615
+( -600 520 552 ) ( -472 512 552 ) ( -600 512 552 ) defaultTextures/grainton2 34 242 0 1.1 0.615
+( -600 384 448 ) ( -600 520 552 ) ( -696 520 552 ) defaultTextures/grainton2 34 242 0 1.1 0.615
+( -600 384 456 ) ( -600 520 560 ) ( -600 520 552 ) defaultTextures/grainton2 -221.99998 150.42273 0 1.1 0.615
+}
+// brush 23
+{
+( -264 104 248 ) ( -264 8 248 ) ( -264 8 240 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -264 104 248 ) ( -72 104 352 ) ( -72 8 352 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -264 8 248 ) ( -72 8 352 ) ( -72 8 344 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -216 102 274 ) ( -224 102 397.66666666666663 ) ( -224 102 269.66666666666663 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -72 8 344 ) ( -72 104 344 ) ( -264 104 240 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+( -72 8 352 ) ( -72 104 352 ) ( -72 104 344 ) defaultTextures/dirtyBrick_seamless -19 36 90 0.72 0.275
+}
+// brush 24
+{
+( -72 8 344 ) ( -72 9 344 ) ( -72 8 345 ) defaultTextures/grainton2 -8 160 0 1 1
+( -32 144 352 ) ( -64 112 480 ) ( -64 112 352 ) defaultTextures/grainton2 -8 160 0 1 1
+( -72 8 344 ) ( -71 8 344 ) ( -72 9 344 ) defaultTextures/grainton2 -40 8 0 1 1
+( 72 152 352 ) ( 72 153 352 ) ( 73 152 352 ) defaultTextures/grainton2 -40 8 0 1 1
+( 72 152 352 ) ( 73 152 352 ) ( 72 152 353 ) defaultTextures/grainton2 -40 160 0 1 1
+( -22 152 352 ) ( -72 102 352 ) ( -72 102 480 ) defaultTextures/grainton2 -40 160 0 1 1
+}
+// brush 25
+{
+( -72 8 344 ) ( -72 9 344 ) ( -72 8 345 ) defaultTextures/dirtyConcrete_seamless -8 160 0 1 1
+( -22 152 352 ) ( -72 102 480 ) ( -72 102 352 ) defaultTextures/dirtyConcrete_seamless -8 160 0 1 1
+( -72 8 344 ) ( -72 8 345 ) ( -71 8 344 ) defaultTextures/dirtyConcrete_seamless -40 160 0 1 1
+( -72 8 344 ) ( -71 8 344 ) ( -72 9 344 ) defaultTextures/dirtyConcrete_seamless -40 8 0 1 1
+( 72 152 352 ) ( 72 153 352 ) ( 73 152 352 ) defaultTextures/dirtyConcrete_seamless -40 8 0 1 1
+( 72 152 352 ) ( 73 152 352 ) ( 72 152 353 ) defaultTextures/dirtyConcrete_seamless -40 160 0 1 1
+( 72 152 352 ) ( 72 152 353 ) ( 72 153 352 ) defaultTextures/dirtyConcrete_seamless -8 160 0 1 1
+}
+// brush 26
+{
+( -602 520 144 ) ( -598 524 144 ) ( -598 524 272 ) defaultTextures/grainton2 -8 208 0 1 1
+( -696 520 136 ) ( -696 520 137 ) ( -695 520 136 ) defaultTextures/grainton2 72 208 0 1 1
+( -696 520 136 ) ( -695 520 136 ) ( -696 521 136 ) defaultTextures/grainton2 72 8 0 1 1
+( -552 664 144 ) ( -552 665 144 ) ( -551 664 144 ) defaultTextures/grainton2 72 8 0 1 1
+( -552 568 144 ) ( -592 528 144 ) ( -592 528 272 ) defaultTextures/grainton2 -184 208 0 1 1
+( -552 664 144 ) ( -552 664 145 ) ( -552 665 144 ) defaultTextures/grainton2 -8 208 0 1 1
+}
+// brush 27
+{
+( -696 520 136 ) ( -696 521 136 ) ( -696 520 137 ) defaultTextures/dirtyConcrete_seamless -8 208 0 1 1
+( -696 520 136 ) ( -696 520 137 ) ( -695 520 136 ) defaultTextures/dirtyConcrete_seamless 72 208 0 1 1
+( -696 520 136 ) ( -695 520 136 ) ( -696 521 136 ) defaultTextures/dirtyConcrete_seamless 72 8 0 1 1
+( -552 664 144 ) ( -552 665 144 ) ( -551 664 144 ) defaultTextures/dirtyConcrete_seamless 72 8 0 1 1
+( -552 664 144 ) ( -551 664 144 ) ( -552 664 145 ) defaultTextures/dirtyConcrete_seamless 72 208 0 1 1
+( -602 520 144 ) ( -598 524 272 ) ( -598 524 144 ) defaultTextures/dirtyConcrete_seamless -184 208 0 1 1
+( -552 664 144 ) ( -552 664 145 ) ( -552 665 144 ) defaultTextures/dirtyConcrete_seamless -8 208 0 1 1
+}
+// brush 28
+{
+( -696 384 456 ) ( -696 288 456 ) ( -696 288 448 ) defaultTextures/grainton2 -208 -16 0 1 1
+( -176 382 456 ) ( -184 382 456 ) ( -184 382 584 ) defaultTextures/grainton2 48 -16 0 1 1
+( 72 288 448 ) ( 72 384 448 ) ( -696 384 448 ) defaultTextures/grainton2 -208 -48 90 1 -1
+( -696 384 456 ) ( 72 384 456 ) ( 72 288 456 ) defaultTextures/grainton2 -208 -48 90 1 -1
+( 72 384 448 ) ( 72 384 456 ) ( -696 384 456 ) defaultTextures/grainton2 48 -16 0 1 1
+( 72 288 456 ) ( 72 384 456 ) ( 72 384 448 ) defaultTextures/grainton2 -208 -16 0 1 1
+}
+// brush 29
+{
+( -696 384 456 ) ( -696 288 456 ) ( -696 288 448 ) defaultTextures/dirtyConcrete_seamless -208 -16 0 1 1
+( -172 290 456 ) ( -176 290 456 ) ( -176 290 584 ) defaultTextures/dirtyConcrete_seamless 48 -16 0 1 1
+( 72 288 448 ) ( 72 384 448 ) ( -696 384 448 ) defaultTextures/dirtyConcrete_seamless -208 -48 90 1 -1
+( -696 384 456 ) ( 72 384 456 ) ( 72 288 456 ) defaultTextures/dirtyConcrete_seamless -208 -48 90 1 -1
+( -176 382 456 ) ( -184 382 584 ) ( -184 382 456 ) defaultTextures/dirtyConcrete_seamless 48 -16 0 1 1
+( 72 288 456 ) ( 72 384 456 ) ( 72 384 448 ) defaultTextures/dirtyConcrete_seamless -208 -16 0 1 1
+}
+// brush 30
+{
+( -696 384 456 ) ( -696 288 456 ) ( -696 288 448 ) defaultTextures/grainton2 -208 -16 0 1 1
+( -696 288 456 ) ( 72 288 456 ) ( 72 288 448 ) defaultTextures/grainton2 48 -16 0 1 1
+( 72 288 448 ) ( 72 384 448 ) ( -696 384 448 ) defaultTextures/grainton2 -208 -48 90 1 -1
+( -696 384 456 ) ( 72 384 456 ) ( 72 288 456 ) defaultTextures/grainton2 -208 -48 90 1 -1
+( -172 290 456 ) ( -176 290 584 ) ( -176 290 456 ) defaultTextures/grainton2 48 -16 0 1 1
+( 72 288 456 ) ( 72 384 456 ) ( 72 384 448 ) defaultTextures/grainton2 -208 -16 0 1 1
+}
+// brush 31
+{
+( -696 304 448 ) ( -696 312 440 ) ( -696 320 440 ) defaultTextures/dirtyConcrete_seamless -152 112 0 1 1
+( 72 296 448 ) ( 72 304 440 ) ( -696 312 440 ) defaultTextures/dirtyConcrete_seamless -36 -36 90 1 1
+( 72 304 440 ) ( 72 312 440 ) ( -696 320 440 ) defaultTextures/dirtyConcrete_seamless -152 32 90 1 1
+( -696 328 448 ) ( 72 320 448 ) ( 72 296 448 ) defaultTextures/dirtyConcrete_seamless -152 32 90 1 1
+( 72 312 440 ) ( 72 320 448 ) ( -696 328 448 ) defaultTextures/dirtyConcrete_seamless -60 -36 90 1 1
+( 72 296 448 ) ( 72 320 448 ) ( 72 312 440 ) defaultTextures/dirtyConcrete_seamless -152 112 0 1 1
+}
+// brush 32
+{
+( -696 360 448 ) ( -696 368 440 ) ( -696 376 440 ) defaultTextures/dirtyConcrete_seamless -144 112 0 1 1
+( 72 352 448 ) ( 72 360 440 ) ( -696 368 440 ) defaultTextures/dirtyConcrete_seamless -92 -36 90 1 1
+( 72 360 440 ) ( 72 368 440 ) ( -696 376 440 ) defaultTextures/dirtyConcrete_seamless -144 32 90 1 1
+( -696 384 448 ) ( 72 376 448 ) ( 72 352 448 ) defaultTextures/dirtyConcrete_seamless -144 32 90 1 1
+( 72 368 440 ) ( 72 376 448 ) ( -696 384 448 ) defaultTextures/dirtyConcrete_seamless -116 -36 90 1 1
+( 72 352 448 ) ( 72 376 448 ) ( 72 368 440 ) defaultTextures/dirtyConcrete_seamless -144 112 0 1 1
+}
+// brush 33
+{
+( -24 4 440 ) ( -24 0 440 ) ( -24 0 352 ) defaultTextures/grainton2 -88 -28 0 1 1
+( -24 0 440 ) ( 32 0 440 ) ( 32 0 352 ) defaultTextures/grainton2 156 -28 0 1 1
+( 32 0 352 ) ( 32 4 352 ) ( -24 4 352 ) defaultTextures/grainton2 156 120 0 1 1
+( -24 4 440 ) ( 32 4 440 ) ( 32 0 440 ) defaultTextures/grainton2 156 120 0 1 1
+( 32 4 352 ) ( 32 4 440 ) ( -24 4 440 ) defaultTextures/grainton2 156 -28 0 1 1
+( 32 0 440 ) ( 32 4 440 ) ( 32 4 352 ) defaultTextures/grainton2 -88 -28 0 1 1
+}
+// brush 34
+{
+( -722.3575698308978 522.9434299082224 232 ) ( -707.8637033051563 577.03527618041 144 ) ( -707.8637033051563 577.03527618041 232 ) defaultTextures/grainton -29.39087 -24 0 0.9659258 1
+( -718.4938665257415 521.9081537278123 232 ) ( -722.3575698308978 522.9434299082224 144 ) ( -722.3575698308978 522.9434299082224 232 ) defaultTextures/grainton -4.1604004 -24 0 0.9659258 1
+( -707.8637033051563 577.03527618041 144 ) ( -718.4938665257415 521.9081537278123 144 ) ( -704 576 144 ) defaultTextures/grainton 193.83533 -33.091553 75 1 -1
+( -718.4938665257415 521.9081537278123 232 ) ( -707.8637033051563 577.03527618041 232 ) ( -704 576 232 ) defaultTextures/grainton 193.83533 -33.091553 75 1 -1
+( -707.8637033051563 577.03527618041 232 ) ( -704 576 144 ) ( -704 576 232 ) defaultTextures/grainton -19.165588 -24 0 0.9659258 1
+( -704 576 144 ) ( -718.4938665257415 521.9081537278123 232 ) ( -704 576 232 ) defaultTextures/grainton -28.319092 -24 0 0.9659258 1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "BridgeBusted"
+"_tb_id" "5"
+"_tb_linked_group_id" "{41a8bd94-c847-40b5-b3a7-53f1d200af39}"
+"_tb_transformation" "1 0 0 0 0 1 0 0 0 0 1 -416 0 0 0 1"
+// brush 0
+{
+( -360 664 -168 ) ( -360 8 -168 ) ( -360 8 -176 ) defaultTextures/grainton2 -32 -128 0 1 1
+( -288 128 -168 ) ( -344 120 -40 ) ( -344 120 -168 ) defaultTextures/grainton2 184 -128 0 1 1
+( -360 8 -168 ) ( -264 8 -168 ) ( -264 8 -176 ) defaultTextures/grainton2 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/grainton2 184 31.999996 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/grainton2 184 31.999996 0 1 1
+( -358 114 -168 ) ( -358 110 -168 ) ( -358 110 -40 ) defaultTextures/grainton2 -32 -128 0 1 1
+}
+// brush 1
+{
+( -344 664 -184 ) ( -352 664 -176 ) ( -352 8 -176 ) defaultTextures/dirtyConcrete_seamless 108 188 0 1 1
+( -288 128 -168 ) ( -344 120 -40 ) ( -344 120 -168 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -352 8 -176 ) ( -328 8 -176 ) ( -336 8 -184 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -336 8 -184 ) ( -336 664 -184 ) ( -344 664 -184 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -352 664 -176 ) ( -328 664 -176 ) ( -328 8 -176 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -328 8 -176 ) ( -328 664 -176 ) ( -336 664 -184 ) defaultTextures/dirtyConcrete_seamless 84 188 0 1 1
+}
+// brush 2
+{
+( -358 114 -168 ) ( -358 110 -40 ) ( -358 110 -168 ) defaultTextures/dirtyConcrete_seamless -32 -128 0 1 1
+( -288 128 -168 ) ( -344 120 -40 ) ( -344 120 -168 ) defaultTextures/dirtyConcrete_seamless 184 -128 0 1 1
+( -360 8 -168 ) ( -264 8 -168 ) ( -264 8 -176 ) defaultTextures/dirtyConcrete_seamless 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/dirtyConcrete_seamless 184 32 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/dirtyConcrete_seamless 184 32 0 1 1
+( -266 108 -168 ) ( -266 102 -168 ) ( -266 102 -40 ) defaultTextures/dirtyConcrete_seamless -31.999996 -128 0 1 1
+}
+// brush 3
+{
+( -288 664 -184 ) ( -296 664 -176 ) ( -296 8 -176 ) defaultTextures/dirtyConcrete_seamless 52 188 0 1 1
+( -288 128 -168 ) ( -344 120 -40 ) ( -344 120 -168 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -296 8 -176 ) ( -272 8 -176 ) ( -280 8 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -280 8 -184 ) ( -280 664 -184 ) ( -288 664 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -296 664 -176 ) ( -272 664 -176 ) ( -272 8 -176 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -272 8 -176 ) ( -272 664 -176 ) ( -280 664 -184 ) defaultTextures/dirtyConcrete_seamless 28 188 0 1 1
+}
+// brush 4
+{
+( -266 108 -168 ) ( -266 102 -40 ) ( -266 102 -168 ) defaultTextures/grainton2 -31.999996 -128 0 1 1
+( -288 128 -168 ) ( -344 120 -40 ) ( -344 120 -168 ) defaultTextures/grainton2 184 -128 0 1 1
+( -360 8 -168 ) ( -264 8 -168 ) ( -264 8 -176 ) defaultTextures/grainton2 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/grainton2 184 32.000004 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/grainton2 184 32.000004 0 1 1
+( -264 8 -168 ) ( -264 664 -168 ) ( -264 664 -176 ) defaultTextures/grainton2 -32 -128 0 1 1
+}
+// brush 5
+{
+( -358 114 -168 ) ( -358 110 -40 ) ( -358 110 -168 ) defaultTextures/dirtyConcrete_seamless -31.999939 -128 0 1 1
+( -304 528 -168 ) ( -360 536 -168 ) ( -360 536 -40 ) defaultTextures/dirtyConcrete_seamless 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/dirtyConcrete_seamless 184 32 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/dirtyConcrete_seamless 184 32 0 1 1
+( -264 664 -176 ) ( -264 664 -168 ) ( -360 664 -168 ) defaultTextures/dirtyConcrete_seamless 184 -128 0 1 1
+( -266 108 -168 ) ( -266 102 -168 ) ( -266 102 -40 ) defaultTextures/dirtyConcrete_seamless -32 -128 0 1 1
+}
+// brush 6
+{
+( -266 108 -168 ) ( -266 102 -40 ) ( -266 102 -168 ) defaultTextures/grainton2 -32 -128 0 1 1
+( -304 528 -168 ) ( -360 536 -168 ) ( -360 536 -40 ) defaultTextures/grainton2 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/grainton2 184 32 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/grainton2 184 32 0 1 1
+( -264 664 -176 ) ( -264 664 -168 ) ( -360 664 -168 ) defaultTextures/grainton2 184 -128 0 1 1
+( -264 8 -168 ) ( -264 664 -168 ) ( -264 664 -176 ) defaultTextures/grainton2 -32 -128 0 1 1
+}
+// brush 7
+{
+( -360 664 -168 ) ( -360 8 -168 ) ( -360 8 -176 ) defaultTextures/grainton2 -32 -128 0 1 1
+( -304 528 -168 ) ( -360 536 -168 ) ( -360 536 -40 ) defaultTextures/grainton2 184 -128 0 1 1
+( -264 8 -176 ) ( -264 664 -176 ) ( -360 664 -176 ) defaultTextures/grainton2 184 32 0 1 1
+( -360 664 -168 ) ( -264 664 -168 ) ( -264 8 -168 ) defaultTextures/grainton2 184 32 0 1 1
+( -264 664 -176 ) ( -264 664 -168 ) ( -360 664 -168 ) defaultTextures/grainton2 184 -128 0 1 1
+( -358 114 -168 ) ( -358 110 -168 ) ( -358 110 -40 ) defaultTextures/grainton2 -31.999939 -128 0 1 1
+}
+// brush 8
+{
+( -344 664 -184 ) ( -352 664 -176 ) ( -352 8 -176 ) defaultTextures/dirtyConcrete_seamless 108 188 0 1 1
+( -304 528 -168 ) ( -360 536 -168 ) ( -360 536 -40 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -336 8 -184 ) ( -336 664 -184 ) ( -344 664 -184 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -352 664 -176 ) ( -328 664 -176 ) ( -328 8 -176 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -336 664 -184 ) ( -328 664 -176 ) ( -352 664 -176 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -328 8 -176 ) ( -328 664 -176 ) ( -336 664 -184 ) defaultTextures/dirtyConcrete_seamless 84 188 0 1 1
+}
+// brush 9
+{
+( -288 664 -184 ) ( -296 664 -176 ) ( -296 8 -176 ) defaultTextures/dirtyConcrete_seamless 52 188 0 1 1
+( -304 528 -168 ) ( -360 536 -168 ) ( -360 536 -40 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -280 8 -184 ) ( -280 664 -184 ) ( -288 664 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -296 664 -176 ) ( -272 664 -176 ) ( -272 8 -176 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -280 664 -184 ) ( -272 664 -176 ) ( -296 664 -176 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -272 8 -176 ) ( -272 664 -176 ) ( -280 664 -184 ) defaultTextures/dirtyConcrete_seamless 28 188 0 1 1
+}
+}
+// entity 2
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Bridge"
+"_tb_id" "6"
+"_tb_linked_group_id" "{757a593b-bd4f-4294-8306-6e9a4589e9a4}"
+"_tb_transformation" "1 0 0 0 0 1 0 0 0 0 1 416 0 0 0 1"
+// brush 0
+{
+( -358 114 248 ) ( -358 110 376 ) ( -358 110 248 ) defaultTextures/dirtyConcrete_seamless -32 32 0 1 1
+( -360 8 248 ) ( -264 8 248 ) ( -264 8 240 ) defaultTextures/dirtyConcrete_seamless -72 32 0 1 1
+( -264 8 240 ) ( -264 664 240 ) ( -360 664 240 ) defaultTextures/dirtyConcrete_seamless -72 32 0 1 1
+( -360 664 248 ) ( -264 664 248 ) ( -264 8 248 ) defaultTextures/dirtyConcrete_seamless -72 32 0 1 1
+( -264 664 240 ) ( -264 664 248 ) ( -360 664 248 ) defaultTextures/dirtyConcrete_seamless -72 32 0 1 1
+( -266 108 248 ) ( -266 102 248 ) ( -266 102 376 ) defaultTextures/dirtyConcrete_seamless -32 32 0 1 1
+}
+// brush 1
+{
+( -266 108 248 ) ( -266 102 376 ) ( -266 102 248 ) defaultTextures/grainton2 -32 32 0 1 1
+( -360 8 248 ) ( -264 8 248 ) ( -264 8 240 ) defaultTextures/grainton2 -72 32 0 1 1
+( -264 8 240 ) ( -264 664 240 ) ( -360 664 240 ) defaultTextures/grainton2 -72 32 0 1 1
+( -360 664 248 ) ( -264 664 248 ) ( -264 8 248 ) defaultTextures/grainton2 -72 32 0 1 1
+( -264 664 240 ) ( -264 664 248 ) ( -360 664 248 ) defaultTextures/grainton2 -72 32 0 1 1
+( -264 8 248 ) ( -264 664 248 ) ( -264 664 240 ) defaultTextures/grainton2 -32 32 0 1 1
+}
+// brush 2
+{
+( -360 664 248 ) ( -360 8 248 ) ( -360 8 240 ) defaultTextures/grainton2 -32 32 0 1 1
+( -360 8 248 ) ( -264 8 248 ) ( -264 8 240 ) defaultTextures/grainton2 -72 32 0 1 1
+( -264 8 240 ) ( -264 664 240 ) ( -360 664 240 ) defaultTextures/grainton2 -72 32 0 1 1
+( -360 664 248 ) ( -264 664 248 ) ( -264 8 248 ) defaultTextures/grainton2 -72 32 0 1 1
+( -264 664 240 ) ( -264 664 248 ) ( -360 664 248 ) defaultTextures/grainton2 -72 32 0 1 1
+( -358 114 248 ) ( -358 110 248 ) ( -358 110 376 ) defaultTextures/grainton2 -32 32 0 1 1
+}
+// brush 3
+{
+( -344 664 232 ) ( -352 664 240 ) ( -352 8 240 ) defaultTextures/dirtyConcrete_seamless 108 188 0 1 1
+( -352 8 240 ) ( -328 8 240 ) ( -336 8 232 ) defaultTextures/dirtyConcrete_seamless -8 160 0 1 1
+( -336 8 232 ) ( -336 664 232 ) ( -344 664 232 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -352 664 240 ) ( -328 664 240 ) ( -328 8 240 ) defaultTextures/dirtyConcrete_seamless -8 0 0 1 1
+( -336 664 232 ) ( -328 664 240 ) ( -352 664 240 ) defaultTextures/dirtyConcrete_seamless -8 160 0 1 1
+( -328 8 240 ) ( -328 664 240 ) ( -336 664 232 ) defaultTextures/dirtyConcrete_seamless 84 188 0 1 1
+}
+// brush 4
+{
+( -288 664 232 ) ( -296 664 240 ) ( -296 8 240 ) defaultTextures/dirtyConcrete_seamless 52 188 0 1 1
+( -296 8 240 ) ( -272 8 240 ) ( -280 8 232 ) defaultTextures/dirtyConcrete_seamless 0 160 0 1 1
+( -280 8 232 ) ( -280 664 232 ) ( -288 664 232 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -296 664 240 ) ( -272 664 240 ) ( -272 8 240 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -280 664 232 ) ( -272 664 240 ) ( -296 664 240 ) defaultTextures/dirtyConcrete_seamless 0 160 0 1 1
+( -272 8 240 ) ( -272 664 240 ) ( -280 664 232 ) defaultTextures/dirtyConcrete_seamless 28 188 0 1 1
+}
+}
+// entity 3
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "BridgeLong"
+"_tb_id" "7"
+"_tb_linked_group_id" "{29dfed1e-f451-4ff9-ab33-e8b28e3259f0}"
+// brush 0
+{
+( -696 384 40 ) ( -696 288 40 ) ( -696 288 32 ) defaultTextures/dirtyConcrete_seamless 48 80 0 1 1
+( -172 290 40 ) ( -176 290 40 ) ( -176 290 168 ) defaultTextures/dirtyConcrete_seamless 48 80 0 1 1
+( 72 288 32 ) ( 72 384 32 ) ( -696 384 32 ) defaultTextures/dirtyConcrete_seamless 48 -48 90 1 -1
+( -696 384 40 ) ( 72 384 40 ) ( 72 288 40 ) defaultTextures/dirtyConcrete_seamless 48 -48 90 1 -1
+( -176 382 40 ) ( -184 382 168 ) ( -184 382 40 ) defaultTextures/dirtyConcrete_seamless 48 80 0 1 1
+( 72 288 40 ) ( 72 384 40 ) ( 72 384 32 ) defaultTextures/dirtyConcrete_seamless 48 80 0 1 1
+}
+// brush 1
+{
+( -696 360 32 ) ( -696 368 24 ) ( -696 376 24 ) defaultTextures/dirtyConcrete_seamless 112 208 0 1 1
+( 72 352 32 ) ( 72 360 24 ) ( -696 368 24 ) defaultTextures/dirtyConcrete_seamless 164 -36 90 1 1
+( 72 360 24 ) ( 72 368 24 ) ( -696 376 24 ) defaultTextures/dirtyConcrete_seamless 112 32 90 1 1
+( -696 384 32 ) ( 72 376 32 ) ( 72 352 32 ) defaultTextures/dirtyConcrete_seamless 112 32 90 1 1
+( 72 368 24 ) ( 72 376 32 ) ( -696 384 32 ) defaultTextures/dirtyConcrete_seamless 140 -36 90 1 1
+( 72 352 32 ) ( 72 376 32 ) ( 72 368 24 ) defaultTextures/dirtyConcrete_seamless 112 208 0 1 1
+}
+// brush 2
+{
+( -696 304 32 ) ( -696 312 24 ) ( -696 320 24 ) defaultTextures/dirtyConcrete_seamless 104 208 0 1 1
+( 72 296 32 ) ( 72 304 24 ) ( -696 312 24 ) defaultTextures/dirtyConcrete_seamless -36 -36 90 1 1
+( 72 304 24 ) ( 72 312 24 ) ( -696 320 24 ) defaultTextures/dirtyConcrete_seamless 104 32 90 1 1
+( -696 328 32 ) ( 72 320 32 ) ( 72 296 32 ) defaultTextures/dirtyConcrete_seamless 104 32 90 1 1
+( 72 312 24 ) ( 72 320 32 ) ( -696 328 32 ) defaultTextures/dirtyConcrete_seamless 196 -36 90 1 1
+( 72 296 32 ) ( 72 320 32 ) ( 72 312 24 ) defaultTextures/dirtyConcrete_seamless 104 208 0 1 1
+}
+// brush 3
+{
+( -696 384 40 ) ( -696 288 40 ) ( -696 288 32 ) defaultTextures/grainton2 48 80 0 1 1
+( -696 288 40 ) ( 72 288 40 ) ( 72 288 32 ) defaultTextures/grainton2 48 80 0 1 1
+( 72 288 32 ) ( 72 384 32 ) ( -696 384 32 ) defaultTextures/grainton2 48 -48 90 1 -1
+( -696 384 40 ) ( 72 384 40 ) ( 72 288 40 ) defaultTextures/grainton2 48 -48 90 1 -1
+( -172 290 40 ) ( -176 290 168 ) ( -176 290 40 ) defaultTextures/grainton2 48 80 0 1 1
+( 72 288 40 ) ( 72 384 40 ) ( 72 384 32 ) defaultTextures/grainton2 48 80 0 1 1
+}
+// brush 4
+{
+( -696 384 40 ) ( -696 288 40 ) ( -696 288 32 ) defaultTextures/grainton2 48 80 0 1 1
+( -176 382 40 ) ( -184 382 40 ) ( -184 382 168 ) defaultTextures/grainton2 48 80 0 1 1
+( 72 288 32 ) ( 72 384 32 ) ( -696 384 32 ) defaultTextures/grainton2 48 -48 90 1 -1
+( -696 384 40 ) ( 72 384 40 ) ( 72 288 40 ) defaultTextures/grainton2 48 -48 90 1 -1
+( 72 384 32 ) ( 72 384 40 ) ( -696 384 40 ) defaultTextures/grainton2 48 80 0 1 1
+( 72 288 40 ) ( 72 384 40 ) ( 72 384 32 ) defaultTextures/grainton2 48 80 0 1 1
+}
+}
+// entity 4
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Walls"
+"_tb_id" "8"
+"_tb_linked_group_id" "{38d1d7d1-84fc-4e29-b52b-14b1a763d88d}"
+// brush 0
+{
+( -24 8 552 ) ( -24 0 552 ) ( -24 0 440 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 552 ) ( 32 0 552 ) ( 32 0 440 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 440 ) ( 32 8 440 ) ( -24 8 440 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 8 552 ) ( 32 8 552 ) ( 32 0 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 8 440 ) ( 32 8 552 ) ( -24 8 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 552 ) ( 32 8 552 ) ( 32 8 440 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( -24 0 40 ) ( -24 0 16 ) ( -24 128 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 0 72 ) ( 80 0 72 ) ( 80 0 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 -280 ) ( 80 8 -280 ) ( -704 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 0 0 -64 ) ( 16 128 -64 ) ( 16 0 -64 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 -280 ) ( 80 8 72 ) ( -704 8 72 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 48 ) ( 32 128 24 ) ( 32 0 24 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( -704 672 552 ) ( -704 664 552 ) ( -704 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 664 552 ) ( 80 664 552 ) ( 80 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 136 ) ( 80 672 136 ) ( -704 672 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 672 552 ) ( 80 672 552 ) ( 80 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 136 ) ( 80 672 552 ) ( -704 672 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 552 ) ( 80 672 552 ) ( 80 672 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 3
+{
+( 32 8 552 ) ( 32 0 552 ) ( 32 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 552 ) ( 80 0 552 ) ( 80 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 136 ) ( 80 8 136 ) ( 32 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 8 552 ) ( 80 8 552 ) ( 80 0 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 136 ) ( 80 8 552 ) ( 32 8 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 552 ) ( 80 8 552 ) ( 80 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 4
+{
+( 32 8 136 ) ( 32 0 136 ) ( 32 0 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 136 ) ( 80 0 136 ) ( 80 0 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 -280 ) ( 80 8 -280 ) ( 32 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 8 136 ) ( 80 8 136 ) ( 80 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 -280 ) ( 80 8 136 ) ( 32 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 136 ) ( 80 8 136 ) ( 80 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 5
+{
+( -24 8 136 ) ( -24 0 136 ) ( -24 0 24 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 136 ) ( 32 0 136 ) ( 32 0 24 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 24 ) ( 32 8 24 ) ( -24 8 24 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 8 136 ) ( 32 8 136 ) ( 32 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 8 24 ) ( 32 8 136 ) ( -24 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 136 ) ( 32 8 136 ) ( 32 8 24 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 6
+{
+( -24 0 456 ) ( -24 0 432 ) ( -24 128 432 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 0 488 ) ( 80 0 488 ) ( 80 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 0 136 ) ( 80 8 136 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 0 0 352 ) ( 16 128 352 ) ( 16 0 352 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 136 ) ( 80 8 488 ) ( -704 8 488 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 32 0 464 ) ( 32 128 440 ) ( 32 0 440 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 7
+{
+( 72 664 136 ) ( 72 16 136 ) ( 72 16 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 16 136 ) ( 80 16 136 ) ( 80 16 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 -280 ) ( 80 664 -280 ) ( 72 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 664 136 ) ( 80 664 136 ) ( 80 16 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 -280 ) ( 80 664 136 ) ( 72 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 136 ) ( 80 664 136 ) ( 80 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 8
+{
+( 72 16 552 ) ( 72 8 552 ) ( 72 8 -280 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+( 72 8 552 ) ( 80 8 552 ) ( 80 8 -280 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+( 80 8 -280 ) ( 80 16 -280 ) ( 72 16 -280 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+( 72 16 552 ) ( 80 16 552 ) ( 80 8 552 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+( 80 16 -280 ) ( 80 16 552 ) ( 72 16 552 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+( 80 8 552 ) ( 80 16 552 ) ( 80 16 -280 ) defaultTextures/dirtyConcrete_seamless 137 0 0 1 1
+}
+// brush 9
+{
+( 72 16 552 ) ( 72 16 280 ) ( 72 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 552 ) ( 80 16 280 ) ( 72 16 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 280 ) ( 72 664 280 ) ( 80 16 280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 552 ) ( 80 16 552 ) ( 72 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 664 552 ) ( 72 664 280 ) ( 80 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 552 ) ( 80 664 280 ) ( 80 16 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 10
+{
+( 72 664 136 ) ( 72 664 152 ) ( 72 16 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 16 136 ) ( 72 16 152 ) ( 80 16 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 664 136 ) ( 72 16 136 ) ( 80 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 72 664 152 ) ( 80 664 152 ) ( 72 16 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 136 ) ( 80 664 152 ) ( 72 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 136 ) ( 80 16 152 ) ( 80 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 11
+{
+( -592 672 136 ) ( -592 664 136 ) ( -592 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 664 136 ) ( 80 664 136 ) ( 80 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 -280 ) ( 80 672 -280 ) ( -592 672 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 672 136 ) ( 80 672 136 ) ( 80 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 -280 ) ( 80 672 136 ) ( -592 672 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 136 ) ( 80 672 136 ) ( 80 672 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 12
+{
+( -704 8 552 ) ( -704 0 552 ) ( -704 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 0 552 ) ( -24 0 552 ) ( -24 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 136 ) ( -24 8 136 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 552 ) ( -24 8 552 ) ( -24 0 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 8 136 ) ( -24 8 552 ) ( -704 8 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 552 ) ( -24 8 552 ) ( -24 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 13
+{
+( -704 8 136 ) ( -704 0 136 ) ( -704 0 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 0 136 ) ( -24 0 136 ) ( -24 0 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 -280 ) ( -24 8 -280 ) ( -704 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 136 ) ( -24 8 136 ) ( -24 0 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 8 -280 ) ( -24 8 136 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -24 0 136 ) ( -24 8 136 ) ( -24 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 14
+{
+( -704 96 552 ) ( -704 8 552 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 552 ) ( -616 8 552 ) ( -616 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 136 ) ( -616 8 136 ) ( -696 96 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 552 ) ( -616 8 552 ) ( -704 8 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 136 ) ( -696 96 552 ) ( -704 96 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -616 8 136 ) ( -616 8 552 ) ( -696 96 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 15
+{
+( -704 96 136 ) ( -704 8 136 ) ( -704 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 136 ) ( -616 8 136 ) ( -616 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 8 -280 ) ( -616 8 -280 ) ( -696 96 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 136 ) ( -616 8 136 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 -280 ) ( -696 96 136 ) ( -704 96 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -616 8 -280 ) ( -616 8 136 ) ( -696 96 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 16
+{
+( -704 664 136 ) ( -704 8 136 ) ( -704 8 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 528 ) ( -568 96 496 ) ( -696 96 496 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 8 -280 ) ( -696 664 -280 ) ( -704 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 664 136 ) ( -696 664 136 ) ( -696 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 664 -280 ) ( -696 664 136 ) ( -704 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 8 136 ) ( -696 664 136 ) ( -696 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 17
+{
+( -648 672 136 ) ( -648 664 136 ) ( -648 664 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -648 664 136 ) ( -592 664 136 ) ( -592 664 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 664 -184 ) ( -592 672 -184 ) ( -648 672 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -648 672 136 ) ( -592 672 136 ) ( -592 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 672 -184 ) ( -592 672 136 ) ( -648 672 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 664 136 ) ( -592 672 136 ) ( -592 672 -184 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 18
+{
+( -704 672 136 ) ( -704 664 136 ) ( -704 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 664 136 ) ( -648 664 136 ) ( -648 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -648 664 -280 ) ( -648 672 -280 ) ( -704 672 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 672 136 ) ( -648 672 136 ) ( -648 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -648 672 -280 ) ( -648 672 136 ) ( -704 672 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -648 664 136 ) ( -648 672 136 ) ( -648 672 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 19
+{
+( -648 672 -184 ) ( -648 672 -200 ) ( -648 800 -200 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 664 72 ) ( 80 664 72 ) ( 80 664 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 -280 ) ( 80 672 -280 ) ( -704 672 -280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -616 672 -272 ) ( -624 672 -272 ) ( -624 800 -272 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 -280 ) ( 80 672 72 ) ( -704 672 72 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -592 672 -184 ) ( -592 800 -200 ) ( -592 672 -200 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 20
+{
+( -704 632 552 ) ( -704 664 136 ) ( -704 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 632 552 ) ( -704 632 136 ) ( -704 632 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 664 136 ) ( -704 632 136 ) ( -696 632 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 664 552 ) ( -704 632 552 ) ( -704 664 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 664 552 ) ( -704 664 136 ) ( -696 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 664 552 ) ( -696 632 136 ) ( -696 632 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 21
+{
+( -704 96 552 ) ( -704 576 136 ) ( -704 576 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 96 552 ) ( -704 96 136 ) ( -704 96 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 136 ) ( -704 96 136 ) ( -696 96 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 552 ) ( -704 96 552 ) ( -704 576 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 552 ) ( -704 576 136 ) ( -696 576 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 552 ) ( -696 96 136 ) ( -696 96 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 22
+{
+( -704 664 552 ) ( -704 8 552 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 272 ) ( -568 576 256 ) ( -696 576 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 616 232 ) ( -696 600 232 ) ( -568 600 232 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -704 664 552 ) ( -696 664 552 ) ( -696 8 552 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 632 264 ) ( -696 632 248 ) ( -568 632 248 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 8 552 ) ( -696 664 552 ) ( -696 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 23
+{
+( -704 664 552 ) ( -704 8 552 ) ( -704 8 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 576 272 ) ( -568 576 256 ) ( -696 576 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 8 136 ) ( -696 664 136 ) ( -704 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 584 144 ) ( -696 600 144 ) ( -568 600 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 632 264 ) ( -696 632 248 ) ( -568 632 248 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -696 8 552 ) ( -696 664 552 ) ( -696 664 136 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+}
+// entity 5
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Bars"
+"_tb_id" "9"
+"_tb_linked_group_id" "{ded51ef4-4530-42ca-bb4c-85474f141017}"
+// brush 0
+{
+( 78 656.8284271247462 152 ) ( 78 656.8284271247462 280 ) ( 75.17157287525382 654 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 76 654.8284271247464 280 ) ( 78.82842712474645 652 280 ) ( 78.82842712474645 652 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 654 152 ) ( 78 656.8284271247462 152 ) ( 75.17157287525382 654 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 654 280 ) ( 78 656.8284271247462 280 ) ( 80.8284271247462 654 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 651.1715728752538 280 ) ( 80.8284271247462 654 280 ) ( 80.8284271247462 654 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 654 280 ) ( 78 656.8284271247462 280 ) ( 78 656.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 1
+{
+( 75.17157287525382 638 280 ) ( 78 635.1715728752538 280 ) ( 78 635.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 640.8284271247462 152 ) ( 78 640.8284271247462 280 ) ( 75.17157287525382 638 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 638 152 ) ( 78 640.8284271247462 152 ) ( 75.17157287525382 638 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 638 280 ) ( 78 640.8284271247462 280 ) ( 80.8284271247462 638 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 635.1715728752538 280 ) ( 80.8284271247462 638 280 ) ( 80.8284271247462 638 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 638 280 ) ( 78 640.8284271247462 280 ) ( 78 640.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 2
+{
+( 75.17157287525382 622 280 ) ( 78 619.1715728752538 280 ) ( 78 619.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 624.8284271247462 152 ) ( 78 624.8284271247462 280 ) ( 75.17157287525382 622 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 622 152 ) ( 78 624.8284271247462 152 ) ( 75.17157287525382 622 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 622 280 ) ( 78 624.8284271247462 280 ) ( 80.8284271247462 622 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 619.1715728752538 280 ) ( 80.8284271247462 622 280 ) ( 80.8284271247462 622 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 622 280 ) ( 78 624.8284271247462 280 ) ( 78 624.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 3
+{
+( 75.17157287525382 606 280 ) ( 78 603.1715728752538 280 ) ( 78 603.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 608.8284271247462 152 ) ( 78 608.8284271247462 280 ) ( 75.17157287525382 606 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 606 152 ) ( 78 608.8284271247462 152 ) ( 75.17157287525382 606 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 606 280 ) ( 78 608.8284271247462 280 ) ( 80.8284271247462 606 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 603.1715728752538 280 ) ( 80.8284271247462 606 280 ) ( 80.8284271247462 606 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 606 280 ) ( 78 608.8284271247462 280 ) ( 78 608.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 4
+{
+( 75.17157287525382 590 280 ) ( 78 587.1715728752538 280 ) ( 78 587.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 592.8284271247462 152 ) ( 78 592.8284271247462 280 ) ( 75.17157287525382 590 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 590 152 ) ( 78 592.8284271247462 152 ) ( 75.17157287525382 590 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 590 280 ) ( 78 592.8284271247462 280 ) ( 80.8284271247462 590 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 587.1715728752538 280 ) ( 80.8284271247462 590 280 ) ( 80.8284271247462 590 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 590 280 ) ( 78 592.8284271247462 280 ) ( 78 592.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 5
+{
+( 75.17157287525382 574 280 ) ( 78 571.1715728752538 280 ) ( 78 571.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 576.8284271247462 152 ) ( 78 576.8284271247462 280 ) ( 75.17157287525382 574 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 574 152 ) ( 78 576.8284271247462 152 ) ( 75.17157287525382 574 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 574 280 ) ( 78 576.8284271247462 280 ) ( 80.8284271247462 574 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 571.1715728752538 280 ) ( 80.8284271247462 574 280 ) ( 80.8284271247462 574 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 574 280 ) ( 78 576.8284271247462 280 ) ( 78 576.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 6
+{
+( 75.17157287525382 558 280 ) ( 78 555.1715728752538 280 ) ( 78 555.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 560.8284271247462 152 ) ( 78 560.8284271247462 280 ) ( 75.17157287525382 558 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 558 152 ) ( 78 560.8284271247462 152 ) ( 75.17157287525382 558 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 558 280 ) ( 78 560.8284271247462 280 ) ( 80.8284271247462 558 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 555.1715728752538 280 ) ( 80.8284271247462 558 280 ) ( 80.8284271247462 558 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 558 280 ) ( 78 560.8284271247462 280 ) ( 78 560.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 7
+{
+( 75.17157287525382 542 280 ) ( 78 539.1715728752538 280 ) ( 78 539.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 544.8284271247462 152 ) ( 78 544.8284271247462 280 ) ( 75.17157287525382 542 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 542 152 ) ( 78 544.8284271247462 152 ) ( 75.17157287525382 542 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 542 280 ) ( 78 544.8284271247462 280 ) ( 80.8284271247462 542 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 539.1715728752538 280 ) ( 80.8284271247462 542 280 ) ( 80.8284271247462 542 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 542 280 ) ( 78 544.8284271247462 280 ) ( 78 544.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 8
+{
+( 75.17157287525382 526 280 ) ( 78 523.1715728752538 280 ) ( 78 523.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 528.8284271247462 152 ) ( 78 528.8284271247462 280 ) ( 75.17157287525382 526 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 526 152 ) ( 78 528.8284271247462 152 ) ( 75.17157287525382 526 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 526 280 ) ( 78 528.8284271247462 280 ) ( 80.8284271247462 526 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 523.1715728752538 280 ) ( 80.8284271247462 526 280 ) ( 80.8284271247462 526 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 526 280 ) ( 78 528.8284271247462 280 ) ( 78 528.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 9
+{
+( 75.17157287525382 510 280 ) ( 78 507.1715728752538 280 ) ( 78 507.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 512.8284271247462 152 ) ( 78 512.8284271247462 280 ) ( 75.17157287525382 510 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 510 152 ) ( 78 512.8284271247462 152 ) ( 75.17157287525382 510 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 510 280 ) ( 78 512.8284271247462 280 ) ( 80.8284271247462 510 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 507.1715728752538 280 ) ( 80.8284271247462 510 280 ) ( 80.8284271247462 510 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 510 280 ) ( 78 512.8284271247462 280 ) ( 78 512.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 10
+{
+( 75.17157287525382 494 280 ) ( 78 491.1715728752538 280 ) ( 78 491.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 496.8284271247462 152 ) ( 78 496.8284271247462 280 ) ( 75.17157287525382 494 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 494 152 ) ( 78 496.8284271247462 152 ) ( 75.17157287525382 494 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 494 280 ) ( 78 496.8284271247462 280 ) ( 80.8284271247462 494 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 491.1715728752538 280 ) ( 80.8284271247462 494 280 ) ( 80.8284271247462 494 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 494 280 ) ( 78 496.8284271247462 280 ) ( 78 496.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 11
+{
+( 75.17157287525382 478 280 ) ( 78 475.1715728752538 280 ) ( 78 475.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 480.8284271247462 152 ) ( 78 480.8284271247462 280 ) ( 75.17157287525382 478 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 478 152 ) ( 78 480.8284271247462 152 ) ( 75.17157287525382 478 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 478 280 ) ( 78 480.8284271247462 280 ) ( 80.8284271247462 478 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 475.1715728752538 280 ) ( 80.8284271247462 478 280 ) ( 80.8284271247462 478 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 478 280 ) ( 78 480.8284271247462 280 ) ( 78 480.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 12
+{
+( 78 464.8284271247462 152 ) ( 78 464.8284271247462 280 ) ( 75.17157287525382 462 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 76 462.82842712474644 280 ) ( 78.82842712474645 460 280 ) ( 78.82842712474645 460 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 462 152 ) ( 78 464.8284271247462 152 ) ( 75.17157287525382 462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 462 280 ) ( 78 464.8284271247462 280 ) ( 80.8284271247462 462 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 459.1715728752538 280 ) ( 80.8284271247462 462 280 ) ( 80.8284271247462 462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 462 280 ) ( 78 464.8284271247462 280 ) ( 78 464.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 13
+{
+( 75.17157287525382 446 280 ) ( 78 443.1715728752538 280 ) ( 78 443.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 448.8284271247462 152 ) ( 78 448.8284271247462 280 ) ( 75.17157287525382 446 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 446 152 ) ( 78 448.8284271247462 152 ) ( 75.17157287525382 446 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 446 280 ) ( 78 448.8284271247462 280 ) ( 80.8284271247462 446 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 443.1715728752538 280 ) ( 80.8284271247462 446 280 ) ( 80.8284271247462 446 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 446 280 ) ( 78 448.8284271247462 280 ) ( 78 448.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 14
+{
+( 75.17157287525382 430 280 ) ( 78 427.1715728752538 280 ) ( 78 427.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 432.8284271247462 152 ) ( 78 432.8284271247462 280 ) ( 75.17157287525382 430 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 430 152 ) ( 78 432.8284271247462 152 ) ( 75.17157287525382 430 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 430 280 ) ( 78 432.8284271247462 280 ) ( 80.8284271247462 430 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 427.1715728752538 280 ) ( 80.8284271247462 430 280 ) ( 80.8284271247462 430 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 430 280 ) ( 78 432.8284271247462 280 ) ( 78 432.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 15
+{
+( 75.17157287525382 414 280 ) ( 78 411.1715728752538 280 ) ( 78 411.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 416.8284271247462 152 ) ( 78 416.8284271247462 280 ) ( 75.17157287525382 414 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 414 152 ) ( 78 416.8284271247462 152 ) ( 75.17157287525382 414 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 414 280 ) ( 78 416.8284271247462 280 ) ( 80.8284271247462 414 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 411.1715728752538 280 ) ( 80.8284271247462 414 280 ) ( 80.8284271247462 414 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 414 280 ) ( 78 416.8284271247462 280 ) ( 78 416.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 16
+{
+( 75.17157287525382 398 280 ) ( 78 395.1715728752538 280 ) ( 78 395.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 400.8284271247462 152 ) ( 78 400.8284271247462 280 ) ( 75.17157287525382 398 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 398 152 ) ( 78 400.8284271247462 152 ) ( 75.17157287525382 398 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 398 280 ) ( 78 400.8284271247462 280 ) ( 80.8284271247462 398 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 395.1715728752538 280 ) ( 80.8284271247462 398 280 ) ( 80.8284271247462 398 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 398 280 ) ( 78 400.8284271247462 280 ) ( 78 400.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+// brush 17
+{
+( 75.17157287525382 382 280 ) ( 78 379.1715728752538 280 ) ( 78 379.1715728752538 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 384.8284271247462 152 ) ( 78 384.8284271247462 280 ) ( 75.17157287525382 382 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 382 152 ) ( 78 384.8284271247462 152 ) ( 75.17157287525382 382 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 75.17157287525382 382 280 ) ( 78 384.8284271247462 280 ) ( 80.8284271247462 382 280 ) defaultTextures/rustStripes 0 0 0 1 1
+( 78 379.1715728752538 280 ) ( 80.8284271247462 382 280 ) ( 80.8284271247462 382 152 ) defaultTextures/rustStripes 0 0 0 1 1
+( 80.8284271247462 382 280 ) ( 78 384.8284271247462 280 ) ( 78 384.8284271247462 152 ) defaultTextures/rustStripes 0 0 0 1 1
+}
+}
+// entity 6
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "PipeSmall"
+"_tb_id" "12"
+"_tb_linked_group_id" "{0ba527eb-ad0c-4dcc-a22b-8d2a925d92ff}"
+"_tb_transformation" "1 0 0 600 0 -1 0 672 0 0 1 0 0 0 0 1"
+// brush 0
+{
+( 8 644 -280 ) ( 11.280404050710558 653.0509667991915 552 ) ( 8 644 552 ) defaultTextures/korb 163.79169 8.000023 180 0.7071068 -1.08
+( 11.280404050710331 636.0804040507173 -280 ) ( 8 644 552 ) ( 11.28040405071215 636.0804040507126 552 ) defaultTextures/korb 163.79175 8.000023 180 0.7071068 -1.08
+( 11.280404050710331 636.0804040507173 -280 ) ( 20 632 552 ) ( 20 632 -280 ) defaultTextures/korb -6.079956 8.000023 0 0.70710677 1.08
+( 11.280404050710558 653.0509667991915 552 ) ( 20 656 -280 ) ( 20 656 552 ) defaultTextures/korb -6.079956 8.000023 0 0.7071069 1.08
+( 28.250966799188063 653.0509667991905 -280 ) ( 28.250966799183402 636.0804040507053 -280 ) ( 32 644 -280 ) defaultTextures/korb -6.080017 -52.322266 0 0.7071068 -0.27867448
+( 28.25096679918829 636.0804040507162 552 ) ( 28.25096679918704 653.0509667991927 552 ) ( 32 644 552 ) defaultTextures/korb -6.080017 -52.322266 0 0.7071068 -0.27867448
+( 20 656 -280 ) ( 28.25096679918704 653.0509667991927 552 ) ( 20 656 552 ) defaultTextures/korb -6.079956 8.000023 0 0.7071068 1.08
+( 20 632 552 ) ( 28.250966799183402 636.0804040507053 -280 ) ( 20 632 -280 ) defaultTextures/korb -6.079956 8.000023 0 0.7071068 1.08
+( 32 644 552 ) ( 28.250966799183402 636.0804040507053 -280 ) ( 28.25096679918829 636.0804040507162 552 ) defaultTextures/korb 163.79175 8.000023 180 0.7071068 -1.08
+( 32 644 552 ) ( 28.250966799188063 653.0509667991905 -280 ) ( 32 644 -280 ) defaultTextures/korb 163.79169 8.000023 180 0.7071068 -1.08
+}
+// brush 1
+{
+( 16 664 -144 ) ( 16 664 -143 ) ( 16 663 -144 ) defaultTextures/darkTrunk_seamless 160 0 180 1 -1
+( 24 648 -136 ) ( 24 648 -135 ) ( 25 648 -136 ) defaultTextures/darkTrunk_seamless -88 0 0 1 1
+( 16 664 -144 ) ( 16 663 -144 ) ( 17 664 -144 ) defaultTextures/darkTrunk_seamless -88 -160 0 1 -1
+( 24 648 -136 ) ( 25 648 -136 ) ( 24 647 -136 ) defaultTextures/darkTrunk_seamless -88 -160 0 1 -1
+( 16 664 -144 ) ( 17 664 -144 ) ( 16 664 -143 ) defaultTextures/darkTrunk_seamless -88 0 0 1 1
+( 24 648 -136 ) ( 24 647 -136 ) ( 24 648 -135 ) defaultTextures/darkTrunk_seamless 160 0 180 1 -1
+}
+// brush 2
+{
+( 16 664 312 ) ( 16 664 313 ) ( 16 663 312 ) defaultTextures/darkTrunk_seamless 160 0 180 1 -1
+( 24 648 320 ) ( 24 648 321 ) ( 25 648 320 ) defaultTextures/darkTrunk_seamless -88 0 0 1 1
+( 16 664 312 ) ( 16 663 312 ) ( 17 664 312 ) defaultTextures/darkTrunk_seamless -88 -160 0 1 -1
+( 24 648 320 ) ( 25 648 320 ) ( 24 647 320 ) defaultTextures/darkTrunk_seamless -88 -160 0 1 -1
+( 16 664 312 ) ( 17 664 312 ) ( 16 664 313 ) defaultTextures/darkTrunk_seamless -88 0 0 1 1
+( 24 648 320 ) ( 24 647 320 ) ( 24 648 321 ) defaultTextures/darkTrunk_seamless 160 0 180 1 -1
+}
+}
+// entity 7
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "AptDoors"
+"_tb_id" "15"
+"_tb_linked_group_id" "{82cb51fa-bffb-42f2-bfe0-7eee8fa4f9d1}"
+// brush 0
+{
+( 80 664 152 ) ( 80 16 152 ) ( 80 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 152 ) ( 208 16 152 ) ( 208 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 144 ) ( 208 664 144 ) ( 80 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 152 ) ( 208 664 152 ) ( 208 16 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 664 144 ) ( 208 664 152 ) ( 80 664 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 152 ) ( 208 664 152 ) ( 208 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( 176 672 264 ) ( 176 672 256 ) ( 176 800 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 288 ) ( 208 664 288 ) ( 208 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 664 144 ) ( 208 672 144 ) ( 80 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 288 ) ( 208 672 288 ) ( 208 664 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 672 144 ) ( 208 672 288 ) ( 80 672 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 664 288 ) ( 208 672 288 ) ( 208 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( 120 672 240 ) ( 120 668 240 ) ( 120 668 152 ) defaultTextures/grainton -140 240 0 1 1
+( 120 668 240 ) ( 176 668 240 ) ( 176 668 152 ) defaultTextures/grainton -120 240 0 1 1
+( 176 668 152 ) ( 176 672 152 ) ( 120 672 152 ) defaultTextures/grainton -120 188 0 1 1
+( 120 672 240 ) ( 176 672 240 ) ( 176 668 240 ) defaultTextures/grainton -120 188 0 1 1
+( 176 672 152 ) ( 176 672 240 ) ( 120 672 240 ) defaultTextures/grainton -120 240 0 1 1
+( 176 668 240 ) ( 176 672 240 ) ( 176 672 152 ) defaultTextures/grainton -140 240 0 1 1
+}
+// brush 3
+{
+( 80 672 288 ) ( 80 664 288 ) ( 80 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 288 ) ( 208 664 288 ) ( 208 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 664 144 ) ( 208 672 144 ) ( 80 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 288 ) ( 208 672 288 ) ( 208 664 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 672 144 ) ( 208 672 288 ) ( 80 672 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 672 272 ) ( 120 800 256 ) ( 120 672 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 4
+{
+( 80 664 288 ) ( 80 16 288 ) ( 80 16 280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 288 ) ( 208 16 288 ) ( 208 16 280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 280 ) ( 208 664 280 ) ( 80 664 280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 288 ) ( 208 664 288 ) ( 208 16 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 664 280 ) ( 208 664 288 ) ( 80 664 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 288 ) ( 208 664 288 ) ( 208 664 280 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 5
+{
+( 120 672 272 ) ( 120 672 256 ) ( 120 800 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 664 288 ) ( 208 664 288 ) ( 208 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 672 240 ) ( 152 800 240 ) ( 152 672 240 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 672 288 ) ( 208 672 288 ) ( 208 664 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 672 144 ) ( 208 672 288 ) ( 80 672 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 672 264 ) ( 176 800 256 ) ( 176 672 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 6
+{
+( 208 652 144 ) ( 208 652 288 ) ( 208 524 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 564 272 ) ( 208 564 256 ) ( 80 564 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 208 620 240 ) ( 80 596 240 ) ( 208 596 240 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 524 288 ) ( 208 652 288 ) ( 216 652 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 620 264 ) ( 80 620 256 ) ( 208 620 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 524 288 ) ( 216 652 288 ) ( 216 652 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 7
+{
+( 208 672 288 ) ( 208 620 288 ) ( 208 620 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 620 288 ) ( 216 620 288 ) ( 216 620 144 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 620 144 ) ( 216 672 144 ) ( 208 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 672 288 ) ( 216 672 288 ) ( 216 620 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 672 144 ) ( 216 672 288 ) ( 208 672 288 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 620 288 ) ( 216 672 288 ) ( 216 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 8
+{
+( 208 376 288 ) ( 208 564 144 ) ( 208 564 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 376 288 ) ( 208 376 144 ) ( 208 376 288 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 564 144 ) ( 208 376 144 ) ( 216 376 144 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 564 288 ) ( 208 376 288 ) ( 208 564 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 564 288 ) ( 208 564 144 ) ( 216 564 144 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 564 288 ) ( 216 376 144 ) ( 216 376 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 9
+{
+( 208 408 144 ) ( 208 408 288 ) ( 208 280 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 320 272 ) ( 208 320 256 ) ( 80 320 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 208 376 240 ) ( 80 352 240 ) ( 208 352 240 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 280 288 ) ( 208 408 288 ) ( 216 408 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 376 264 ) ( 80 376 256 ) ( 208 376 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 280 288 ) ( 216 408 288 ) ( 216 408 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 10
+{
+( 208 132 288 ) ( 208 320 144 ) ( 208 320 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 132 288 ) ( 208 132 144 ) ( 208 132 288 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 320 144 ) ( 208 132 144 ) ( 216 132 144 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 320 288 ) ( 208 132 288 ) ( 208 320 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 320 288 ) ( 208 320 144 ) ( 216 320 144 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 320 288 ) ( 216 132 144 ) ( 216 132 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 11
+{
+( 208 164 144 ) ( 208 164 288 ) ( 208 36 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 76 272 ) ( 208 76 256 ) ( 80 76 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 208 132 240 ) ( 80 108 240 ) ( 208 108 240 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 36 288 ) ( 208 164 288 ) ( 216 164 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 132 264 ) ( 80 132 256 ) ( 208 132 256 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 36 288 ) ( 216 164 288 ) ( 216 164 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 12
+{
+( 212 132 152 ) ( 212 132 240 ) ( 212 76 240 ) defaultTextures/grainton -76 -16 0 1 1
+( 212 76 240 ) ( 216 76 240 ) ( 216 76 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 132 152 ) ( 212 132 152 ) ( 212 76 152 ) defaultTextures/grainton -76 -184 90 1 1
+( 212 76 240 ) ( 212 132 240 ) ( 216 132 240 ) defaultTextures/grainton -76 -184 90 1 1
+( 216 132 240 ) ( 212 132 240 ) ( 212 132 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 76 240 ) ( 216 132 240 ) ( 216 132 152 ) defaultTextures/grainton -76 -16 0 1 1
+}
+// brush 13
+{
+( 208 76 288 ) ( 208 8 288 ) ( 208 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 8 288 ) ( 216 8 288 ) ( 216 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 8 144 ) ( 216 76 144 ) ( 208 76 144 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 208 76 288 ) ( 216 76 288 ) ( 216 8 288 ) defaultTextures/dirtyConcrete_seamless 0 0 90 1 1
+( 216 76 144 ) ( 216 76 288 ) ( 208 76 288 ) defaultTextures/dirtyConcrete_seamless 0 0 180 1 -1
+( 216 8 288 ) ( 216 76 288 ) ( 216 76 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 14
+{
+( 176 16 264 ) ( 176 16 256 ) ( 176 144 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 288 ) ( 208 8 288 ) ( 208 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 8 144 ) ( 208 16 144 ) ( 80 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 288 ) ( 208 16 288 ) ( 208 8 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 144 ) ( 208 16 288 ) ( 80 16 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 8 288 ) ( 208 16 288 ) ( 208 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 15
+{
+( 120 16 272 ) ( 120 16 256 ) ( 120 144 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 288 ) ( 208 8 288 ) ( 208 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 16 240 ) ( 152 144 240 ) ( 152 16 240 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 288 ) ( 208 16 288 ) ( 208 8 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 144 ) ( 208 16 288 ) ( 80 16 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 16 264 ) ( 176 144 256 ) ( 176 16 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 16
+{
+( 80 16 288 ) ( 80 8 288 ) ( 80 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 8 288 ) ( 208 8 288 ) ( 208 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 8 144 ) ( 208 16 144 ) ( 80 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 16 288 ) ( 208 16 288 ) ( 208 8 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 16 144 ) ( 208 16 288 ) ( 80 16 288 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 16 272 ) ( 120 144 256 ) ( 120 16 256 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 17
+{
+( 120 12 240 ) ( 120 8 240 ) ( 120 8 152 ) defaultTextures/grainton 8 240 0 1 1
+( 120 8 240 ) ( 176 8 240 ) ( 176 8 152 ) defaultTextures/grainton -120 240 0 1 1
+( 176 8 152 ) ( 176 12 152 ) ( 120 12 152 ) defaultTextures/grainton -120 40 0 1 1
+( 120 12 240 ) ( 176 12 240 ) ( 176 8 240 ) defaultTextures/grainton -120 40 0 1 1
+( 176 12 152 ) ( 176 12 240 ) ( 120 12 240 ) defaultTextures/grainton -120 240 0 1 1
+( 176 8 240 ) ( 176 12 240 ) ( 176 12 152 ) defaultTextures/grainton 8 240 0 1 1
+}
+// brush 18
+{
+( 120 16 152 ) ( 120 8 152 ) ( 120 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 8 152 ) ( 176 8 152 ) ( 176 8 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 8 144 ) ( 176 16 144 ) ( 120 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 16 152 ) ( 176 16 152 ) ( 176 8 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 16 144 ) ( 176 16 152 ) ( 120 16 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 8 152 ) ( 176 16 152 ) ( 176 16 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 19
+{
+( 208 132 152 ) ( 208 76 152 ) ( 208 76 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 76 144 ) ( 216 132 144 ) ( 208 132 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 76 152 ) ( 216 76 152 ) ( 216 76 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 132 152 ) ( 216 132 152 ) ( 216 76 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 132 144 ) ( 216 132 152 ) ( 208 132 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 76 152 ) ( 216 132 152 ) ( 216 132 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 20
+{
+( 208 376 152 ) ( 208 320 152 ) ( 208 320 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 320 144 ) ( 216 376 144 ) ( 208 376 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 320 152 ) ( 216 320 152 ) ( 216 320 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 376 152 ) ( 216 376 152 ) ( 216 320 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 376 144 ) ( 216 376 152 ) ( 208 376 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 320 152 ) ( 216 376 152 ) ( 216 376 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 21
+{
+( 208 620 152 ) ( 208 564 152 ) ( 208 564 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 564 144 ) ( 216 620 144 ) ( 208 620 148 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 564 152 ) ( 216 564 152 ) ( 216 564 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 208 620 152 ) ( 216 620 152 ) ( 216 564 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 620 144 ) ( 216 620 152 ) ( 208 620 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 216 564 152 ) ( 216 620 152 ) ( 216 620 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 22
+{
+( 120 672 152 ) ( 120 664 152 ) ( 120 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 664 152 ) ( 176 664 152 ) ( 176 664 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 664 144 ) ( 176 672 144 ) ( 120 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 120 672 152 ) ( 176 672 152 ) ( 176 664 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 672 144 ) ( 176 672 152 ) ( 120 672 152 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 176 664 152 ) ( 176 672 152 ) ( 176 672 144 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 23
+{
+( 212 376 152 ) ( 212 376 240 ) ( 212 320 240 ) defaultTextures/grainton -64 -16 0 1 1
+( 212 320 240 ) ( 216 320 240 ) ( 216 320 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 376 152 ) ( 212 376 152 ) ( 212 320 152 ) defaultTextures/grainton -64 -184 90 1 1
+( 212 320 240 ) ( 212 376 240 ) ( 216 376 240 ) defaultTextures/grainton -64 -184 90 1 1
+( 216 376 240 ) ( 212 376 240 ) ( 212 376 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 320 240 ) ( 216 376 240 ) ( 216 376 152 ) defaultTextures/grainton -64 -16 0 1 1
+}
+// brush 24
+{
+( 212 620 152 ) ( 212 620 240 ) ( 212 564 240 ) defaultTextures/grainton -52 -16 0 1 1
+( 212 564 240 ) ( 216 564 240 ) ( 216 564 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 620 152 ) ( 212 620 152 ) ( 212 564 152 ) defaultTextures/grainton -52 -184 90 1 1
+( 212 564 240 ) ( 212 620 240 ) ( 216 620 240 ) defaultTextures/grainton -52 -184 90 1 1
+( 216 620 240 ) ( 212 620 240 ) ( 212 620 152 ) defaultTextures/grainton 232 -16 180 1 -1
+( 216 564 240 ) ( 216 620 240 ) ( 216 620 152 ) defaultTextures/grainton -52 -16 0 1 1
+}
+}
+// entity 8
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "AptDoors"
+"_tb_id" "16"
+"_tb_linked_group_id" "{e0170a3b-51ad-4d9e-bfa5-0b15757c2801}"
+"_tb_transformation" "-1 0 0 -624 0 1 0 0 0 0 1 -8 0 0 0 1"
+// brush 0
+{
+( -832 16 144 ) ( -832 664 136 ) ( -832 664 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 16 144 ) ( -832 16 136 ) ( -832 16 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 16 136 ) ( -704 664 136 ) ( -832 664 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 664 144 ) ( -832 16 144 ) ( -832 664 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 664 136 ) ( -704 664 144 ) ( -832 664 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -704 664 144 ) ( -704 16 136 ) ( -704 16 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 1
+{
+( -832 664 280 ) ( -832 672 136 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 664 280 ) ( -832 664 136 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 664 136 ) ( -704 672 136 ) ( -832 672 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 672 280 ) ( -832 664 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 672 136 ) ( -704 672 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 672 256 ) ( -800 800 248 ) ( -800 672 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 2
+{
+( -800 668 232 ) ( -800 672 144 ) ( -800 672 232 ) defaultTextures/grainton 116 232 0 1 1
+( -744 668 232 ) ( -800 668 144 ) ( -800 668 232 ) defaultTextures/grainton -232 232 180 1 -1
+( -800 668 144 ) ( -744 672 144 ) ( -800 672 144 ) defaultTextures/grainton -232 -68 180 1 -1
+( -744 672 232 ) ( -800 668 232 ) ( -800 672 232 ) defaultTextures/grainton -232 -68 180 1 -1
+( -800 672 144 ) ( -744 672 232 ) ( -800 672 232 ) defaultTextures/grainton -232 232 180 1 -1
+( -744 672 232 ) ( -744 668 144 ) ( -744 668 232 ) defaultTextures/grainton 116 232 0 1 1
+}
+// brush 3
+{
+( -744 672 264 ) ( -744 672 248 ) ( -744 800 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 664 280 ) ( -832 664 136 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 664 136 ) ( -704 672 136 ) ( -832 672 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 672 280 ) ( -832 664 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 672 136 ) ( -704 672 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -704 672 280 ) ( -704 664 136 ) ( -704 664 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 4
+{
+( -832 16 280 ) ( -832 664 272 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 16 280 ) ( -832 16 272 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 16 272 ) ( -704 664 272 ) ( -832 664 272 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 664 280 ) ( -832 16 280 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 664 272 ) ( -704 664 280 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -704 664 280 ) ( -704 16 272 ) ( -704 16 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 5
+{
+( -800 672 256 ) ( -800 672 248 ) ( -800 800 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 664 280 ) ( -832 664 136 ) ( -832 664 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 672 232 ) ( -776 672 232 ) ( -776 800 232 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 672 280 ) ( -832 664 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 672 136 ) ( -704 672 280 ) ( -832 672 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -744 672 264 ) ( -744 800 248 ) ( -744 672 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 6
+{
+( -840 524 280 ) ( -840 652 136 ) ( -840 652 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 564 264 ) ( -704 564 248 ) ( -832 564 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 620 232 ) ( -832 596 232 ) ( -704 596 232 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 524 280 ) ( -840 652 280 ) ( -832 652 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 620 256 ) ( -832 620 248 ) ( -704 620 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 652 136 ) ( -832 524 280 ) ( -832 652 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 7
+{
+( -840 620 280 ) ( -840 672 136 ) ( -840 672 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 620 280 ) ( -840 620 136 ) ( -840 620 280 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -840 620 136 ) ( -832 672 136 ) ( -840 672 136 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 672 280 ) ( -840 620 280 ) ( -840 672 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 672 136 ) ( -832 672 280 ) ( -840 672 280 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 672 280 ) ( -832 620 136 ) ( -832 620 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 8
+{
+( -840 564 280 ) ( -840 376 280 ) ( -840 376 136 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -840 376 280 ) ( -832 376 280 ) ( -832 376 136 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -840 564 136 ) ( -840 376 136 ) ( -832 376 136 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 564 280 ) ( -832 564 280 ) ( -832 376 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 564 280 ) ( -840 564 136 ) ( -832 564 136 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 376 280 ) ( -832 564 280 ) ( -832 564 136 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 9
+{
+( -840 280 280 ) ( -840 408 136 ) ( -840 408 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 320 264 ) ( -704 320 248 ) ( -832 320 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 376 232 ) ( -832 352 232 ) ( -704 352 232 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 280 280 ) ( -840 408 280 ) ( -832 408 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 376 256 ) ( -832 376 248 ) ( -704 376 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 408 136 ) ( -832 280 280 ) ( -832 408 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 10
+{
+( -840 320 280 ) ( -840 132 280 ) ( -840 132 136 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -840 132 280 ) ( -832 132 280 ) ( -832 132 136 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -840 320 136 ) ( -840 132 136 ) ( -832 132 136 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 320 280 ) ( -832 320 280 ) ( -832 132 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 320 280 ) ( -840 320 136 ) ( -832 320 136 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 132 280 ) ( -832 320 280 ) ( -832 320 136 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 11
+{
+( -840 36 280 ) ( -840 164 136 ) ( -840 164 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 76 264 ) ( -704 76 248 ) ( -832 76 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 132 232 ) ( -832 108 232 ) ( -704 108 232 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 36 280 ) ( -840 164 280 ) ( -832 164 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 132 256 ) ( -832 132 248 ) ( -704 132 248 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 164 136 ) ( -832 36 280 ) ( -832 164 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 12
+{
+( -840 76 232 ) ( -840 132 144 ) ( -840 132 232 ) defaultTextures/grainton 180 -24 0 1 1
+( -836 76 232 ) ( -840 76 144 ) ( -840 76 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -840 132 144 ) ( -836 76 144 ) ( -836 132 144 ) defaultTextures/grainton 180 -40 90 1 -1
+( -836 76 232 ) ( -840 132 232 ) ( -836 132 232 ) defaultTextures/grainton 180 -40 90 1 -1
+( -840 132 232 ) ( -836 132 144 ) ( -836 132 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -836 132 144 ) ( -836 76 232 ) ( -836 132 232 ) defaultTextures/grainton 180 -24 0 1 1
+}
+// brush 13
+{
+( -840 8 280 ) ( -840 76 136 ) ( -840 76 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 8 280 ) ( -840 8 136 ) ( -840 8 280 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -840 8 136 ) ( -832 76 136 ) ( -840 76 136 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -832 76 280 ) ( -840 8 280 ) ( -840 76 280 ) defaultTextures/dirtyConcrete_seamless 0 -112 90 1 -1
+( -840 76 136 ) ( -832 76 280 ) ( -840 76 280 ) defaultTextures/dirtyConcrete_seamless 112 -8 0 1 1
+( -832 76 280 ) ( -832 8 136 ) ( -832 8 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 14
+{
+( -832 8 280 ) ( -832 16 136 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 8 280 ) ( -832 8 136 ) ( -832 8 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 8 136 ) ( -704 16 136 ) ( -832 16 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 16 280 ) ( -832 8 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 16 136 ) ( -704 16 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 16 256 ) ( -800 144 248 ) ( -800 16 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 15
+{
+( -800 16 256 ) ( -800 16 248 ) ( -800 144 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 8 280 ) ( -832 8 136 ) ( -832 8 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 16 232 ) ( -776 16 232 ) ( -776 144 232 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 16 280 ) ( -832 8 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 16 136 ) ( -704 16 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -744 16 264 ) ( -744 144 248 ) ( -744 16 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 16
+{
+( -744 16 264 ) ( -744 16 248 ) ( -744 144 248 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -704 8 280 ) ( -832 8 136 ) ( -832 8 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 8 136 ) ( -704 16 136 ) ( -832 16 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -704 16 280 ) ( -832 8 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 16 136 ) ( -704 16 280 ) ( -832 16 280 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -704 16 280 ) ( -704 8 136 ) ( -704 8 280 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 17
+{
+( -800 8 232 ) ( -800 12 144 ) ( -800 12 232 ) defaultTextures/grainton 8 232 0 1 1
+( -744 8 232 ) ( -800 8 144 ) ( -800 8 232 ) defaultTextures/grainton -232 232 180 1 -1
+( -800 8 144 ) ( -744 12 144 ) ( -800 12 144 ) defaultTextures/grainton -232 40 180 1 -1
+( -744 12 232 ) ( -800 8 232 ) ( -800 12 232 ) defaultTextures/grainton -232 40 180 1 -1
+( -800 12 144 ) ( -744 12 232 ) ( -800 12 232 ) defaultTextures/grainton -232 232 180 1 -1
+( -744 12 232 ) ( -744 8 144 ) ( -744 8 232 ) defaultTextures/grainton 8 232 0 1 1
+}
+// brush 18
+{
+( -800 8 144 ) ( -800 16 136 ) ( -800 16 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -744 8 144 ) ( -800 8 136 ) ( -800 8 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 8 136 ) ( -744 16 136 ) ( -800 16 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -744 16 144 ) ( -800 8 144 ) ( -800 16 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -800 16 136 ) ( -744 16 144 ) ( -800 16 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -744 16 144 ) ( -744 8 136 ) ( -744 8 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 19
+{
+( -840 76 144 ) ( -840 132 136 ) ( -840 132 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 76 144 ) ( -840 76 136 ) ( -840 76 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 132 144 ) ( -840 76 144 ) ( -840 132 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -840 132 136 ) ( -832 132 144 ) ( -840 132 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -840 76 136 ) ( -832 132 140 ) ( -840 132 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 132 144 ) ( -832 76 140 ) ( -832 76 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 20
+{
+( -840 320 144 ) ( -840 376 136 ) ( -840 376 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 320 144 ) ( -840 320 136 ) ( -840 320 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 376 144 ) ( -840 320 144 ) ( -840 376 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -840 376 136 ) ( -832 376 144 ) ( -840 376 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -840 320 136 ) ( -832 376 140 ) ( -840 376 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 376 144 ) ( -832 320 140 ) ( -832 320 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 21
+{
+( -840 564 144 ) ( -840 620 136 ) ( -840 620 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -832 564 144 ) ( -840 564 136 ) ( -840 564 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -832 620 144 ) ( -840 564 144 ) ( -840 620 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -840 620 136 ) ( -832 620 144 ) ( -840 620 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -840 564 136 ) ( -832 620 140 ) ( -840 620 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -832 620 144 ) ( -832 564 140 ) ( -832 564 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 22
+{
+( -800 664 144 ) ( -800 672 136 ) ( -800 672 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+( -744 664 144 ) ( -800 664 136 ) ( -800 664 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -800 664 136 ) ( -744 672 136 ) ( -800 672 136 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -744 672 144 ) ( -800 664 144 ) ( -800 672 144 ) defaultTextures/dirtyConcrete_seamless -112 0 180 1 -1
+( -800 672 136 ) ( -744 672 144 ) ( -800 672 144 ) defaultTextures/dirtyConcrete_seamless -112 -8 180 1 -1
+( -744 672 144 ) ( -744 664 136 ) ( -744 664 144 ) defaultTextures/dirtyConcrete_seamless 0 -8 0 1 1
+}
+// brush 23
+{
+( -840 320 232 ) ( -840 376 144 ) ( -840 376 232 ) defaultTextures/grainton 192 -24 0 1 1
+( -836 320 232 ) ( -840 320 144 ) ( -840 320 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -840 376 144 ) ( -836 320 144 ) ( -836 376 144 ) defaultTextures/grainton 192 -40 90 1 -1
+( -836 320 232 ) ( -840 376 232 ) ( -836 376 232 ) defaultTextures/grainton 192 -40 90 1 -1
+( -840 376 232 ) ( -836 376 144 ) ( -836 376 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -836 376 144 ) ( -836 320 232 ) ( -836 376 232 ) defaultTextures/grainton 192 -24 0 1 1
+}
+// brush 24
+{
+( -840 564 232 ) ( -840 620 144 ) ( -840 620 232 ) defaultTextures/grainton -52 -24 0 1 1
+( -836 564 232 ) ( -840 564 144 ) ( -840 564 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -840 620 144 ) ( -836 564 144 ) ( -836 620 144 ) defaultTextures/grainton -52 -40 90 1 -1
+( -836 564 232 ) ( -840 620 232 ) ( -836 620 232 ) defaultTextures/grainton -52 -40 90 1 -1
+( -840 620 232 ) ( -836 620 144 ) ( -836 620 232 ) defaultTextures/grainton 88 -24 0 1 1
+( -836 620 144 ) ( -836 564 232 ) ( -836 620 232 ) defaultTextures/grainton -52 -24 0 1 1
+}
+}

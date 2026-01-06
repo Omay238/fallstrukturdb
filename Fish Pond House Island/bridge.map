@@ -1,0 +1,219 @@
+// Game: FALLSTRUKTUR - Field But Better
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -48 64 16 ) ( -48 -64 16 ) ( -48 -64 -16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -288 16 ) ( 48 -288 16 ) ( 48 -288 -16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -64 8 ) ( 48 64 8 ) ( -48 64 8 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 64 16 ) ( 48 64 16 ) ( 48 -64 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 64 -16 ) ( 48 64 16 ) ( -48 64 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -64 16 ) ( 48 64 16 ) ( 48 64 -16 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 1
+{
+( 44 -288 16 ) ( 44 -287 16 ) ( 44 -288 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( 45 -288 30 ) ( 44 -287 30 ) ( 44 -287 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 45 -284 30 ) ( 44 -285 158 ) ( 44 -285 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -288 16 ) ( 44 -288 17 ) ( 45 -288 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -288 16 ) ( 45 -288 16 ) ( 44 -287 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -284 44 ) ( 48 -283 44 ) ( 49 -284 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -284 20 ) ( 49 -284 20 ) ( 48 -284 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 -288 30 ) ( 48 -287 158 ) ( 48 -287 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 -284 30 ) ( 48 -285 30 ) ( 48 -285 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -284 20 ) ( 48 -284 21 ) ( 48 -283 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 2
+{
+( -48 -288 16 ) ( -48 -287 16 ) ( -48 -288 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -287 30 ) ( -47 -288 158 ) ( -47 -288 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -285 30 ) ( -47 -284 30 ) ( -47 -284 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -288 16 ) ( -48 -288 17 ) ( -47 -288 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -288 16 ) ( -47 -288 16 ) ( -48 -287 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -284 44 ) ( -44 -283 44 ) ( -43 -284 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -284 20 ) ( -43 -284 20 ) ( -44 -284 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -287 30 ) ( -45 -288 30 ) ( -45 -288 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -45 -284 30 ) ( -44 -285 30 ) ( -44 -285 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -284 20 ) ( -44 -284 21 ) ( -44 -283 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 3
+{
+( -48 60 16 ) ( -48 61 16 ) ( -48 60 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 61 30 ) ( -47 60 158 ) ( -47 60 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 63 30 ) ( -47 64 30 ) ( -47 64 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 60 16 ) ( -48 60 17 ) ( -47 60 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 60 16 ) ( -47 60 16 ) ( -48 61 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 64 44 ) ( -44 65 44 ) ( -43 64 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 64 20 ) ( -43 64 20 ) ( -44 64 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( -45 60 30 ) ( -44 61 158 ) ( -44 61 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( -45 64 30 ) ( -44 63 30 ) ( -44 63 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 64 20 ) ( -44 64 21 ) ( -44 65 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 4
+{
+( 44 60 16 ) ( 44 61 16 ) ( 44 60 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 61 30 ) ( 45 60 158 ) ( 45 60 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 63 30 ) ( 45 64 30 ) ( 45 64 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 60 16 ) ( 44 60 17 ) ( 45 60 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 60 16 ) ( 45 60 16 ) ( 44 61 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 64 44 ) ( 48 65 44 ) ( 49 64 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 64 20 ) ( 49 64 20 ) ( 48 64 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 60 30 ) ( 48 61 158 ) ( 48 61 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 64 30 ) ( 48 63 30 ) ( 48 63 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 64 20 ) ( 48 64 21 ) ( 48 65 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 5
+{
+( -49 60 44 ) ( -49 61 44 ) ( -49 60 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 60 46 ) ( -48 59 174 ) ( -48 59 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 65 48 ) ( -49 64 47 ) ( -49 192 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 64 46 ) ( -48 65 46 ) ( -48 65 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 59 44 ) ( -48 59 45 ) ( -47 59 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 60 44 ) ( -47 60 44 ) ( -48 61 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 64 48 ) ( -44 65 48 ) ( -43 64 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 65 48 ) ( -43 65 48 ) ( -44 65 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 59 46 ) ( -43 60 174 ) ( -43 60 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 65 48 ) ( -43 192 47 ) ( -43 64 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 65 46 ) ( -43 64 46 ) ( -43 64 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -43 64 48 ) ( -43 64 49 ) ( -43 65 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 6
+{
+( 43 60 44 ) ( 43 61 44 ) ( 43 60 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 60 46 ) ( 44 59 174 ) ( 44 59 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 65 48 ) ( 43 64 47 ) ( 43 192 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 64 46 ) ( 44 65 46 ) ( 44 65 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 59 44 ) ( 44 59 45 ) ( 45 59 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 60 44 ) ( 45 60 44 ) ( 44 61 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 64 48 ) ( 48 65 48 ) ( 49 64 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 65 48 ) ( 49 65 48 ) ( 48 65 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 59 46 ) ( 49 60 174 ) ( 49 60 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 49 64 47 ) ( 48 65 48 ) ( 48 193 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 65 46 ) ( 49 64 46 ) ( 49 64 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 49 64 48 ) ( 49 64 49 ) ( 49 65 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 7
+{
+( 43 -288 44 ) ( 43 -287 44 ) ( 43 -288 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 -288 46 ) ( 44 -289 174 ) ( 44 -289 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 -288 47 ) ( 44 -161 48 ) ( 44 -289 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 -284 46 ) ( 44 -283 46 ) ( 44 -283 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 -289 44 ) ( 44 -289 45 ) ( 45 -289 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 -288 44 ) ( 45 -288 44 ) ( 44 -287 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -284 48 ) ( 48 -283 48 ) ( 49 -284 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -283 48 ) ( 49 -283 48 ) ( 48 -283 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -289 46 ) ( 49 -288 174 ) ( 49 -288 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -289 48 ) ( 49 -160 47 ) ( 49 -288 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -283 46 ) ( 49 -284 46 ) ( 49 -284 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 49 -284 48 ) ( 49 -284 49 ) ( 49 -283 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 8
+{
+( -49 -288 44 ) ( -49 -287 44 ) ( -49 -288 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 -288 46 ) ( -48 -289 174 ) ( -48 -289 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 -288 47 ) ( -48 -161 48 ) ( -48 -289 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 -284 46 ) ( -48 -283 46 ) ( -48 -283 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 -289 44 ) ( -48 -289 45 ) ( -47 -289 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 -288 44 ) ( -47 -288 44 ) ( -48 -287 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -284 48 ) ( -44 -283 48 ) ( -43 -284 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -283 48 ) ( -43 -283 48 ) ( -44 -283 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -289 46 ) ( -43 -288 174 ) ( -43 -288 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -289 48 ) ( -43 -160 47 ) ( -43 -288 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -283 46 ) ( -43 -284 46 ) ( -43 -284 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -43 -284 48 ) ( -43 -284 49 ) ( -43 -283 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 9
+{
+( 44 -114 16 ) ( 44 -113 16 ) ( 44 -114 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -113 30 ) ( 45 -114 158 ) ( 45 -114 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -111 30 ) ( 45 -110 30 ) ( 45 -110 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -114 16 ) ( 44 -114 17 ) ( 45 -114 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 44 -114 16 ) ( 45 -114 16 ) ( 44 -113 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -110 44 ) ( 48 -109 44 ) ( 49 -110 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -110 20 ) ( 49 -110 20 ) ( 48 -110 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 -114 30 ) ( 48 -113 158 ) ( 48 -113 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( 47 -110 30 ) ( 48 -111 30 ) ( 48 -111 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( 48 -110 20 ) ( 48 -110 21 ) ( 48 -109 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 10
+{
+( 43 -114 44 ) ( 43 -113 44 ) ( 43 -114 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 -114 46 ) ( 44 -115 174 ) ( 44 -115 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 -109 48 ) ( 43 -110 47 ) ( 43 18 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( 43 -110 46 ) ( 44 -109 46 ) ( 44 -109 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 -115 44 ) ( 44 -115 45 ) ( 45 -115 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 44 -114 44 ) ( 45 -114 44 ) ( 44 -113 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -110 48 ) ( 48 -109 48 ) ( 49 -110 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -109 48 ) ( 49 -109 48 ) ( 48 -109 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -115 46 ) ( 49 -114 174 ) ( 49 -114 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( 49 -110 47 ) ( 48 -109 48 ) ( 48 19 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( 48 -109 46 ) ( 49 -110 46 ) ( 49 -110 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( 49 -110 48 ) ( 49 -110 49 ) ( 49 -109 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 11
+{
+( -48 -114 16 ) ( -48 -113 16 ) ( -48 -114 17 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -113 30 ) ( -47 -114 158 ) ( -47 -114 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -111 30 ) ( -47 -110 30 ) ( -47 -110 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -114 16 ) ( -48 -114 17 ) ( -47 -114 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -48 -114 16 ) ( -47 -114 16 ) ( -48 -113 16 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -110 44 ) ( -44 -109 44 ) ( -43 -110 44 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -110 20 ) ( -43 -110 20 ) ( -44 -110 21 ) defaultTextures/woodbrown 0 0 0 1 1
+( -45 -114 30 ) ( -44 -113 158 ) ( -44 -113 30 ) defaultTextures/woodbrown 0 0 0 1 1
+( -45 -110 30 ) ( -44 -111 30 ) ( -44 -111 158 ) defaultTextures/woodbrown 0 0 0 1 1
+( -44 -110 20 ) ( -44 -110 21 ) ( -44 -109 20 ) defaultTextures/woodbrown 0 0 0 1 1
+}
+// brush 12
+{
+( -49 -114 44 ) ( -49 -113 44 ) ( -49 -114 45 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 -114 46 ) ( -48 -115 174 ) ( -48 -115 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 -109 48 ) ( -49 -110 47 ) ( -49 18 47 ) defaultTextures/woodgreen 0 0 0 1 1
+( -49 -110 46 ) ( -48 -109 46 ) ( -48 -109 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 -115 44 ) ( -48 -115 45 ) ( -47 -115 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -48 -114 44 ) ( -47 -114 44 ) ( -48 -113 44 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -110 48 ) ( -44 -109 48 ) ( -43 -110 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -109 48 ) ( -43 -109 48 ) ( -44 -109 49 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -115 46 ) ( -43 -114 174 ) ( -43 -114 46 ) defaultTextures/woodgreen 0 0 0 1 1
+( -43 -110 47 ) ( -44 -109 48 ) ( -44 19 48 ) defaultTextures/woodgreen 0 0 0 1 1
+( -44 -109 46 ) ( -43 -110 46 ) ( -43 -110 174 ) defaultTextures/woodgreen 0 0 0 1 1
+( -43 -110 48 ) ( -43 -110 49 ) ( -43 -109 48 ) defaultTextures/woodgreen 0 0 0 1 1
+}
+// brush 13
+{
+( 46 -284 42 ) ( 46 -114 42 ) ( 45 -114 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 45 -114 43 ) ( 46 -114 44 ) ( 46 -284 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 -284 44 ) ( 47 -284 43 ) ( 46 -284 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 -114 42 ) ( 47 -114 43 ) ( 46 -114 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 47 -284 43 ) ( 47 -114 43 ) ( 46 -114 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 -114 44 ) ( 47 -114 43 ) ( 47 -284 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+}
+// brush 14
+{
+( 46 -110 42 ) ( 46 60 42 ) ( 45 60 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 45 60 43 ) ( 46 60 44 ) ( 46 -110 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 -110 44 ) ( 47 -110 43 ) ( 46 -110 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 60 42 ) ( 47 60 43 ) ( 46 60 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 47 -110 43 ) ( 47 60 43 ) ( 46 60 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( 46 60 44 ) ( 47 60 43 ) ( 47 -110 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+}
+// brush 15
+{
+( -46 -110 42 ) ( -46 60 42 ) ( -47 60 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -47 60 43 ) ( -46 60 44 ) ( -46 -110 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 -110 44 ) ( -45 -110 43 ) ( -46 -110 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 60 42 ) ( -45 60 43 ) ( -46 60 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -45 -110 43 ) ( -45 60 43 ) ( -46 60 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 60 44 ) ( -45 60 43 ) ( -45 -110 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+}
+// brush 16
+{
+( -46 -284 42 ) ( -46 -114 42 ) ( -47 -114 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -47 -114 43 ) ( -46 -114 44 ) ( -46 -284 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 -284 44 ) ( -45 -284 43 ) ( -46 -284 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 -114 42 ) ( -45 -114 43 ) ( -46 -114 44 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -45 -284 43 ) ( -45 -114 43 ) ( -46 -114 42 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+( -46 -114 44 ) ( -45 -114 43 ) ( -45 -284 43 ) defaultTextures/dirt2_seamless 0 0 0 1 1
+}
+}

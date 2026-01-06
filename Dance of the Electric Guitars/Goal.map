@@ -1,0 +1,26 @@
+// Game: FALLSTRUKTUR - Dance of the Electronic Guitars
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 5552 544 6808 ) ( 5552 545 6808 ) ( 5552 544 6809 ) defaultTextures/Black 0 -88 0 1 1
+( 3504 672 6808 ) ( 3504 672 6809 ) ( 3505 672 6808 ) defaultTextures/Black -112 -88 0 1 1
+( 3504 544 6824 ) ( 3505 544 6824 ) ( 3504 545 6824 ) defaultTextures/Black -112 0 0 1 1
+( 3632 672 6840 ) ( 3632 673 6840 ) ( 3633 672 6840 ) defaultTextures/Black -112 0 0 1 1
+( 3632 688 6840 ) ( 3633 688 6840 ) ( 3632 688 6841 ) defaultTextures/Black -112 -88 0 1 1
+( 5568 672 6840 ) ( 5568 672 6841 ) ( 5568 673 6840 ) defaultTextures/Black 0 -88 0 1 1
+}
+// brush 1
+{
+( 8368 1072 184 ) ( 8336 1088 216 ) ( 8528 832 216 ) defaultTextures/SUPERMARIOCheckers -16 -36 0 2 2
+( 8528 832 216 ) ( 8528 864 184 ) ( 8368 1072 184 ) defaultTextures/SUPERMARIOCheckers 16 -36 0 2 2
+( 9088 1232 184 ) ( 9168 1248 216 ) ( 8336 1088 216 ) defaultTextures/SUPERMARIOCheckers 0 12 0 2 2
+( 8368 1072 184 ) ( 9088 1232 184 ) ( 8336 1088 216 ) defaultTextures/SUPERMARIOCheckers 0 -26.749023 0 2 2
+( 8528 864 184 ) ( 9088 1232 184 ) ( 8368 1072 184 ) defaultTextures/SUPERMARIOCheckers -16 16 0 2 2
+( 8336 1088 216 ) ( 9168 1248 216 ) ( 8528 832 216 ) defaultTextures/SUPERMARIOCheckers -16.033691 15.948914 0 2 2
+( 8528 864 184 ) ( 9168 1248 216 ) ( 9088 1232 184 ) defaultTextures/SUPERMARIOCheckers -16 16 0 2 2
+( 8528 832 216 ) ( 9168 1248 216 ) ( 8528 864 184 ) defaultTextures/SUPERMARIOCheckers -16 16 0 2 2
+}
+}

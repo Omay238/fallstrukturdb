@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Get Over It
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -12 -12 4 ) ( -16 -16 0 ) ( -16 16 0 ) customTextures/black 32 16 0 1 1
+( 12 -12 4 ) ( 16 -16 0 ) ( -16 -16 0 ) customTextures/black 0 -16 0 1 1
+( 16 -16 0 ) ( 16 16 0 ) ( -16 16 0 ) customTextures/black 0 0 0 1 1
+( -12 12 4 ) ( 12 12 4 ) ( 12 -12 4 ) customTextures/black 0 0 0 1 1
+( -16 16 0 ) ( 16 16 0 ) ( 12 12 4 ) customTextures/black 0 48 0 1 1
+( 12 12 4 ) ( 16 16 0 ) ( 16 -16 0 ) customTextures/black -31 17 0 1 1
+}
+}

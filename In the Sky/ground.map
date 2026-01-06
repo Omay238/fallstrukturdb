@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - In the Sky
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -2864 -64 -16 ) ( -2864 -63 -16 ) ( -2864 -64 -15 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( -64 -2240 -16 ) ( -64 -2240 -15 ) ( -63 -2240 -16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 64 3200 16 ) ( 65 3200 16 ) ( 64 3200 17 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 2464 64 16 ) ( 2464 64 17 ) ( 2464 65 16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+}
+}

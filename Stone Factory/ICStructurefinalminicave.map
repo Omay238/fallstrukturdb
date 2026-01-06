@@ -1,0 +1,101 @@
+// Game: FALLSTRUKTUR - ICStruktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -6080 112 -832 ) ( -6080 -32 -832 ) ( -6080 -32 -912 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 -16 -944 ) ( -6048 16 -976 ) ( -6080 16 -976 ) defaultTextures/grainton 0 0 90 1 1
+( -6048 16 -976 ) ( -6048 80 -976 ) ( -6080 80 -976 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 112 -832 ) ( -6000 80 -832 ) ( -6000 -16 -832 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 80 -976 ) ( -6048 80 -976 ) ( -6080 112 -912 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 -32 -832 ) ( -6000 -16 -832 ) ( -6080 -32 -912 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 112 -912 ) ( -6000 80 -832 ) ( -6080 112 -832 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 -32 -912 ) ( -6048 16 -976 ) ( -6080 -16 -944 ) defaultTextures/grainton 0 0 90 1 1
+( -6080 -32 -912 ) ( -6000 -16 -832 ) ( -6048 16 -976 ) defaultTextures/grainton 0 0 90 1 1
+( -6048 80 -976 ) ( -6000 80 -832 ) ( -6080 112 -912 ) defaultTextures/grainton 0 0 90 1 1
+( -6048 80 -976 ) ( -6048 16 -976 ) ( -6000 -16 -832 ) defaultTextures/grainton 0 0 90 1 1
+}
+// brush 1
+{
+( -6040 -8 -816 ) ( -6040 8 -832 ) ( -6040 8 -816 ) defaultTextures/grain -8 0 0 1 1
+( -6032 -8 -816 ) ( -6048 -8 -832 ) ( -6048 -8 -816 ) defaultTextures/grain 0 0 0 1 1
+( -6032 8 -832 ) ( -6048 -8 -832 ) ( -6032 -8 -832 ) defaultTextures/grain 0 8 0 1 1
+( -6032 8 -800 ) ( -6048 -8 -800 ) ( -6048 8 -800 ) defaultTextures/grain 0 8 0 1 1
+( -6032 0 -816 ) ( -6048 0 -832 ) ( -6032 0 -832 ) defaultTextures/grain 0 0 0 1 1
+( -6032 8 -816 ) ( -6032 -8 -832 ) ( -6032 -8 -816 ) defaultTextures/grain -8 0 0 1 1
+}
+// brush 2
+{
+( -6040 72 -816 ) ( -6040 88 -832 ) ( -6040 88 -816 ) defaultTextures/grain 8 0 0 1 1
+( -6032 80 -816 ) ( -6048 80 -832 ) ( -6048 80 -816 ) defaultTextures/grain 0 0 0 1 1
+( -6032 88 -832 ) ( -6048 72 -832 ) ( -6032 72 -832 ) defaultTextures/grain 0 -8 0 1 1
+( -6032 88 -800 ) ( -6048 72 -800 ) ( -6048 88 -800 ) defaultTextures/grain 0 -8 0 1 1
+( -6032 88 -816 ) ( -6048 88 -832 ) ( -6032 88 -832 ) defaultTextures/grain 0 0 0 1 1
+( -6032 88 -816 ) ( -6032 72 -832 ) ( -6032 72 -816 ) defaultTextures/grain 8 0 0 1 1
+}
+// brush 3
+{
+( -6752 48 -816 ) ( -6752 64 -816 ) ( -6752 64 -688 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6112 0 -816 ) ( -6080 0 -832 ) ( -6288 0 -832 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6080 0 -832 ) ( -6080 80 -832 ) ( -6288 80 -832 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6288 80 -816 ) ( -6112 80 -816 ) ( -6112 0 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6288 80 -832 ) ( -6080 80 -832 ) ( -6112 80 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6108.8 80 -809.6 ) ( -6076.8 80 -825.6 ) ( -6076.8 0 -825.6 ) defaultTextures/rotten_seamless 228.7998 104 0 1 1
+}
+// brush 4
+{
+( -6160 80 -816 ) ( -6160 96 -832 ) ( -6160 96 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 80 -816 ) ( -6160 80 -832 ) ( -6160 80 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 96 -832 ) ( -6160 80 -832 ) ( -6096 80 -832 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 96 -656 ) ( -6160 80 -656 ) ( -6160 96 -656 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 96 -816 ) ( -6160 96 -832 ) ( -6096 96 -832 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6080 96 -816 ) ( -6080 80 -832 ) ( -6080 80 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+}
+// brush 5
+{
+( -6160 -16 -816 ) ( -6160 0 -832 ) ( -6160 0 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 -16 -816 ) ( -6160 -16 -832 ) ( -6160 -16 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 0 -832 ) ( -6160 -16 -832 ) ( -6096 -16 -832 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 0 -656 ) ( -6160 -16 -656 ) ( -6160 0 -656 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6096 0 -816 ) ( -6160 0 -832 ) ( -6096 0 -832 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+( -6080 0 -816 ) ( -6080 -16 -832 ) ( -6080 -16 -816 ) defaultTextures/otherTrunk_seamless 0 0 0 1 1
+}
+// brush 6
+{
+( -6752 80 -720 ) ( -6752 96 -816 ) ( -6752 96 -720 ) defaultTextures/rotten_seamless -16 0 0 1 1
+( -6160 80 -720 ) ( -6576 80 -816 ) ( -6576 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 96 -816 ) ( -6576 80 -816 ) ( -6160 80 -816 ) defaultTextures/rotten_seamless 0 16 0 1 1
+( -6160 96 -720 ) ( -6576 80 -720 ) ( -6576 96 -720 ) defaultTextures/rotten_seamless 0 16 0 1 1
+( -6160 96 -720 ) ( -6576 96 -816 ) ( -6160 96 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 96 -720 ) ( -6160 80 -816 ) ( -6160 80 -720 ) defaultTextures/rotten_seamless -16 0 0 1 1
+}
+// brush 7
+{
+( -6752 -16 -720 ) ( -6752 0 -816 ) ( -6752 0 -720 ) defaultTextures/rotten_seamless 80 0 0 1 1
+( -6160 -16 -720 ) ( -6576 -16 -816 ) ( -6576 -16 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 0 -816 ) ( -6576 -16 -816 ) ( -6160 -16 -816 ) defaultTextures/rotten_seamless 0 -80 0 1 1
+( -6160 0 -720 ) ( -6576 -16 -720 ) ( -6576 0 -720 ) defaultTextures/rotten_seamless 0 -80 0 1 1
+( -6160 0 -720 ) ( -6576 0 -816 ) ( -6160 0 -816 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 0 -720 ) ( -6160 -16 -816 ) ( -6160 -16 -720 ) defaultTextures/rotten_seamless 80 0 0 1 1
+}
+// brush 8
+{
+( -6752 80 -704 ) ( -6752 96 -720 ) ( -6752 96 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 0 -704 ) ( -6576 0 -720 ) ( -6576 0 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 96 -720 ) ( -6576 80 -720 ) ( -6160 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 96 -704 ) ( -6576 80 -704 ) ( -6576 96 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6160 80 -704 ) ( -6576 80 -720 ) ( -6160 80 -720 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 96 -704 ) ( -6128 80 -720 ) ( -6128 80 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+// brush 9
+{
+( -6208 0 -656 ) ( -6208 80 -704 ) ( -6208 80 -656 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 0 -656 ) ( -6208 0 -704 ) ( -6208 0 -656 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 80 -704 ) ( -6208 0 -704 ) ( -6128 0 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 80 -656 ) ( -6208 0 -656 ) ( -6208 80 -656 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 80 -656 ) ( -6208 80 -704 ) ( -6128 80 -704 ) defaultTextures/rotten_seamless 0 0 0 1 1
+( -6128 80 -656 ) ( -6128 0 -704 ) ( -6128 0 -656 ) defaultTextures/rotten_seamless 0 0 0 1 1
+}
+}

@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Castle of Rain
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -15.5 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+( -64 -64 -16 ) ( -64 -64 -15.5 ) ( -63 -64 -16 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+( 64 64 0 ) ( 64 65 0 ) ( 65 64 0 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+( 64 64 0 ) ( 65 64 0 ) ( 64 64 0.5 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+( 64 64 0 ) ( 64 64 0.5 ) ( 64 65 0 ) defaultTextures/redbrickwall_seamless 0 0 0 0.5 0.5
+}
+}

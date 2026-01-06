@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Castle of Rain
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -2080 -3232 80 ) ( -2080 -3206.25 80 ) ( -2080 -3232 80.87820512820512 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+( -2080 -3232 80 ) ( -2080 -3232 80.87820512820512 ) ( -2055.875 -3232 80 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+( -2080 -3232 80 ) ( -2055.875 -3232 80 ) ( -2080 -3206.25 80 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+( 1008 64 108.1025641025641 ) ( 1008 89.75000000000009 108.1025641025641 ) ( 1032.1249999999995 64 108.1025641025641 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+( 1008 64 108.1025641025641 ) ( 1032.1249999999995 64 108.1025641025641 ) ( 1008 64 108.98076923076924 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+( 1008 64 108.1025641025641 ) ( 1008 64 108.98076923076924 ) ( 1008 89.75000000000009 108.1025641025641 ) defaultTextures/grassDirt2_seamless 0 0 0 1.1 1.1
+}
+}

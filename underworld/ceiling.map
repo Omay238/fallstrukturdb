@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - underworld
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -256 -256 -256 ) ( -256 -255 -256 ) ( -256 -256 -255 ) grassDirt2_seamlessdark 0 0 0 1 1
+( -256 -256 -256 ) ( -256 -256 -255 ) ( -255 -256 -256 ) grassDirt2_seamlessdark 0 0 0 1 1
+( -256 -256 -256 ) ( -255 -256 -256 ) ( -256 -255 -256 ) grassDirt2_seamlessdark 0 0 0 1 1
+( 18944 18944 3328 ) ( 18944 18945 3328 ) ( 18945 18944 3328 ) grassDirt2_seamlessdark 0 0 0 1 1
+( 18944 18944 3328 ) ( 18945 18944 3328 ) ( 18944 18944 3329 ) grassDirt2_seamlessdark 0 0 0 1 1
+( 18944 18944 3328 ) ( 18944 18944 3329 ) ( 18944 18945 3328 ) grassDirt2_seamlessdark 0 0 0 1 1
+}
+}

@@ -1,0 +1,82 @@
+// Game: FALLSTRUKTUR - Dance of the Electronic Guitars
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 5566 544 4880 ) ( 5566 545 4880 ) ( 5566 544 4881 ) defaultTextures/Black 0 -96 0 1 1
+( 3504 670 4880 ) ( 3504 670 4881 ) ( 3505 670 4880 ) defaultTextures/Black -112 -96 0 1 1
+( 3504 544 4910 ) ( 3505 544 4910 ) ( 3504 545 4910 ) defaultTextures/Black -112 0 0 1 1
+( 3632 672 4912 ) ( 3632 673 4912 ) ( 3633 672 4912 ) defaultTextures/Black -112 0 0 1 1
+( 3632 672 4912 ) ( 3633 672 4912 ) ( 3632 672 4913 ) defaultTextures/Black -112 -96 0 1 1
+( 5568 672 4912 ) ( 5568 672 4913 ) ( 5568 673 4912 ) defaultTextures/Black 0 -96 0 1 1
+}
+// brush 1
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless 0 272 0 1 1
+( 304 560 128 ) ( 304 560 129 ) ( 305 560 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 448 128 ) ( 305 448 128 ) ( 304 449 128 ) defaultTextures/greyPaint_seamless -368 0 0 1 1
+( 432 576 160 ) ( 432 577 160 ) ( 433 576 160 ) defaultTextures/greyPaint_seamless -368 0 0 1 1
+( 432 592 160 ) ( 433 592 160 ) ( 432 592 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 576 160 ) ( 7424 576 161 ) ( 7424 577 160 ) defaultTextures/greyPaint_seamless 0 272 0 1 1
+}
+// brush 2
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless -384 272 0 1 1
+( 304 432 128 ) ( 304 432 129 ) ( 305 432 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 320 128 ) ( 305 320 128 ) ( 304 321 128 ) defaultTextures/greyPaint_seamless -368 384 0 1 1
+( 432 448 160 ) ( 432 449 160 ) ( 433 448 160 ) defaultTextures/greyPaint_seamless -368 384 0 1 1
+( 432 464 160 ) ( 433 464 160 ) ( 432 464 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 448 160 ) ( 7424 448 161 ) ( 7424 449 160 ) defaultTextures/greyPaint_seamless -384 272 0 1 1
+}
+// brush 3
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless -288 272 0 1 1
+( 304 304 128 ) ( 304 304 129 ) ( 305 304 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 192 128 ) ( 305 192 128 ) ( 304 193 128 ) defaultTextures/greyPaint_seamless -368 288 0 1 1
+( 432 320 160 ) ( 432 321 160 ) ( 433 320 160 ) defaultTextures/greyPaint_seamless -368 288 0 1 1
+( 432 336 160 ) ( 433 336 160 ) ( 432 336 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 320 160 ) ( 7424 320 161 ) ( 7424 321 160 ) defaultTextures/greyPaint_seamless -288 272 0 1 1
+}
+// brush 4
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless -208 272 0 1 1
+( 304 176 128 ) ( 304 176 129 ) ( 305 176 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 80 128 ) ( 305 80 128 ) ( 304 81 128 ) defaultTextures/greyPaint_seamless -368 208 0 1 1
+( 432 208 160 ) ( 432 209 160 ) ( 433 208 160 ) defaultTextures/greyPaint_seamless -368 208 0 1 1
+( 432 208 160 ) ( 433 208 160 ) ( 432 208 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 208 160 ) ( 7424 208 161 ) ( 7424 209 160 ) defaultTextures/greyPaint_seamless -208 272 0 1 1
+}
+// brush 5
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless -144 272 0 1 1
+( 304 48 128 ) ( 304 48 129 ) ( 305 48 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 -48 128 ) ( 305 -48 128 ) ( 304 -47 128 ) defaultTextures/greyPaint_seamless -368 144 0 1 1
+( 432 80 160 ) ( 432 81 160 ) ( 433 80 160 ) defaultTextures/greyPaint_seamless -368 144 0 1 1
+( 432 80 160 ) ( 433 80 160 ) ( 432 80 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 80 160 ) ( 7424 80 161 ) ( 7424 81 160 ) defaultTextures/greyPaint_seamless -144 272 0 1 1
+}
+// brush 6
+{
+( 4096 -48 256 ) ( 4096 256 160 ) ( 4096 256 288 ) defaultTextures/greyPaint_seamless -16 272 0 1 1
+( 304 -80 128 ) ( 304 -80 129 ) ( 305 -80 128 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 304 -176 128 ) ( 305 -176 128 ) ( 304 -175 128 ) defaultTextures/greyPaint_seamless -368 16 0 1 1
+( 432 -48 160 ) ( 432 -47 160 ) ( 433 -48 160 ) defaultTextures/greyPaint_seamless -368 16 0 1 1
+( 432 -48 160 ) ( 433 -48 160 ) ( 432 -48 161 ) defaultTextures/greyPaint_seamless -368 272 0 1 1
+( 7424 -48 160 ) ( 7424 -48 161 ) ( 7424 -47 160 ) defaultTextures/greyPaint_seamless -16 272 0 1 1
+}
+// brush 7
+{
+( 7424 320 128 ) ( 7424 321 128 ) ( 7424 320 129 ) defaultTextures/Pickups 176 35 0 1 1
+( 7456 -112 128 ) ( 7424 -80 128 ) ( 7424 -80 256 ) defaultTextures/Pickups -48 128 0 1 1
+( 7424 592 128 ) ( 7456 624 128 ) ( 7456 624 256 ) defaultTextures/Pickups -167 0 0 1 1
+( 304 -112 128 ) ( 304 -112 129 ) ( 305 -112 128 ) defaultTextures/Pickups -32 -93 0 1 1
+( 304 320 128 ) ( 305 320 128 ) ( 304 321 128 ) defaultTextures/Pickups 0 0 0 1 1
+( 432 448 208 ) ( 432 449 208 ) ( 433 448 208 ) defaultTextures/Pickups 0 0 0 1 1
+( 432 624 160 ) ( 433 624 160 ) ( 432 624 161 ) defaultTextures/Pickups 18 -93 0 1 1
+( 7616 -80 128 ) ( 7584 -112 128 ) ( 7584 -112 256 ) defaultTextures/Pickups 56 0 0 1 1
+( 7584 624 128 ) ( 7600 608 128 ) ( 7600 608 256 ) defaultTextures/Pickups 48 0 0 1 1
+( 7616 448 160 ) ( 7616 448 161 ) ( 7616 449 160 ) defaultTextures/Pickups -48 -93 0 1 1
+}
+}

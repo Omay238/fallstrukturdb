@@ -1,0 +1,360 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -208 -32 -64 ) ( -208 -31 -64 ) ( -208 -32 -62 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( -128 -256 -32 ) ( -208 -80 -32 ) ( -208 -80 224 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( -208 128 -32 ) ( -128 240 -32 ) ( -128 240 224 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 64 -400 -32 ) ( -128 -256 -32 ) ( -128 -256 224 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( -116.57142857142856 256 -32 ) ( 160 400 -32 ) ( 160 400 224 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( -32 -400 -64 ) ( -32 -400 -62 ) ( -31 -400 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( -32 -32 -40 ) ( -31 -32 -40 ) ( -32 -31 -40 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 48 48 -32 ) ( 48 49 -32 ) ( 49 48 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 48 400 -32 ) ( 49 400 -32 ) ( 48 400 -30 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 1616 48 -32 ) ( 1616 48 -30 ) ( 1616 49 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+}
+// brush 1
+{
+( -192 128 -64 ) ( -192 -80 -64 ) ( -192 -80 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( -192 -80 -64 ) ( -112 -240 -64 ) ( -112 -240 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( -112 240 -176 ) ( -112 240 -64 ) ( -192 128 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( -112 -240 -64 ) ( 64 -384 -64 ) ( 64 -384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 160 384 -176 ) ( 160 384 -64 ) ( -112 240 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 64 -384 -64 ) ( 800 -384 -64 ) ( 800 -384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 -384 -104 ) ( 800 384 -104 ) ( 160 384 -104 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 160 384 -40 ) ( 800 384 -40 ) ( 800 -384 -40 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 384 -176 ) ( 800 384 -64 ) ( 160 384 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 1600 -384 -64 ) ( 1600 384 -64 ) ( 1600 384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+}
+// brush 2
+{
+( -128 -224 -32 ) ( -128 -223 -32 ) ( -128 -224 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -128 -224 -32 ) ( -128 -224 -31 ) ( -127 -224 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -128 -224 -32 ) ( -127 -224 -32 ) ( -128 -223 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -112 -208 16 ) ( -112 -207 16 ) ( -111 -208 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -112 -208 16 ) ( -111 -208 16 ) ( -112 -208 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -112 -208 16 ) ( -112 -208 17 ) ( -112 -207 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 3
+{
+( -32 -320 -32 ) ( -32 -319 -32 ) ( -32 -320 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -32 -320 -32 ) ( -32 -320 -31 ) ( -31 -320 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -32 -320 -32 ) ( -31 -320 -32 ) ( -32 -319 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -16 -304 16 ) ( -16 -303 16 ) ( -15 -304 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -16 -304 16 ) ( -15 -304 16 ) ( -16 -304 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -16 -304 16 ) ( -16 -304 17 ) ( -16 -303 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 4
+{
+( 64 -384 -32 ) ( 64 -383 -32 ) ( 64 -384 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 64 -384 -32 ) ( 64 -384 -31 ) ( 65 -384 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 64 -384 -32 ) ( 65 -384 -32 ) ( 64 -383 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 80 -368 16 ) ( 80 -367 16 ) ( 81 -368 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 80 -368 16 ) ( 81 -368 16 ) ( 80 -368 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 80 -368 16 ) ( 80 -368 17 ) ( 80 -367 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 5
+{
+( -192 -96 -32 ) ( -192 -95 -32 ) ( -192 -96 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 -96 -32 ) ( -192 -96 -31 ) ( -191 -96 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 -96 -32 ) ( -191 -96 -32 ) ( -192 -95 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -80 16 ) ( -176 -79 16 ) ( -175 -80 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -80 16 ) ( -175 -80 16 ) ( -176 -80 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -80 16 ) ( -176 -80 17 ) ( -176 -79 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 6
+{
+( -192 112 -32 ) ( -192 113 -32 ) ( -192 112 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 112 -32 ) ( -192 112 -31 ) ( -191 112 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 112 -32 ) ( -191 112 -32 ) ( -192 113 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 128 16 ) ( -176 129 16 ) ( -175 128 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 128 16 ) ( -175 128 16 ) ( -176 128 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 128 16 ) ( -176 128 17 ) ( -176 129 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 7
+{
+( -96 240 -32 ) ( -96 241 -32 ) ( -96 240 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -96 240 -32 ) ( -96 240 -31 ) ( -95 240 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -96 240 -32 ) ( -95 240 -32 ) ( -96 241 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -80 256 16 ) ( -80 257 16 ) ( -79 256 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -80 256 16 ) ( -79 256 16 ) ( -80 256 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -80 256 16 ) ( -80 256 17 ) ( -80 257 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 8
+{
+( 16 304 -32 ) ( 16 305 -32 ) ( 16 304 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 16 304 -32 ) ( 16 304 -31 ) ( 17 304 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 16 304 -32 ) ( 17 304 -32 ) ( 16 305 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 32 320 16 ) ( 32 321 16 ) ( 33 320 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 32 320 16 ) ( 33 320 16 ) ( 32 320 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 32 320 16 ) ( 32 320 17 ) ( 32 321 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 9
+{
+( 144 368 -32 ) ( 144 369 -32 ) ( 144 368 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 144 368 -32 ) ( 144 368 -31 ) ( 145 368 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 144 368 -32 ) ( 145 368 -32 ) ( 144 369 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 160 384 16 ) ( 160 385 16 ) ( 161 384 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 160 384 16 ) ( 161 384 16 ) ( 160 384 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 160 384 16 ) ( 160 384 17 ) ( 160 385 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 10
+{
+( 256 368 -32 ) ( 256 369 -32 ) ( 256 368 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 256 368 -32 ) ( 256 368 -31 ) ( 257 368 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 256 368 -32 ) ( 257 368 -32 ) ( 256 369 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 272 384 16 ) ( 272 385 16 ) ( 273 384 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 272 384 16 ) ( 273 384 16 ) ( 272 384 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 272 384 16 ) ( 272 384 17 ) ( 272 385 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 11
+{
+( 368 368 -32 ) ( 368 369 -32 ) ( 368 368 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 368 -32 ) ( 368 368 -31 ) ( 369 368 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 368 -32 ) ( 369 368 -32 ) ( 368 369 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 384 16 ) ( 384 385 16 ) ( 385 384 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 384 16 ) ( 385 384 16 ) ( 384 384 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 384 16 ) ( 384 384 17 ) ( 384 385 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 12
+{
+( 224 -384 -32 ) ( 224 -383 -32 ) ( 224 -384 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 224 -384 -32 ) ( 224 -384 -31 ) ( 225 -384 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 224 -384 -32 ) ( 225 -384 -32 ) ( 224 -383 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 240 -368 16 ) ( 240 -367 16 ) ( 241 -368 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 240 -368 16 ) ( 241 -368 16 ) ( 240 -368 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 240 -368 16 ) ( 240 -368 17 ) ( 240 -367 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 13
+{
+( 368 -384 -32 ) ( 368 -383 -32 ) ( 368 -384 -31 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 -384 -32 ) ( 368 -384 -31 ) ( 369 -384 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 -384 -32 ) ( 369 -384 -32 ) ( 368 -383 -32 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 -368 16 ) ( 384 -367 16 ) ( 385 -368 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 -368 16 ) ( 385 -368 16 ) ( 384 -368 17 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 -368 16 ) ( 384 -368 17 ) ( 384 -367 16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 14
+{
+( -192 -80 -16 ) ( -192 -68 -16 ) ( -192 -80 -15.666666666666664 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 -80 -16 ) ( -192 -80 -15.666666666666664 ) ( -191 -80 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 -80 -16 ) ( -191 -80 -16 ) ( -192 -68 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 112 0 ) ( -176 124 0 ) ( -175 112 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 112 0 ) ( -175 112 0 ) ( -176 112 0.3333333333333286 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 112 0 ) ( -176 112 0.3333333333333286 ) ( -176 124 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+}
+// brush 15
+{
+( -192 -96 0 ) ( -128 -224 0 ) ( -128 -224 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -128 -224 -16 ) ( -128 -208 -16 ) ( -176 -96 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -96 0 ) ( -128 -208 0 ) ( -128 -224 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -96 0 ) ( -192 -96 0 ) ( -192 -96 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 -96 0 ) ( -176 -96 -16 ) ( -128 -208 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -128 -224 0 ) ( -128 -208 0 ) ( -128 -208 -16 ) defaultTextures/SUPERMARIOWOOD 96 0 0 1 1
+}
+// brush 16
+{
+( -128 -224 0 ) ( -32 -320 0 ) ( -32 -320 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+( -32 -320 -16 ) ( -32 -304 -16 ) ( -112 -224 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -112 -224 0 ) ( -32 -304 0 ) ( -32 -320 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -112 -224 0 ) ( -128 -224 0 ) ( -128 -224 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -32 -304 -16 ) ( -32 -304 0 ) ( -112 -224 0 ) defaultTextures/SUPERMARIOWOOD 144 0 0 1 1
+( -32 -320 0 ) ( -32 -304 0 ) ( -32 -304 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 17
+{
+( -32 -320 0 ) ( 64 -384 0 ) ( 64 -384 -16 ) defaultTextures/SUPERMARIOWOOD -112 0 0 1 1
+( 64 -384 -16 ) ( 64 -368 -16 ) ( -16 -320 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -16 -320 0 ) ( 64 -368 0 ) ( 64 -384 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -16 -320 0 ) ( -32 -320 0 ) ( -32 -320 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 64 -368 -16 ) ( 64 -368 0 ) ( -16 -320 0 ) defaultTextures/SUPERMARIOWOOD -128 0 0 1 1
+( 64 -384 0 ) ( 64 -368 0 ) ( 64 -368 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 18
+{
+( 80 -368 0 ) ( 80 -384 0 ) ( 80 -384 -16 ) defaultTextures/SUPERMARIOWOOD 208 0 0 1 1
+( 80 -384 0 ) ( 224 -384 0 ) ( 224 -384 -16 ) defaultTextures/SUPERMARIOWOOD -112 0 0 1 1
+( 224 -384 -16 ) ( 224 -368 -16 ) ( 80 -368 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 80 -368 0 ) ( 224 -368 0 ) ( 224 -384 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 224 -368 -16 ) ( 224 -368 0 ) ( 80 -368 0 ) defaultTextures/SUPERMARIOWOOD -128 0 0 1 1
+( 224 -384 0 ) ( 224 -368 0 ) ( 224 -368 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 19
+{
+( 240 -368 0 ) ( 240 -384 0 ) ( 240 -384 -16 ) defaultTextures/SUPERMARIOWOOD 208 0 0 1 1
+( 240 -384 0 ) ( 368 -384 0 ) ( 368 -384 -16 ) defaultTextures/SUPERMARIOWOOD -112 0 0 1 1
+( 368 -384 -16 ) ( 368 -368 -16 ) ( 240 -368 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 240 -368 0 ) ( 368 -368 0 ) ( 368 -384 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 -368 -16 ) ( 368 -368 0 ) ( 240 -368 0 ) defaultTextures/SUPERMARIOWOOD -128 0 0 1 1
+( 368 -384 0 ) ( 368 -368 0 ) ( 368 -368 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 20
+{
+( 384 -368 0 ) ( 384 -384 0 ) ( 384 -384 -16 ) defaultTextures/SUPERMARIOWOOD 208 0 0 1 1
+( 416 -336 -16 ) ( 416 -336 0 ) ( 384 -368 0 ) defaultTextures/SUPERMARIOWOOD 112 0 0 1 1
+( 416 -352 -16 ) ( 416 -336 -16 ) ( 384 -368 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 -368 0 ) ( 416 -336 0 ) ( 416 -352 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 -384 0 ) ( 416 -352 0 ) ( 416 -352 -16 ) defaultTextures/SUPERMARIOWOOD 144 0 0 1 1
+( 416 -352 0 ) ( 416 -336 0 ) ( 416 -336 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 21
+{
+( -96 256 -16 ) ( -96 256 0 ) ( -192 128 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 128 -16 ) ( -192 128 -16 ) ( -192 128 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -96 240 -16 ) ( -96 256 -16 ) ( -192 128 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -192 128 0 ) ( -96 256 0 ) ( -96 240 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -176 128 0 ) ( -96 240 0 ) ( -96 240 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -96 240 0 ) ( -96 256 0 ) ( -96 256 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+}
+// brush 22
+{
+( 16 320 -16 ) ( 16 320 0 ) ( -96 256 0 ) defaultTextures/SUPERMARIOWOOD -160 0 0 1 1
+( -80 256 -16 ) ( -96 256 -16 ) ( -96 256 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 16 304 -16 ) ( 16 320 -16 ) ( -96 256 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -96 256 0 ) ( 16 320 0 ) ( 16 304 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( -80 256 0 ) ( 16 304 0 ) ( 16 304 -16 ) defaultTextures/SUPERMARIOWOOD -176 0 0 1 1
+( 16 304 0 ) ( 16 320 0 ) ( 16 320 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+}
+// brush 23
+{
+( 144 384 -16 ) ( 144 384 0 ) ( 16 320 0 ) defaultTextures/SUPERMARIOWOOD -160 0 0 1 1
+( 32 320 -16 ) ( 16 320 -16 ) ( 16 320 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 144 368 -16 ) ( 144 384 -16 ) ( 16 320 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 16 320 0 ) ( 144 384 0 ) ( 144 368 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 32 320 0 ) ( 144 368 0 ) ( 144 368 -16 ) defaultTextures/SUPERMARIOWOOD -176 0 0 1 1
+( 144 368 0 ) ( 144 384 0 ) ( 144 384 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+}
+// brush 24
+{
+( 160 384 0 ) ( 160 368 0 ) ( 160 368 -16 ) defaultTextures/SUPERMARIOWOOD 32 0 0 1 1
+( 160 368 0 ) ( 256 368 0 ) ( 256 368 -16 ) defaultTextures/SUPERMARIOWOOD -176 0 0 1 1
+( 256 368 -16 ) ( 256 384 -16 ) ( 160 384 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 160 384 0 ) ( 256 384 0 ) ( 256 368 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 256 384 -16 ) ( 256 384 0 ) ( 160 384 0 ) defaultTextures/SUPERMARIOWOOD -160 0 0 1 1
+( 256 368 0 ) ( 256 384 0 ) ( 256 384 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+}
+// brush 25
+{
+( 272 384 0 ) ( 272 368 0 ) ( 272 368 -16 ) defaultTextures/SUPERMARIOWOOD 32 0 0 1 1
+( 272 368 0 ) ( 368 368 0 ) ( 368 368 -16 ) defaultTextures/SUPERMARIOWOOD -176 0 0 1 1
+( 368 368 -16 ) ( 368 384 -16 ) ( 272 384 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 272 384 0 ) ( 368 384 0 ) ( 368 368 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 368 384 -16 ) ( 368 384 0 ) ( 272 384 0 ) defaultTextures/SUPERMARIOWOOD -160 0 0 1 1
+( 368 368 0 ) ( 368 384 0 ) ( 368 384 -16 ) defaultTextures/SUPERMARIOWOOD 176 0 0 1 1
+}
+// brush 26
+{
+( 384 384 0 ) ( 384 368 0 ) ( 384 368 -16 ) defaultTextures/SUPERMARIOWOOD 208 0 0 1 1
+( 384 368 0 ) ( 416 336 0 ) ( 416 336 -16 ) defaultTextures/SUPERMARIOWOOD -96 0 0 1 1
+( 416 336 -16 ) ( 416 352 -16 ) ( 384 384 -16 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 384 384 0 ) ( 416 352 0 ) ( 416 336 0 ) defaultTextures/SUPERMARIOWOOD 0 0 0 1 1
+( 416 352 -16 ) ( 416 352 0 ) ( 384 384 0 ) defaultTextures/SUPERMARIOWOOD -128 0 0 1 1
+( 416 336 0 ) ( 416 352 0 ) ( 416 352 -16 ) defaultTextures/SUPERMARIOWOOD 16 0 0 1 1
+}
+// brush 27
+{
+( 464 480 -32 ) ( 464 -400 -32 ) ( 464 -400 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 400 400 -32 ) ( 800 400 -32 ) ( 800 400 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 800 -400 -40 ) ( 800 480 -40 ) ( 400 480 -40 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 400 480 -32 ) ( 800 480 -32 ) ( 800 -400 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 800 528 -64 ) ( 800 528 -32 ) ( 400 528 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 58.97522 -32 0 2 2
+( 1616 -400 -32 ) ( 1616 480 -32 ) ( 1616 480 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+}
+// brush 28
+{
+( 480 528 -64 ) ( 480 -384 -64 ) ( 480 -384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 384 -64 ) ( 800 384 -64 ) ( 800 384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 -384 -104 ) ( 800 528 -104 ) ( 448 528 -104 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 528 -40 ) ( 800 528 -40 ) ( 800 -384 -40 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 512 -176 ) ( 800 512 -64 ) ( 448 512 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 1600 -384 -64 ) ( 1600 528 -64 ) ( 1600 528 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+}
+// brush 29
+{
+( 1616 480 -32 ) ( 1616 -400 -32 ) ( 1616 -400 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 400 16 -32 ) ( 800 16 -32 ) ( 800 16 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 800 -400 -40 ) ( 800 480 -40 ) ( 400 480 -40 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 400 480 -32 ) ( 800 480 -32 ) ( 800 -400 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 800 528 -64 ) ( 800 528 -32 ) ( 400 528 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 58.97522 -32 0 2 2
+( 2208 -400 -32 ) ( 2208 480 -32 ) ( 2208 480 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+}
+// brush 30
+{
+( 1600 528 -64 ) ( 1600 -384 -64 ) ( 1600 -384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 32 -64 ) ( 800 32 -64 ) ( 800 32 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 -384 -104 ) ( 800 528 -104 ) ( 448 528 -104 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 528 -40 ) ( 800 528 -40 ) ( 800 -384 -40 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 512 -176 ) ( 800 512 -64 ) ( 448 512 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 2192 -384 -64 ) ( 2192 528 -64 ) ( 2192 528 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+}
+// brush 31
+{
+( 1200 528 -64 ) ( 1200 -384 -64 ) ( 1200 -384 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 512 -64 ) ( 800 512 -64 ) ( 800 512 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 -384 -104 ) ( 800 528 -104 ) ( 448 528 -104 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 448 528 -40 ) ( 800 528 -40 ) ( 800 -384 -40 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 800 720 -176 ) ( 800 720 -64 ) ( 448 720 -64 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+( 2192 -384 -64 ) ( 2192 528 -64 ) ( 2192 528 -176 ) defaultTextures/SUPERMARIOGRASSSIDE 0 12 0 2 2
+}
+// brush 32
+{
+( 1184 480 -32 ) ( 1184 -400 -32 ) ( 1184 -400 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 400 528 -32 ) ( 800 528 -32 ) ( 800 528 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+( 800 -400 -40 ) ( 800 480 -40 ) ( 400 480 -40 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 400 480 -32 ) ( 800 480 -32 ) ( 800 -400 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 0 0 0 2 2
+( 800 736 -64 ) ( 800 736 -32 ) ( 400 736 -32 ) defaultTextures/SUPERMARIOGRASSPETALS 58.97522 -32 0 2 2
+( 2208 -400 -32 ) ( 2208 480 -32 ) ( 2208 480 -64 ) defaultTextures/SUPERMARIOGRASSPETALS 0 -32 0 2 2
+}
+// brush 33
+{
+( -192 128 -64 ) ( -192 -80 -64 ) ( -192 -80 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( -192 -80 -64 ) ( -112 -240 -64 ) ( -112 -240 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( -112 240 -176 ) ( -112 240 -64 ) ( -192 128 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( -112 -240 -64 ) ( 64 -384 -64 ) ( 64 -384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 160 384 -176 ) ( 160 384 -64 ) ( -112 240 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 64 -384 -64 ) ( 800 -384 -64 ) ( 800 -384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 -384 -176 ) ( 800 384 -176 ) ( 160 384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 160 384 -104 ) ( 800 384 -104 ) ( 800 -384 -104 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 384 -176 ) ( 800 384 -64 ) ( 160 384 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 1600 -384 -64 ) ( 1600 384 -64 ) ( 1600 384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+}
+// brush 34
+{
+( 480 528 -64 ) ( 480 -384 -64 ) ( 480 -384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 384 -64 ) ( 800 384 -64 ) ( 800 384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 -384 -176 ) ( 800 528 -176 ) ( 448 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 528 -104 ) ( 800 528 -104 ) ( 800 -384 -104 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 512 -176 ) ( 800 512 -64 ) ( 448 512 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 1600 -384 -64 ) ( 1600 528 -64 ) ( 1600 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+}
+// brush 35
+{
+( 1200 528 -64 ) ( 1200 -384 -64 ) ( 1200 -384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 512 -64 ) ( 800 512 -64 ) ( 800 512 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 -384 -176 ) ( 800 528 -176 ) ( 448 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 528 -104 ) ( 800 528 -104 ) ( 800 -384 -104 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 720 -176 ) ( 800 720 -64 ) ( 448 720 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 2192 -384 -64 ) ( 2192 528 -64 ) ( 2192 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+}
+// brush 36
+{
+( 1600 528 -64 ) ( 1600 -384 -64 ) ( 1600 -384 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 32 -64 ) ( 800 32 -64 ) ( 800 32 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 -384 -176 ) ( 800 528 -176 ) ( 448 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 448 528 -104 ) ( 800 528 -104 ) ( 800 -384 -104 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 800 512 -176 ) ( 800 512 -64 ) ( 448 512 -64 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+( 2192 -384 -64 ) ( 2192 528 -64 ) ( 2192 528 -176 ) defaultTextures/SUPERMARIODIRT 0 12 0 2 2
+}
+// brush 37
+{
+( 528 144 -64 ) ( 528 -768 -64 ) ( 528 -768 -176 ) defaultTextures/areyouserious 304 12 180 2 2
+( 96 -352 -64 ) ( 448 -352 -64 ) ( 448 -352 -176 ) defaultTextures/areyouserious -336 12 0 2 -2
+( 448 -768 -178 ) ( 448 144 -178 ) ( 96 144 -178 ) defaultTextures/areyouserious 256 -260 270 2 -2
+( 96 144 -176 ) ( 448 144 -176 ) ( 448 -768 -176 ) defaultTextures/areyouserious 256 -260 270 2 -2
+( 448 480 -176 ) ( 448 480 -64 ) ( 96 480 -64 ) defaultTextures/areyouserious -336 12 0 2 -2
+( 1552 -768 -64 ) ( 1552 144 -64 ) ( 1552 144 -176 ) defaultTextures/areyouserious 304 12 180 2 2
+}
+}

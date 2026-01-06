@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -32 -32 16 ) ( -48 -48 0 ) ( -48 48 0 ) defaultTextures/Green_Dialogue_Button -68 60 360 0.8 0.8
+( 32 -32 16 ) ( 48 -48 0 ) ( -48 -48 0 ) defaultTextures/Green_Dialogue_Button -68 -68 90 0.8 0.8
+( -48 -48 0 ) ( 48 -48 0 ) ( 48 48 0 ) defaultTextures/Green_Dialogue_Button 0 0 270 0.75 0.75
+( 32 32 16 ) ( 32 -32 16 ) ( -32 -32 16 ) defaultTextures/Green_Dialogue_Button 63.99998 -64 270 0.50000006 0.5
+( -32 32 16 ) ( -48 48 0 ) ( 48 48 0 ) defaultTextures/Green_Dialogue_Button -60 60 90 0.8 -0.8
+( 48 48 0 ) ( 48 -48 0 ) ( 32 -32 16 ) defaultTextures/Green_Dialogue_Button 68 -68 0 0.8 -0.8
+}
+}

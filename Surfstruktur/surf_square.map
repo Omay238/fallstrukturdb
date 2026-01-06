@@ -1,0 +1,16 @@
+// Game: FALLSTRUKTUR - SURFSTRUKTUR
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_mod" "textures"
+// brush 0
+{
+( -64 64 4 ) ( -64 -64 4 ) ( -64 -64 -4 ) defaultTextures/otherTrunk_seamless 96 96 0 0.5 0.5
+( -64 -64 4 ) ( 64 -64 4 ) ( 64 -64 -4 ) defaultTextures/otherTrunk_seamless 128 128 0 0.5 0.5
+( 64 -64 -4 ) ( 64 64 -4 ) ( -64 64 -4 ) defaultTextures/otherTrunk_seamless 128 128 0 0.5 0.5
+( -64 64 4 ) ( 64 64 4 ) ( 64 -64 4 ) defaultTextures/otherTrunk_seamless 128 128 0 0.5 0.5
+( 64 64 -4 ) ( 64 64 4 ) ( -64 64 4 ) defaultTextures/otherTrunk_seamless 128 -128 0 0.5 0.5
+( 64 -64 4 ) ( 64 64 4 ) ( 64 64 -4 ) defaultTextures/otherTrunk_seamless 96 96 0 0.5 0.5
+}
+}

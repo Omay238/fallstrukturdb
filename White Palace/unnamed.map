@@ -1,0 +1,13 @@
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -80 -80 -16 ) ( -80 -79 -16 ) ( -80 -80 -15 ) defaultTextures/stone 0 0 0 1 1
+( -80 -80 -16 ) ( -80 -80 -15 ) ( -79 -80 -16 ) defaultTextures/stone 0 0 0 1 1
+( -80 -80 -16 ) ( -79 -80 -16 ) ( -80 -79 -16 ) defaultTextures/stone 0 0 0 1 1
+( 80 80 0 ) ( 80 81 0 ) ( 81 80 0 ) defaultTextures/stone 0 0 0 1 1
+( 80 80 0 ) ( 81 80 0 ) ( 80 80 1 ) defaultTextures/stone 0 0 0 1 1
+( 80 80 0 ) ( 80 80 1 ) ( 80 81 0 ) defaultTextures/stone 0 0 0 1 1
+}
+}

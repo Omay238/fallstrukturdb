@@ -1,0 +1,51 @@
+// Game: FALLSTRUKTUR - Walled Garden
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 112 -1168 160 ) ( 112 -1167 160 ) ( 112 -1168 161 ) crackedRed_seamless 0 0 0 1 1
+( 112 -1168 160 ) ( 112 -1168 161 ) ( 113 -1168 160 ) crackedRed_seamless 0 0 0 1 1
+( 112 -1168 160 ) ( 113 -1168 160 ) ( 112 -1167 160 ) crackedRed_seamless 0 0 0 1 1
+( 160 -1136 192 ) ( 160 -1135 192 ) ( 161 -1136 192 ) crackedRed_seamless 0 0 0 1 1
+( 160 -1136 176 ) ( 161 -1136 176 ) ( 160 -1136 177 ) crackedRed_seamless 0 0 0 1 1
+( 160 -1136 176 ) ( 160 -1136 177 ) ( 160 -1135 176 ) crackedRed_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( -1264 -1168 160 ) ( -1264 -1167 160 ) ( -1264 -1168 161 ) crackedRed_seamless 0 0 0 1 1
+( -1264 -1168 160 ) ( -1264 -1168 161 ) ( -1263 -1168 160 ) crackedRed_seamless 0 0 0 1 1
+( -1264 -1168 160 ) ( -1263 -1168 160 ) ( -1264 -1167 160 ) crackedRed_seamless 0 0 0 1 1
+( -1216 -1136 192 ) ( -1216 -1135 192 ) ( -1215 -1136 192 ) crackedRed_seamless 0 0 0 1 1
+( -1216 -1136 176 ) ( -1215 -1136 176 ) ( -1216 -1136 177 ) crackedRed_seamless 0 0 0 1 1
+( -1216 -1136 176 ) ( -1216 -1136 177 ) ( -1216 -1135 176 ) crackedRed_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( -1280 112 160 ) ( -1280 113 160 ) ( -1280 112 161 ) crackedRed_seamless 0 0 0 1 1
+( -1280 112 160 ) ( -1280 112 161 ) ( -1279 112 160 ) crackedRed_seamless 0 0 0 1 1
+( -1280 112 160 ) ( -1279 112 160 ) ( -1280 113 160 ) crackedRed_seamless 0 0 0 1 1
+( -1232 144 192 ) ( -1232 145 192 ) ( -1231 144 192 ) crackedRed_seamless 0 0 0 1 1
+( -1232 144 176 ) ( -1231 144 176 ) ( -1232 144 177 ) crackedRed_seamless 0 0 0 1 1
+( -1232 144 176 ) ( -1232 144 177 ) ( -1232 145 176 ) crackedRed_seamless 0 0 0 1 1
+}
+// brush 3
+{
+( -96 112 160 ) ( -96 113 160 ) ( -96 112 161 ) crackedRed_seamless 0 0 0 1 1
+( -96 112 160 ) ( -96 112 161 ) ( -95 112 160 ) crackedRed_seamless 0 0 0 1 1
+( -96 112 160 ) ( -95 112 160 ) ( -96 113 160 ) crackedRed_seamless 0 0 0 1 1
+( -48 144 192 ) ( -48 145 192 ) ( -47 144 192 ) crackedRed_seamless 0 0 0 1 1
+( -48 144 176 ) ( -47 144 176 ) ( -48 144 177 ) crackedRed_seamless 0 0 0 1 1
+( -48 144 176 ) ( -48 144 177 ) ( -48 145 176 ) crackedRed_seamless 0 0 0 1 1
+}
+// brush 4
+{
+( 144 -32 160 ) ( 144 -31 160 ) ( 144 -32 161 ) crackedRed_seamless 0 0 0 1 1
+( 144 -32 160 ) ( 144 -32 161 ) ( 145 -32 160 ) crackedRed_seamless 0 0 0 1 1
+( 144 -32 160 ) ( 145 -32 160 ) ( 144 -31 160 ) crackedRed_seamless 0 0 0 1 1
+( 192 0 192 ) ( 192 1 192 ) ( 193 0 192 ) crackedRed_seamless 0 0 0 1 1
+( 192 0 176 ) ( 193 0 176 ) ( 192 0 177 ) crackedRed_seamless 0 0 0 1 1
+( 192 0 176 ) ( 192 0 177 ) ( 192 1 176 ) crackedRed_seamless 0 0 0 1 1
+}
+}

@@ -1,0 +1,42 @@
+// Game: FALLSTRUKTUR - ICStruktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -3936 -16 -1648 ) ( -3936 0 -1712 ) ( -3936 0 -1648 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 -16 -1648 ) ( -3936 -16 -1712 ) ( -3936 -16 -1648 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 0 -1712 ) ( -3936 -16 -1712 ) ( -3856 -16 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 0 -1648 ) ( -3936 -16 -1648 ) ( -3936 0 -1648 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 0 -1648 ) ( -3936 0 -1712 ) ( -3856 0 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 0 -1648 ) ( -3856 -16 -1712 ) ( -3856 -16 -1648 ) defaultTextures/grainton2 0 0 0 1 1
+}
+// brush 1
+{
+( -3936 0 -1552 ) ( -3936 64 -1712 ) ( -3936 64 -1552 ) defaultTextures/grainton2 0 0 0 1 1
+( -3920 0 -1552 ) ( -3936 0 -1712 ) ( -3936 0 -1552 ) defaultTextures/grainton2 0 0 0 1 1
+( -3920 64 -1712 ) ( -3936 0 -1712 ) ( -3920 0 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3920 64 -1552 ) ( -3936 0 -1552 ) ( -3936 64 -1552 ) defaultTextures/grainton2 0 0 0 1 1
+( -3920 64 -1552 ) ( -3936 64 -1712 ) ( -3920 64 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3920 64 -1552 ) ( -3920 0 -1712 ) ( -3920 0 -1552 ) defaultTextures/grainton2 0 0 0 1 1
+}
+// brush 2
+{
+( -3920 0 -1680 ) ( -3920 64 -1712 ) ( -3920 64 -1680 ) defaultTextures/grainton2 0 0 0 1 1
+( -3872 0 -1680 ) ( -3920 0 -1712 ) ( -3920 0 -1680 ) defaultTextures/grainton2 0 0 0 1 1
+( -3872 64 -1712 ) ( -3920 0 -1712 ) ( -3872 0 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3872 64 -1680 ) ( -3920 0 -1680 ) ( -3920 64 -1680 ) defaultTextures/grainton2 0 0 0 1 1
+( -3872 64 -1680 ) ( -3920 64 -1712 ) ( -3872 64 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3872 64 -1680 ) ( -3872 0 -1712 ) ( -3872 0 -1680 ) defaultTextures/grainton2 0 0 0 1 1
+}
+// brush 3
+{
+( -3936 64 -1648 ) ( -3936 80 -1712 ) ( -3936 80 -1648 ) defaultTextures/grainton2 -80 0 0 1 1
+( -3856 64 -1648 ) ( -3936 64 -1712 ) ( -3936 64 -1648 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 80 -1712 ) ( -3936 64 -1712 ) ( -3856 64 -1712 ) defaultTextures/grainton2 0 80 0 1 1
+( -3856 80 -1648 ) ( -3936 64 -1648 ) ( -3936 80 -1648 ) defaultTextures/grainton2 0 80 0 1 1
+( -3856 80 -1648 ) ( -3936 80 -1712 ) ( -3856 80 -1712 ) defaultTextures/grainton2 0 0 0 1 1
+( -3856 80 -1648 ) ( -3856 64 -1712 ) ( -3856 64 -1648 ) defaultTextures/grainton2 -80 0 0 1 1
+}
+}

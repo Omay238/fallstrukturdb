@@ -1,0 +1,78 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -5520 480 956 ) ( -5520 481 956 ) ( -5520 480 957 ) defaultTextures/Green_Dialogue_Button -64 -20 0 1 1
+( -5648 560 956 ) ( -5648 560 957 ) ( -5647 560 956 ) defaultTextures/Green_Dialogue_Button -16 -20 0 1 1
+( -5648 480 892 ) ( -5647 480 892 ) ( -5648 481 892 ) defaultTextures/Green_Dialogue_Button -16 64 0 1 1
+( -5520 608 894 ) ( -5520 609 894 ) ( -5519 608 894 ) defaultTextures/Green_Dialogue_Button -16 64 0 1 1
+( -5520 628 988 ) ( -5519 628 988 ) ( -5520 628 989 ) defaultTextures/Green_Dialogue_Button -16 -20 0 1 1
+( -5518 608 988 ) ( -5518 608 989 ) ( -5518 609 988 ) defaultTextures/Green_Dialogue_Button -64 -20 0 1 1
+}
+// brush 1
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cobblestoneWhite 0 0 180 1 -1
+( 896 560 832 ) ( 1024 560 832 ) ( 1024 560 528 ) defaultTextures/cobblestoneWhite 15.962158 -30.533081 180 1 -1
+( 1024 -32 880 ) ( 1024 288 880 ) ( 896 288 880 ) defaultTextures/cobblestoneWhite 0 0 270 1 1
+( 896 288 896 ) ( 1024 288 896 ) ( 1024 -32 896 ) defaultTextures/cobblestoneWhite 0 0 270 1 1
+( 1024 624 528 ) ( 1024 624 832 ) ( 896 624 832 ) defaultTextures/cobblestoneWhite 27.73462 0 180 1.6666667 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cobblestoneWhite 0 0 180 1 -1
+}
+// brush 2
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 496 832 ) ( 1024 496 832 ) ( 1024 496 528 ) defaultTextures/cracked_stone_bricks 15.962158 -30.533081 180 1 -1
+( 1024 -32 880 ) ( 1024 288 880 ) ( 896 288 880 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 896 288 912 ) ( 1024 288 912 ) ( 1024 -32 912 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 1024 560 528 ) ( 1024 560 832 ) ( 896 560 832 ) defaultTextures/cracked_stone_bricks 16 0 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+// brush 3
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 496 832 ) ( 1024 496 832 ) ( 1024 496 528 ) defaultTextures/cracked_stone_bricks 15.962158 -30.533081 180 1 -1
+( 1024 -32 912 ) ( 1024 288 912 ) ( 896 288 912 ) defaultTextures/cracked_stone_bricks -16 -48 270 1 1
+( 896 288 944 ) ( 1024 288 944 ) ( 1024 -32 944 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 1024 576 528 ) ( 1024 576 832 ) ( 896 576 832 ) defaultTextures/cracked_stone_bricks 32 0 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+// brush 4
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 496 832 ) ( 1024 496 832 ) ( 1024 496 528 ) defaultTextures/cracked_stone_bricks 15.962158 -30.533081 180 1 -1
+( 1024 -32 944 ) ( 1024 288 944 ) ( 896 288 944 ) defaultTextures/cracked_stone_bricks 16 16 270 1 1
+( 896 288 1040 ) ( 1024 288 1040 ) ( 1024 -32 1040 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 1024 688 528 ) ( 1024 688 832 ) ( 896 688 832 ) defaultTextures/cracked_stone_bricks 16 16 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+// brush 5
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 624 832 ) ( 1024 624 832 ) ( 1024 624 528 ) defaultTextures/cracked_stone_bricks 32 -48 180 1 -1
+( 1024 -32 928 ) ( 1024 288 928 ) ( 896 288 928 ) defaultTextures/cracked_stone_bricks -16 -16 270 1 1
+( 896 288 944 ) ( 1024 288 944 ) ( 1024 -32 944 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 1024 688 528 ) ( 1024 688 832 ) ( 896 688 832 ) defaultTextures/cracked_stone_bricks 16 16 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+// brush 6
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 640 832 ) ( 1024 640 832 ) ( 1024 640 528 ) defaultTextures/cracked_stone_bricks 48 -16 180 1 -1
+( 1024 -32 912 ) ( 1024 288 912 ) ( 896 288 912 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 896 288 928 ) ( 1024 288 928 ) ( 1024 -32 928 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 1024 688 528 ) ( 1024 688 832 ) ( 896 688 832 ) defaultTextures/cracked_stone_bricks 16 16 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+// brush 7
+{
+( 1760 288 832 ) ( 1760 -32 832 ) ( 1760 -32 528 ) defaultTextures/cracked_stone_bricks -16 16 180 1 -1
+( 896 624 832 ) ( 1024 624 832 ) ( 1024 624 528 ) defaultTextures/cracked_stone_bricks 32 -16 180 1 -1
+( 1024 -32 880 ) ( 1024 288 880 ) ( 896 288 880 ) defaultTextures/cracked_stone_bricks 0 0 270 1 1
+( 896 288 912 ) ( 1024 288 912 ) ( 1024 -32 912 ) defaultTextures/cracked_stone_bricks 16 -16 0 1 1
+( 1024 688 528 ) ( 1024 688 832 ) ( 896 688 832 ) defaultTextures/cracked_stone_bricks 16 16 180 1 -1
+( 1776 -32 832 ) ( 1776 288 832 ) ( 1776 288 528 ) defaultTextures/cracked_stone_bricks 0 0 180 1 -1
+}
+}

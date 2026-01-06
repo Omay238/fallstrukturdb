@@ -1,0 +1,16 @@
+// Game: FALLSTRUKTUR - Escape
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_mod" "textures"
+// brush 0
+{
+( -48 -16 0 ) ( -48 -15.25 0 ) ( -48 -16 0.5 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+( -48 -16 0 ) ( -48 -16 0.5 ) ( -47.25 -16 0 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+( -48 -16 0 ) ( -47.25 -16 0 ) ( -48 -15.25 0 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+( 48 80 16 ) ( 48 80.75 16 ) ( 48.74999999999999 80 16 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+( 48 80 16 ) ( 48.74999999999999 80 16 ) ( 48 80 16.5 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+( 48 80 16 ) ( 48 80 16.5 ) ( 48 80.75 16 ) defaultTextures/Texturelabs_Soil_124S 0 0 0 1 1
+}
+}

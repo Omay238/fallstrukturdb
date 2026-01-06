@@ -1,0 +1,59 @@
+// Game: FALLSTRUKTUR - Castle of Rain
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -6 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+( -64 -64 -16 ) ( -64 -64 -6 ) ( -63 -64 -16 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+( 64 64 304 ) ( 64 65 304 ) ( 65 64 304 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+( 64 64 304 ) ( 65 64 304 ) ( 64 64 314 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+( 64 64 304 ) ( 64 64 314 ) ( 64 65 304 ) defaultTextures/dirtyTile_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( 32 32 304 ) ( 32 33 304 ) ( 32 32 310 ) defaultTextures/grain 0 0 0 1 1
+( 32 32 304 ) ( 32 32 310 ) ( 33 32 304 ) defaultTextures/grain 0 0 0 1 1
+( 32 32 304 ) ( 33 32 304 ) ( 32 33 304 ) defaultTextures/grain 0 0 0 1 1
+( 64 64 400 ) ( 64 65 400 ) ( 65 64 400 ) defaultTextures/grain 0 0 0 1 1
+( 64 64 400 ) ( 65 64 400 ) ( 64 64 406 ) defaultTextures/grain 0 0 0 1 1
+( 64 64 400 ) ( 64 64 406 ) ( 64 65 400 ) defaultTextures/grain 0 0 0 1 1
+}
+// brush 2
+{
+( -64 32 304 ) ( -64 33 304 ) ( -64 32 310 ) defaultTextures/grain 0 0 0 1 1
+( -64 32 304 ) ( -64 32 310 ) ( -63 32 304 ) defaultTextures/grain 0 0 0 1 1
+( -64 32 304 ) ( -63 32 304 ) ( -64 33 304 ) defaultTextures/grain 0 0 0 1 1
+( -32 64 400 ) ( -32 65 400 ) ( -31 64 400 ) defaultTextures/grain 0 0 0 1 1
+( -32 64 400 ) ( -31 64 400 ) ( -32 64 406 ) defaultTextures/grain 0 0 0 1 1
+( -32 64 400 ) ( -32 64 406 ) ( -32 65 400 ) defaultTextures/grain 0 0 0 1 1
+}
+// brush 3
+{
+( -64 -64 304 ) ( -64 -63 304 ) ( -64 -64 310 ) defaultTextures/grain 0 0 0 1 1
+( -64 -64 304 ) ( -64 -64 310 ) ( -63 -64 304 ) defaultTextures/grain 0 0 0 1 1
+( -64 -64 304 ) ( -63 -64 304 ) ( -64 -63 304 ) defaultTextures/grain 0 0 0 1 1
+( -32 -32 400 ) ( -32 -31 400 ) ( -31 -32 400 ) defaultTextures/grain 0 0 0 1 1
+( -32 -32 400 ) ( -31 -32 400 ) ( -32 -32 406 ) defaultTextures/grain 0 0 0 1 1
+( -32 -32 400 ) ( -32 -32 406 ) ( -32 -31 400 ) defaultTextures/grain 0 0 0 1 1
+}
+// brush 4
+{
+( 32 -64 304 ) ( 32 -63 304 ) ( 32 -64 310 ) defaultTextures/grain 0 0 0 1 1
+( 32 -64 304 ) ( 32 -64 310 ) ( 33 -64 304 ) defaultTextures/grain 0 0 0 1 1
+( 32 -64 304 ) ( 33 -64 304 ) ( 32 -63 304 ) defaultTextures/grain 0 0 0 1 1
+( 64 -32 400 ) ( 64 -31 400 ) ( 65 -32 400 ) defaultTextures/grain 0 0 0 1 1
+( 64 -32 400 ) ( 65 -32 400 ) ( 64 -32 406 ) defaultTextures/grain 0 0 0 1 1
+( 64 -32 400 ) ( 64 -32 406 ) ( 64 -31 400 ) defaultTextures/grain 0 0 0 1 1
+}
+// brush 5
+{
+( -80 80 400 ) ( 0 0 512 ) ( -80 -80 400 ) defaultTextures/greenshingle -80 16 0 1 1
+( 0 0 512 ) ( 80 -80 400 ) ( -80 -80 400 ) defaultTextures/greenshingle 0 96 0 1 1
+( 80 -80 400 ) ( 80 80 400 ) ( -80 80 400 ) defaultTextures/greenshingle 0 0 0 1 1
+( -80 80 400 ) ( 80 80 400 ) ( 0 0 512 ) defaultTextures/greenshingle 0 64 0 1 1
+( 0 0 512 ) ( 80 80 400 ) ( 80 -80 400 ) defaultTextures/greenshingle 80 16 0 1 1
+}
+}

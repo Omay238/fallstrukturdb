@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Another struktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 16 -48 ) ( -64 16 -46 ) ( -64 15.824175824175825 -48 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+( 64 0 80 ) ( 64 0 82 ) ( 66 0 80 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+( -64 16 -48 ) ( -64 15.824175824175825 -48 ) ( -62 16 -48 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+( 64 0 80 ) ( 66 0 80 ) ( 64 -0.17582417582416454 80 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+( -64 16 -48 ) ( -62 16 -48 ) ( -64 16 -46 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+( 64 0 80 ) ( 64 -0.17582417582416454 80 ) ( 64 0 82 ) defaultTextures/redbrickwall_seamless 0 0 0 1 1
+}
+}

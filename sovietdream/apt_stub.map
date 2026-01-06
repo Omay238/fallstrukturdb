@@ -1,0 +1,69 @@
+// Game: FALLSTRUKTUR - sovietdream
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -3344 48 16 ) ( -3344 -64 16 ) ( -3344 -64 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 0.25 0.25
+( -3344 -64 16 ) ( 496 -64 16 ) ( 496 -64 -16 ) defaultTextures/darkTrunk_seamless 16 0 0 0.25 0.25
+( 496 -64 -16 ) ( 496 48 -16 ) ( -3344 48 -16 ) defaultTextures/darkTrunk_seamless 16 0 0 0.25 0.25
+( -3344 48 16 ) ( 496 48 16 ) ( 496 -64 16 ) defaultTextures/darkTrunk_seamless 16 0 0 0.25 0.25
+( 496 48 -16 ) ( 496 48 16 ) ( -3344 48 16 ) defaultTextures/darkTrunk_seamless 16 0 0 0.25 0.25
+( 496 -64 16 ) ( 496 48 16 ) ( 496 48 -16 ) defaultTextures/darkTrunk_seamless 0 0 0 0.25 0.25
+}
+// brush 1
+{
+( -3344 48 224 ) ( -3344 32 224 ) ( -3344 32 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -3344 32 224 ) ( -32 32 224 ) ( -32 32 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -32 32 16 ) ( -32 48 16 ) ( -3344 48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -3344 48 224 ) ( -32 48 224 ) ( -32 32 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -32 48 16 ) ( -32 48 224 ) ( -3344 48 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -32 32 224 ) ( -32 48 224 ) ( -32 48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( 24 48 224 ) ( 24 32 224 ) ( 24 32 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 24 32 224 ) ( 496 32 224 ) ( 496 32 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 32 16 ) ( 496 48 16 ) ( 24 48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 24 48 224 ) ( 496 48 224 ) ( 496 32 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 48 16 ) ( 496 48 224 ) ( 24 48 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 32 224 ) ( 496 48 224 ) ( 496 48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 3
+{
+( -3344 -48 224 ) ( -3344 -64 224 ) ( -3344 -64 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -3344 -64 224 ) ( 496 -64 224 ) ( 496 -64 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 -64 16 ) ( 496 -48 16 ) ( -3344 -48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -3344 -48 224 ) ( 496 -48 224 ) ( 496 -64 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 -48 16 ) ( 496 -48 224 ) ( -3344 -48 224 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 496 -64 224 ) ( 496 -48 224 ) ( 496 -48 16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 4
+{
+( -3344 48 256 ) ( -3344 -64 256 ) ( -3344 -64 224 ) defaultTextures/bench_seamless 0 -16 0 1 1
+( -3344 -64 256 ) ( 496 -64 256 ) ( 496 -64 224 ) defaultTextures/bench_seamless 16 -16 0 1 1
+( 496 -64 224 ) ( 496 48 224 ) ( -3344 48 224 ) defaultTextures/bench_seamless 16 0 0 1 1
+( -3344 48 256 ) ( 496 48 256 ) ( 496 -64 256 ) defaultTextures/bench_seamless 16 0 0 1 1
+( 496 48 224 ) ( 496 48 256 ) ( -3344 48 256 ) defaultTextures/bench_seamless 16 -16 0 1 1
+( 496 -64 256 ) ( 496 48 256 ) ( 496 48 224 ) defaultTextures/bench_seamless 0 -16 0 1 1
+}
+// brush 5
+{
+( -32 48 224 ) ( -32 32 224 ) ( -32 32 104 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -32 32 224 ) ( 24 32 224 ) ( 24 32 104 ) defaultTextures/dirtyConcrete_seamless 16 0 0 1 1
+( 24 32 104 ) ( 24 48 104 ) ( -32 48 104 ) defaultTextures/dirtyConcrete_seamless 16 0 0 1 1
+( -32 48 224 ) ( 24 48 224 ) ( 24 32 224 ) defaultTextures/dirtyConcrete_seamless 16 0 0 1 1
+( 24 48 104 ) ( 24 48 224 ) ( -32 48 224 ) defaultTextures/dirtyConcrete_seamless 16 0 0 1 1
+( 24 32 224 ) ( 24 48 224 ) ( 24 48 104 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 6
+{
+( -16 16 384 ) ( -16 17 384 ) ( -16 16 385 ) defaultTextures/crackedRed_seamless 16 128 0 1 1
+( -16 16 384 ) ( -16 16 385 ) ( -15 16 384 ) defaultTextures/crackedRed_seamless 0 128 0 1 1
+( -16 16 384 ) ( -15 16 384 ) ( -16 17 384 ) defaultTextures/crackedRed_seamless 0 -16 0 1 1
+( 16 32 400 ) ( 16 33 400 ) ( 17 32 400 ) defaultTextures/crackedRed_seamless 0 -16 0 1 1
+( 16 32 400 ) ( 17 32 400 ) ( 16 32 401 ) defaultTextures/crackedRed_seamless 0 128 0 1 1
+( 16 32 400 ) ( 16 32 401 ) ( 16 33 400 ) defaultTextures/crackedRed_seamless 16 128 0 1 1
+}
+}

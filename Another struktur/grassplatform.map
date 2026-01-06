@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Another struktur
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 -64 0 ) ( -64 -62 0 ) ( -64 -64 0.17582417582417165 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( -64 -64 0 ) ( -64 -64 0.17582417582417165 ) ( -62 -64 0 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( -64 -64 0 ) ( -62 -64 0 ) ( -64 -62 0 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 64 64 16 ) ( 64 66 16 ) ( 66 64 16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 64 64 16 ) ( 66 64 16 ) ( 64 64 16.175824175824168 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+( 64 64 16 ) ( 64 64 16.175824175824168 ) ( 64 66 16 ) defaultTextures/grassDirt2_seamless 0 0 0 1 1
+}
+}

@@ -1,0 +1,24 @@
+// Game: FALLSTRUKTUR - Dance of the Electronic Guitars
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 5566 528 6928 ) ( 5566 529 6928 ) ( 5566 528 6929 ) defaultTextures/Black 16 -96 0 1 1
+( 3504 670 6928 ) ( 3504 670 6929 ) ( 3505 670 6928 ) defaultTextures/Black -112 -96 0 1 1
+( 3504 528 6958 ) ( 3505 528 6958 ) ( 3504 529 6958 ) defaultTextures/Black -112 -16 0 1 1
+( 3632 656 6960 ) ( 3632 657 6960 ) ( 3633 656 6960 ) defaultTextures/Black -112 -16 0 1 1
+( 3632 672 6960 ) ( 3633 672 6960 ) ( 3632 672 6961 ) defaultTextures/Black -112 -96 0 1 1
+( 5568 656 6960 ) ( 5568 656 6961 ) ( 5568 657 6960 ) defaultTextures/Black 16 -96 0 1 1
+}
+// brush 1
+{
+( 416 -208 216 ) ( 416 -207 216 ) ( 416 -208 217 ) defaultTextures/darkTrunk_seamless 16 360 0 1 1
+( 304 -128 216 ) ( 304 -128 217 ) ( 305 -128 216 ) defaultTextures/darkTrunk_seamless -368 360 0 1 1
+( 304 -208 200 ) ( 305 -208 200 ) ( 304 -207 200 ) defaultTextures/darkTrunk_seamless -368 -16 0 1 1
+( 432 -80 264 ) ( 432 -79 264 ) ( 433 -80 264 ) defaultTextures/darkTrunk_seamless -368 -16 0 1 1
+( 432 640 248 ) ( 433 640 248 ) ( 432 640 249 ) defaultTextures/darkTrunk_seamless -368 360 0 1 1
+( 4096 640 256 ) ( 4096 512 264 ) ( 4096 512 392 ) defaultTextures/darkTrunk_seamless 16 360 0 1 1
+}
+}

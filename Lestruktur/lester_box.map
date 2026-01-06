@@ -1,0 +1,16 @@
+// Game: FALLSTRUKTUR - LESTRUKTUR
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" ".;textures/defaultTextures"
+// brush 0
+{
+( -32 -64 -16 ) ( -32 -63 -16 ) ( -32 -64 -15 ) lester_square 397.5 397.5 0 0.08 0.08
+( -64 -32 -16 ) ( -64 -32 -15 ) ( -63 -32 -16 ) lester_square 397.5 397.5 0 0.08 0.08
+( -64 -64 -32 ) ( -63 -64 -32 ) ( -64 -63 -32 ) lester_square 397.5 397.5 0 0.08 0.08
+( 64 64 32 ) ( 64 65 32 ) ( 65 64 32 ) lester_square 397.5 397.5 0 0.08 0.08
+( 64 32 16 ) ( 65 32 16 ) ( 64 32 17 ) lester_square 397.5 397.5 0 0.08 0.08
+( 32 64 16 ) ( 32 64 17 ) ( 32 65 16 ) lester_square 397.5 397.5 0 0.08 0.08
+}
+}

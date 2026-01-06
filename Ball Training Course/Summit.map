@@ -1,0 +1,33 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 992 64 992 ) ( 992 65 992 ) ( 992 64 993 ) defaultTextures/SUPERMARIOCheckers 0 16 0 1 1
+( 960 64 992 ) ( 960 64 993 ) ( 961 64 992 ) defaultTextures/SUPERMARIOCheckers 0 16 0 1 1
+( 960 64 992 ) ( 961 64 992 ) ( 960 65 992 ) defaultTextures/SUPERMARIOCheckers 0 0 0 1 1
+( 1088 192 1024 ) ( 1088 193 1024 ) ( 1089 192 1024 ) defaultTextures/SUPERMARIOCheckers 0 0 0 1 1
+( 1088 192 1024 ) ( 1089 192 1024 ) ( 1088 192 1025 ) defaultTextures/SUPERMARIOCheckers 0 16 0 1 1
+( 1120 192 1024 ) ( 1120 192 1025 ) ( 1120 193 1024 ) defaultTextures/SUPERMARIOCheckers 0 16 0 1 1
+}
+// brush 1
+{
+( 1040 160 1024 ) ( 1040 161 1024 ) ( 1040 160 1025 ) defaultTextures/SUPERMARIOSmoothStone -144 128 0 2 2
+( 1040 160 1024 ) ( 1040 160 1025 ) ( 1041 160 1024 ) defaultTextures/SUPERMARIOSmoothStone 96 128 0 2 2
+( 1040 160 1024 ) ( 1041 160 1024 ) ( 1040 161 1024 ) defaultTextures/SUPERMARIOSmoothStone 96 144 0 2 2
+( 1056 176 1168 ) ( 1056 177 1168 ) ( 1057 176 1168 ) defaultTextures/SUPERMARIOSmoothStone 96 144 0 2 2
+( 1056 176 1040 ) ( 1057 176 1040 ) ( 1056 176 1041 ) defaultTextures/SUPERMARIOSmoothStone 96 128 0 2 2
+( 1056 176 1040 ) ( 1056 176 1041 ) ( 1056 177 1040 ) defaultTextures/SUPERMARIOSmoothStone -144 128 0 2 2
+}
+// brush 2
+{
+( 1040 160 1024 ) ( 1040 161 1024 ) ( 1040 160 1025 ) defaultTextures/SUPERMARIOCheckers -144 128 0 1 1
+( 1040 80 1024 ) ( 1040 80 1025 ) ( 1041 80 1024 ) defaultTextures/SUPERMARIOCheckers 96 128 0 1 1
+( 1040 160 1104 ) ( 1041 160 1104 ) ( 1040 161 1104 ) defaultTextures/SUPERMARIOCheckers 96 144 0 1 1
+( 1056 176 1168 ) ( 1056 177 1168 ) ( 1057 176 1168 ) defaultTextures/SUPERMARIOCheckers 96 144 0 1 1
+( 1056 160 1040 ) ( 1057 160 1040 ) ( 1056 160 1041 ) defaultTextures/SUPERMARIOCheckers 96 128 0 1 1
+( 1056 176 1040 ) ( 1056 176 1041 ) ( 1056 177 1040 ) defaultTextures/SUPERMARIOCheckers -144 128 0 1 1
+}
+}

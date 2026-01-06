@@ -1,0 +1,33 @@
+// Game: FALLSTRUKTUR - sovietdream
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 80 64 384 ) ( 80 -64 384 ) ( 80 -64 0 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 -64 384 ) ( 96 -64 384 ) ( 96 -64 0 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 96 -64 0 ) ( 96 64 0 ) ( 80 64 0 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 80 64 384 ) ( 96 64 384 ) ( 96 -64 384 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 96 64 0 ) ( 96 64 384 ) ( 80 64 384 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 96 -64 384 ) ( 96 64 384 ) ( 96 64 0 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( -80 -232 1024 ) ( -80 -231 1024 ) ( -80 -232 1025 ) defaultTextures/crackedRed_seamless 168 16 0 1 1
+( -80 -232 1024 ) ( -80 -232 1025 ) ( -79 -232 1024 ) defaultTextures/crackedRed_seamless 80 16 0 1 1
+( -80 -232 1024 ) ( -79 -232 1024 ) ( -80 -231 1024 ) defaultTextures/crackedRed_seamless 80 -168 0 1 1
+( -32 -184 1040 ) ( -32 -183 1040 ) ( -31 -184 1040 ) defaultTextures/crackedRed_seamless 80 -168 0 1 1
+( -32 -184 1040 ) ( -31 -184 1040 ) ( -32 -184 1041 ) defaultTextures/crackedRed_seamless 80 16 0 1 1
+( -32 -184 1040 ) ( -32 -184 1041 ) ( -32 -183 1040 ) defaultTextures/crackedRed_seamless 168 16 0 1 1
+}
+// brush 2
+{
+( -928 -304 -256 ) ( -928 -303 -256 ) ( -928 -304 -255 ) defaultTextures/crackedRed_seamless 16 0 0 1 1
+( -928 -304 -256 ) ( -928 -304 -255 ) ( -927 -304 -256 ) defaultTextures/crackedRed_seamless 0 0 0 1 1
+( -928 -304 -256 ) ( -927 -304 -256 ) ( -928 -303 -256 ) defaultTextures/crackedRed_seamless 0 -16 0 1 1
+( -912 -256 -240 ) ( -912 -255 -240 ) ( -911 -256 -240 ) defaultTextures/crackedRed_seamless 0 -16 0 1 1
+( -912 -256 -240 ) ( -911 -256 -240 ) ( -912 -256 -239 ) defaultTextures/crackedRed_seamless 0 0 0 1 1
+( -912 -256 -240 ) ( -912 -256 -239 ) ( -912 -255 -240 ) defaultTextures/crackedRed_seamless 16 0 0 1 1
+}
+}

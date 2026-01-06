@@ -1,0 +1,510 @@
+// Game: FALLSTRUKTUR - Prison
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -992 576 960 ) ( -992 -1088 960 ) ( -992 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 -2624 960 ) ( -640 -2624 960 ) ( -640 -2624 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -1088 -1984 ) ( -640 576 -1984 ) ( -768 576 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 576 1024 ) ( -640 576 1024 ) ( -640 -1088 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 2112 0 ) ( -640 2112 960 ) ( -768 2112 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -1088 960 ) ( -640 576 960 ) ( -640 576 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 1
+{
+( 0 -672 1344 ) ( 0 -1088 1344 ) ( 0 -1088 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -1088 1344 ) ( 128 -1088 1344 ) ( 128 -1088 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -1088 1216 ) ( 128 -704 1216 ) ( 0 -704 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -672 1344 ) ( 128 -672 1344 ) ( 128 -1088 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -704 1216 ) ( 128 -672 1344 ) ( 0 -672 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -1088 1344 ) ( 128 -672 1344 ) ( 128 -704 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 2
+{
+( 0 1792 1344 ) ( 0 128 1344 ) ( 0 128 384 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 320 1344 ) ( 128 320 1344 ) ( 128 320 384 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 128 1216 ) ( 128 1792 1216 ) ( 0 1792 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 1792 1344 ) ( 128 1792 1344 ) ( 128 128 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 576 384 ) ( 128 576 1344 ) ( 0 576 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 128 1344 ) ( 128 1792 1344 ) ( 128 1792 384 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 3
+{
+( 0 -64 1344 ) ( 0 -448 1344 ) ( 0 -544 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -448 1344 ) ( 128 -448 1344 ) ( 128 -544 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -544 1216 ) ( 128 -64 1216 ) ( 0 -64 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -64 1344 ) ( 128 -64 1344 ) ( 128 -448 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -64 1216 ) ( 128 -64 1344 ) ( 0 -64 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -448 1344 ) ( 128 -64 1344 ) ( 128 -64 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 4
+{
+( -640 -320 1024 ) ( -640 -192 960 ) ( -640 -192 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -192 1344 ) ( -640 -320 1024 ) ( -640 -192 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -288 1344 ) ( -640 -288 960 ) ( -640 -288 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -224 960 ) ( 0 -224 1344 ) ( -640 -224 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -192 1280 ) ( -640 -320 960 ) ( 0 -320 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -192 1344 ) ( 0 -320 1280 ) ( 0 -320 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 5
+{
+( -640 320 1024 ) ( -640 448 960 ) ( -640 448 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 448 1344 ) ( -640 320 1024 ) ( -640 448 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 352 1344 ) ( -640 352 960 ) ( -640 352 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 416 960 ) ( 0 416 1344 ) ( -640 416 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 448 1280 ) ( -640 320 960 ) ( 0 320 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 448 1344 ) ( 0 320 1280 ) ( 0 320 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 6
+{
+( 704 192 736 ) ( 704 193 736 ) ( 704 192 737 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 192 736 ) ( 704 192 737 ) ( 705 192 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 192 736 ) ( 705 192 736 ) ( 704 193 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 320 768 ) ( 768 321 768 ) ( 769 320 768 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 320 800 ) ( 769 320 800 ) ( 768 320 801 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 320 800 ) ( 768 320 801 ) ( 768 321 800 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 7
+{
+( 704 0 736 ) ( 704 1 736 ) ( 704 0 737 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 0 736 ) ( 704 0 737 ) ( 705 0 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 0 736 ) ( 705 0 736 ) ( 704 1 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 128 768 ) ( 768 129 768 ) ( 769 128 768 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 128 800 ) ( 769 128 800 ) ( 768 128 801 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 128 800 ) ( 768 128 801 ) ( 768 129 800 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 8
+{
+( 704 -448 736 ) ( 704 -447 736 ) ( 704 -448 737 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -448 736 ) ( 704 -448 737 ) ( 705 -448 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -448 736 ) ( 705 -448 736 ) ( 704 -447 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -320 768 ) ( 768 -319 768 ) ( 769 -320 768 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -224 800 ) ( 769 -224 800 ) ( 768 -224 801 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -320 800 ) ( 768 -320 801 ) ( 768 -319 800 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 9
+{
+( 768 576 1024 ) ( 768 -320 1024 ) ( 768 576 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -320 0 ) ( 768 -320 0 ) ( 1120 -320 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 576 -1984 ) ( 768 -320 -1984 ) ( 1120 576 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 576 1024 ) ( 1120 -320 1024 ) ( 768 576 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 1984 0 ) ( 1120 1984 0 ) ( 768 1984 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 576 0 ) ( 1120 -320 0 ) ( 1120 576 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 10
+{
+( 768 -1088 0 ) ( 768 -448 0 ) ( 768 -1088 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -1088 1024 ) ( 1120 -1088 1024 ) ( 768 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 -1984 ) ( 1120 -448 -1984 ) ( 768 -1088 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -1088 1024 ) ( 768 -448 1024 ) ( 1120 -1088 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -448 1024 ) ( 768 -448 0 ) ( 1120 -448 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 1024 ) ( 1120 -448 1024 ) ( 1120 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 11
+{
+( 768 -448 1024 ) ( 768 -448 896 ) ( 768 -320 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -448 1024 ) ( 1120 -448 896 ) ( 768 -448 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -320 896 ) ( 768 -448 896 ) ( 1120 -320 896 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -320 1024 ) ( 1120 -448 1024 ) ( 768 -320 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -320 1024 ) ( 768 -320 896 ) ( 1120 -320 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -320 1024 ) ( 1120 -320 896 ) ( 1120 -448 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 12
+{
+( 768 -320 0 ) ( 768 -320 768 ) ( 768 -448 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -448 0 ) ( 768 -448 768 ) ( 1120 -448 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -320 -1984 ) ( 768 -448 -1984 ) ( 1120 -320 -1984 ) __TB_empty 0 0 0 1 1
+( 1120 -448 768 ) ( 768 -448 768 ) ( 1120 -320 768 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -320 0 ) ( 1120 -320 768 ) ( 768 -320 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -448 0 ) ( 1120 -448 768 ) ( 1120 -320 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 13
+{
+( 1120 -576 704 ) ( 1120 -575 704 ) ( 1120 -576 705 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -640 704 ) ( 1120 -640 705 ) ( 1121 -640 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -576 704 ) ( 1121 -576 704 ) ( 1120 -575 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -512 736 ) ( 1184 -511 736 ) ( 1185 -512 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -576 736 ) ( 1185 -576 736 ) ( 1184 -576 737 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1248 -512 736 ) ( 1248 -512 737 ) ( 1248 -511 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 14
+{
+( 1120 -800 608 ) ( 1120 -799 608 ) ( 1120 -800 609 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -864 608 ) ( 1120 -864 609 ) ( 1121 -864 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -800 608 ) ( 1121 -800 608 ) ( 1120 -799 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -736 640 ) ( 1184 -735 640 ) ( 1185 -736 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -800 640 ) ( 1185 -800 640 ) ( 1184 -800 641 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1248 -736 640 ) ( 1248 -736 641 ) ( 1248 -735 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 15
+{
+( 1120 -1024 608 ) ( 1120 -1023 608 ) ( 1120 -1024 609 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 608 ) ( 1120 -1088 609 ) ( 1121 -1088 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1024 608 ) ( 1121 -1024 608 ) ( 1120 -1023 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -960 640 ) ( 1184 -959 640 ) ( 1185 -960 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -1024 640 ) ( 1185 -1024 640 ) ( 1184 -1024 641 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1248 -960 640 ) ( 1248 -960 641 ) ( 1248 -959 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 16
+{
+( 1056 -1088 576 ) ( 1056 -1088 577 ) ( 1056 -1089 576 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -1216 608 ) ( 1184 -1216 609 ) ( 1185 -1216 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 576 ) ( 1120 -1089 576 ) ( 1121 -1088 576 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1184 -1152 608 ) ( 1185 -1152 608 ) ( 1184 -1153 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 576 ) ( 1121 -1088 576 ) ( 1120 -1088 577 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1152 608 ) ( 1120 -1153 608 ) ( 1120 -1152 609 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 17
+{
+( 928 -1088 608 ) ( 928 -1088 609 ) ( 928 -1089 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1056 -1216 640 ) ( 1056 -1216 641 ) ( 1057 -1216 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 -1088 608 ) ( 992 -1089 608 ) ( 993 -1088 608 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1056 -1152 640 ) ( 1057 -1152 640 ) ( 1056 -1153 640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 -1088 608 ) ( 993 -1088 608 ) ( 992 -1088 609 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 -1152 640 ) ( 992 -1153 640 ) ( 992 -1152 641 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 18
+{
+( 800 -1088 672 ) ( 800 -1088 673 ) ( 800 -1089 672 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 928 -1216 704 ) ( 928 -1216 705 ) ( 929 -1216 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 864 -1088 672 ) ( 864 -1089 672 ) ( 865 -1088 672 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 928 -1152 704 ) ( 929 -1152 704 ) ( 928 -1153 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 864 -1088 672 ) ( 865 -1088 672 ) ( 864 -1088 673 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 864 -1152 704 ) ( 864 -1153 704 ) ( 864 -1152 705 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 19
+{
+( 640 -1024 704 ) ( 640 -1023 704 ) ( 640 -1024 705 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -1088 704 ) ( 640 -1088 705 ) ( 641 -1088 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -1024 704 ) ( 641 -1024 704 ) ( 640 -1023 704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -960 736 ) ( 704 -959 736 ) ( 705 -960 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -1024 736 ) ( 705 -1024 736 ) ( 704 -1024 737 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -960 736 ) ( 768 -960 737 ) ( 768 -959 736 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 20
+{
+( -32 -448 0 ) ( -32 -447 0 ) ( -32 -448 1 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 384 -512 0 ) ( 384 -512 1 ) ( 385 -512 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 384 -448 -32 ) ( 385 -448 -32 ) ( 384 -447 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 448 -320 32 ) ( 448 -319 32 ) ( 449 -320 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 448 -256 64 ) ( 449 -256 64 ) ( 448 -256 65 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 448 -320 64 ) ( 448 -320 65 ) ( 448 -319 64 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 21
+{
+( -640 -448 0 ) ( -640 -447 0 ) ( -640 -448 1 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -384 -512 0 ) ( -384 -512 1 ) ( -383 -512 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -384 -448 -32 ) ( -383 -448 -32 ) ( -384 -447 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -320 -320 32 ) ( -320 -319 32 ) ( -319 -320 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -320 -256 64 ) ( -319 -256 64 ) ( -320 -256 65 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -224 -320 64 ) ( -224 -320 65 ) ( -224 -319 64 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 22
+{
+( 640 -960 480 ) ( 640 -959 480 ) ( 640 -960 481 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -1024 480 ) ( 640 -1024 481 ) ( 641 -1024 480 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -960 480 ) ( 641 -960 480 ) ( 640 -959 480 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -896 512 ) ( 704 -895 512 ) ( 705 -896 512 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -960 512 ) ( 705 -960 512 ) ( 704 -960 513 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -896 512 ) ( 768 -896 513 ) ( 768 -895 512 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 23
+{
+( 640 -896 224 ) ( 640 -895 224 ) ( 640 -896 225 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -960 224 ) ( 640 -960 225 ) ( 641 -960 224 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -896 224 ) ( 641 -896 224 ) ( 640 -895 224 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -832 256 ) ( 704 -831 256 ) ( 705 -832 256 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -896 256 ) ( 705 -896 256 ) ( 704 -896 257 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -832 256 ) ( 768 -832 257 ) ( 768 -831 256 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 24
+{
+( 544 -640 992 ) ( 544 -704 992 ) ( 544 -704 -320 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -704 -576 ) ( 768 -640 -576 ) ( 544 -640 -320 ) defaultTextures/greyPaint_seamless 160 96 0 1 1
+( 544 -640 992 ) ( 768 -640 1024 ) ( 768 -704 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 544 -704 992 ) ( 768 -704 1024 ) ( 768 -704 -576 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -640 -576 ) ( 768 -640 1024 ) ( 544 -640 992 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -704 1024 ) ( 768 -640 1024 ) ( 768 -640 -576 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 25
+{
+( -32 -800 0 ) ( -32 -799 0 ) ( -32 -800 1 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -1056 0 ) ( 640 -1056 1 ) ( 641 -1056 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 640 -800 -32 ) ( 641 -800 -32 ) ( 640 -799 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -736 32 ) ( 704 -735 32 ) ( 705 -736 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 704 -800 32 ) ( 705 -800 32 ) ( 704 -800 33 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 -736 32 ) ( 768 -736 33 ) ( 768 -735 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 26
+{
+( 0 -736 0 ) ( 0 -735 0 ) ( 0 -736 1 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -800 0 ) ( 0 -800 1 ) ( 1 -800 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -736 0 ) ( 1 -736 0 ) ( 0 -735 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -672 32 ) ( 64 -671 32 ) ( 65 -672 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -704 32 ) ( 65 -704 32 ) ( 64 -704 33 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -672 32 ) ( 128 -672 33 ) ( 128 -671 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 27
+{
+( 0 -544 0 ) ( 0 -543 0 ) ( 0 -544 1 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -608 0 ) ( 0 -608 1 ) ( 1 -608 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -544 0 ) ( 1 -544 0 ) ( 0 -543 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -480 32 ) ( 64 -479 32 ) ( 65 -480 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -512 32 ) ( 65 -512 32 ) ( 64 -512 33 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -480 32 ) ( 128 -480 33 ) ( 128 -479 32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 28
+{
+( 128 -224 1280 ) ( 128 -224 1344 ) ( 128 -288 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -288 1280 ) ( 192 -288 1248 ) ( 128 -224 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -288 1344 ) ( 192 -288 1312 ) ( 128 -288 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -224 1280 ) ( 192 -224 1248 ) ( 128 -224 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -224 1344 ) ( 192 -224 1312 ) ( 128 -288 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 192 -224 1248 ) ( 192 -288 1248 ) ( 192 -224 1312 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 29
+{
+( 128 -864 1280 ) ( 128 -864 1344 ) ( 128 -928 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -928 1280 ) ( 192 -928 1248 ) ( 128 -864 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -928 1344 ) ( 192 -928 1312 ) ( 128 -928 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -864 1280 ) ( 192 -864 1248 ) ( 128 -864 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 -864 1344 ) ( 192 -864 1312 ) ( 128 -928 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 192 -864 1248 ) ( 192 -928 1248 ) ( 192 -864 1312 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 30
+{
+( -640 128 -224 ) ( -640 0 -288 ) ( -640 0 -352 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 0 -288 ) ( -512 0 -288 ) ( -512 0 -352 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 128 -224 ) ( -512 128 -224 ) ( -512 0 -288 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -512 0 -352 ) ( -512 128 -352 ) ( -640 128 -352 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -512 128 -352 ) ( -512 128 -224 ) ( -640 128 -224 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -512 0 -288 ) ( -512 128 -224 ) ( -512 128 -352 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 31
+{
+( -640 416 -928 ) ( -640 417 -928 ) ( -640 416 -927 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 416 -928 ) ( -640 416 -927 ) ( -639 416 -928 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 416 -928 ) ( -639 416 -928 ) ( -640 417 -928 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -256 544 -864 ) ( -256 545 -864 ) ( -255 544 -864 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -256 480 -864 ) ( -255 480 -864 ) ( -256 480 -863 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -192 544 -864 ) ( -192 544 -863 ) ( -192 545 -864 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 32
+{
+( -320 416 -864 ) ( -320 417 -864 ) ( -320 416 -863 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -384 416 -864 ) ( -384 416 -863 ) ( -383 416 -864 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -384 416 -864 ) ( -383 416 -864 ) ( -384 417 -864 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 544 -704 ) ( 0 545 -704 ) ( 1 544 -704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 480 -800 ) ( 1 480 -800 ) ( 0 480 -799 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -192 544 -800 ) ( -192 544 -799 ) ( -192 545 -800 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 33
+{
+( -352 512 -576 ) ( -352 384 -640 ) ( -352 384 -704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -352 320 -640 ) ( -224 320 -640 ) ( -224 320 -704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -352 512 -576 ) ( -224 512 -576 ) ( -224 384 -640 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -224 384 -704 ) ( -224 512 -704 ) ( -352 512 -704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -224 544 -704 ) ( -224 544 -576 ) ( -352 544 -576 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -160 384 -640 ) ( -160 512 -576 ) ( -160 512 -704 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 34
+{
+( 64 -352 -64 ) ( 64 -351 -64 ) ( 64 -352 -63 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -416 -64 ) ( 0 -416 -63 ) ( 1 -416 -64 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -352 -1984 ) ( 1 -352 -1984 ) ( 0 -351 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -288 -32 ) ( 64 -287 -32 ) ( 65 -288 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 64 -352 -32 ) ( 65 -352 -32 ) ( 64 -352 -31 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 352 -288 -32 ) ( 352 -288 -31 ) ( 352 -287 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 35
+{
+( -544 -352 -64 ) ( -544 -351 -64 ) ( -544 -352 -63 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -416 -64 ) ( -640 -416 -63 ) ( -639 -416 -64 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -352 -1984 ) ( -639 -352 -1984 ) ( -640 -351 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -576 -288 -32 ) ( -576 -287 -32 ) ( -575 -288 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -576 -352 -32 ) ( -575 -352 -32 ) ( -576 -352 -31 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -320 -288 -32 ) ( -320 -288 -31 ) ( -320 -287 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 36
+{
+( -1120 576 960 ) ( -1120 -1088 960 ) ( -1120 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1120 -1088 960 ) ( -992 -1088 960 ) ( -992 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -992 -1088 -1984 ) ( -992 576 -1984 ) ( -1120 576 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1120 576 1440 ) ( -992 576 1440 ) ( -992 -1088 1440 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -992 576 0 ) ( -992 576 960 ) ( -1120 576 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -992 -1088 960 ) ( -992 576 960 ) ( -992 576 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 37
+{
+( 1120 576 960 ) ( 1120 -1088 960 ) ( 1120 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -2624 960 ) ( 1248 -2624 960 ) ( 1248 -2624 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1248 -1088 992 ) ( 1248 576 992 ) ( 1120 576 992 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 576 1408 ) ( 1248 576 1408 ) ( 1248 -1088 1408 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1248 576 0 ) ( 1248 576 960 ) ( 1120 576 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 2080 -1088 960 ) ( 2080 576 960 ) ( 2080 576 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 38
+{
+( 1952 576 960 ) ( 1952 -1088 960 ) ( 1952 -1088 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1952 -2624 960 ) ( 2080 -2624 960 ) ( 2080 -2624 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 2080 -1088 -1984 ) ( 2080 576 -1984 ) ( 1952 576 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1952 576 992 ) ( 2080 576 992 ) ( 2080 -1088 992 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 2080 1568 0 ) ( 2080 1568 960 ) ( 1952 1568 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 2080 -1088 960 ) ( 2080 576 960 ) ( 2080 576 0 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 39
+{
+( -1824 768 -2432 ) ( -1824 -896 -2432 ) ( -1824 -896 -3392 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1216 -3456 -2432 ) ( -1088 -3456 -2432 ) ( -1088 -3456 -3392 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1088 -896 -2400 ) ( -1088 768 -2400 ) ( -1216 768 -2400 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1216 768 -1984 ) ( -1088 768 -1984 ) ( -1088 -896 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -1088 2240 -3392 ) ( -1088 2240 -2432 ) ( -1216 2240 -2432 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 2784 -896 -2432 ) ( 2784 768 -2432 ) ( 2784 768 -3392 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 40
+{
+( -128 -864 1216 ) ( -128 -864 1280 ) ( -128 -928 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -928 1344 ) ( -128 -928 1280 ) ( 0 -864 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -928 1280 ) ( -128 -928 1216 ) ( 0 -928 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -864 1344 ) ( -128 -864 1280 ) ( 0 -864 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -864 1280 ) ( -128 -864 1216 ) ( 0 -928 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 0 -864 1344 ) ( 0 -864 1280 ) ( 0 -928 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 41
+{
+( -640 -928 1024 ) ( -640 -928 960 ) ( -640 -864 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -864 1024 ) ( -480 -864 1104 ) ( -640 -928 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -928 1024 ) ( -480 -928 1104 ) ( -640 -928 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -864 960 ) ( -480 -864 1040 ) ( -640 -864 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -928 960 ) ( -480 -928 1040 ) ( -640 -864 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -480 -928 1104 ) ( -480 -864 1104 ) ( -480 -928 1040 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 42
+{
+( 64 -896 -64 ) ( 64 -895 -64 ) ( 64 -896 -63 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 160 -960 -64 ) ( 160 -960 -63 ) ( 161 -960 -64 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 160 -896 -1984 ) ( 161 -896 -1984 ) ( 160 -895 -1984 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 224 -832 -32 ) ( 224 -831 -32 ) ( 225 -832 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 224 -896 -32 ) ( 225 -896 -32 ) ( 224 -896 -31 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 672 -832 -32 ) ( 672 -832 -31 ) ( 672 -831 -32 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 43
+{
+( 768 -768 1024 ) ( 768 -767 1024 ) ( 768 -768 1025 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 -1088 1024 ) ( 832 -1088 1025 ) ( 833 -1088 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 -768 1024 ) ( 833 -768 1024 ) ( 832 -767 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -704 1408 ) ( 1120 -703 1408 ) ( 1121 -704 1408 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 320 1056 ) ( 1121 320 1056 ) ( 1120 320 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -704 1056 ) ( 1120 -704 1057 ) ( 1120 -703 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 44
+{
+( 512 416 1088 ) ( 512 416 1152 ) ( 512 352 1088 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 416 960 ) ( 512 416 1088 ) ( 768 352 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 352 960 ) ( 512 352 1088 ) ( 768 352 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 416 1024 ) ( 512 416 1152 ) ( 768 416 960 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 352 1024 ) ( 512 352 1152 ) ( 768 416 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 768 416 1024 ) ( 768 416 960 ) ( 768 352 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 45
+{
+( 128 416 1280 ) ( 128 416 1344 ) ( 128 352 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 352 1280 ) ( 256 352 1216 ) ( 128 416 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 352 1344 ) ( 384 352 1216 ) ( 128 352 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 256 416 1216 ) ( 256 352 1216 ) ( 384 416 1216 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 416 1280 ) ( 256 416 1216 ) ( 128 416 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 128 416 1344 ) ( 384 416 1216 ) ( 128 352 1344 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 46
+{
+( -992 0 1024 ) ( -992 1 1024 ) ( -992 0 1025 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -992 0 1024 ) ( -992 0 1025 ) ( -991 0 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -992 0 1024 ) ( -991 0 1024 ) ( -992 1 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 96 1088 ) ( -768 97 1088 ) ( -767 96 1088 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 96 1056 ) ( -767 96 1056 ) ( -768 96 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 96 1056 ) ( -640 96 1057 ) ( -640 97 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 47
+{
+( -832 -96 1024 ) ( -832 -95 1024 ) ( -832 -96 1025 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -832 -96 1024 ) ( -832 -96 1025 ) ( -831 -96 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -832 -96 1024 ) ( -831 -96 1024 ) ( -832 -95 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -608 0 1056 ) ( -608 1 1056 ) ( -607 0 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -608 0 1056 ) ( -607 0 1056 ) ( -608 0 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -704 0 1056 ) ( -704 0 1057 ) ( -704 1 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 48
+{
+( 768 -2176 1024 ) ( 768 -2175 1024 ) ( 768 -2176 1025 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 -2624 1024 ) ( 832 -2624 1025 ) ( 833 -2624 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 -2176 992 ) ( 833 -2176 992 ) ( 832 -2175 992 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -2112 1408 ) ( 1120 -2111 1408 ) ( 1121 -2112 1408 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -1088 1056 ) ( 1121 -1088 1056 ) ( 1120 -1088 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 -2112 1056 ) ( 1120 -2112 1057 ) ( 1120 -2111 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 49
+{
+( -992 -2176 1056 ) ( -992 -2175 1056 ) ( -992 -2176 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -928 -2624 1056 ) ( -928 -2624 1057 ) ( -927 -2624 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -928 -2176 1024 ) ( -927 -2176 1024 ) ( -928 -2175 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -2112 1440 ) ( -640 -2111 1440 ) ( -639 -2112 1440 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -1088 1088 ) ( -639 -1088 1088 ) ( -640 -1088 1089 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -2112 1088 ) ( -640 -2112 1089 ) ( -640 -2111 1088 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 50
+{
+( 768 896 1024 ) ( 768 897 1024 ) ( 768 896 1025 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 576 1024 ) ( 832 576 1025 ) ( 833 576 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 832 896 1024 ) ( 833 896 1024 ) ( 832 897 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 960 1408 ) ( 1120 961 1408 ) ( 1121 960 1408 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 1984 1056 ) ( 1121 1984 1056 ) ( 1120 1984 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 960 1056 ) ( 1120 960 1057 ) ( 1120 961 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 51
+{
+( -992 1024 1056 ) ( -992 1025 1056 ) ( -992 1024 1057 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -928 576 1056 ) ( -928 576 1057 ) ( -927 576 1056 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -928 1024 1024 ) ( -927 1024 1024 ) ( -928 1025 1024 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 1088 1440 ) ( -640 1089 1440 ) ( -639 1088 1440 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 2112 1088 ) ( -639 2112 1088 ) ( -640 2112 1089 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 1088 1088 ) ( -640 1088 1089 ) ( -640 1089 1088 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 52
+{
+( 768 544 1248 ) ( 768 545 1248 ) ( 768 544 1249 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 544 1248 ) ( 992 544 1249 ) ( 993 544 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 544 1248 ) ( 993 544 1248 ) ( 992 545 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1088 576 1280 ) ( 1088 577 1280 ) ( 1089 576 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1088 576 1280 ) ( 1089 576 1280 ) ( 1088 576 1281 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 576 1280 ) ( 1120 576 1281 ) ( 1120 577 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 53
+{
+( 768 320 1248 ) ( 768 321 1248 ) ( 768 320 1249 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 320 1248 ) ( 992 320 1249 ) ( 993 320 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 992 320 1248 ) ( 993 320 1248 ) ( 992 321 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1088 352 1280 ) ( 1088 353 1280 ) ( 1089 352 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1088 352 1280 ) ( 1089 352 1280 ) ( 1088 352 1281 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( 1120 352 1280 ) ( 1120 352 1281 ) ( 1120 353 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 54
+{
+( -992 -1088 1248 ) ( -992 -1087 1248 ) ( -992 -1088 1249 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 -1088 1248 ) ( -768 -1088 1249 ) ( -767 -1088 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 -1088 1248 ) ( -767 -1088 1248 ) ( -768 -1087 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -672 -1056 1280 ) ( -672 -1055 1280 ) ( -671 -1056 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -672 -1056 1280 ) ( -671 -1056 1280 ) ( -672 -1056 1281 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 -1056 1280 ) ( -640 -1056 1281 ) ( -640 -1055 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+// brush 55
+{
+( -992 544 1248 ) ( -992 545 1248 ) ( -992 544 1249 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 544 1248 ) ( -768 544 1249 ) ( -767 544 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -768 544 1248 ) ( -767 544 1248 ) ( -768 545 1248 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -672 576 1280 ) ( -672 577 1280 ) ( -671 576 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -672 576 1280 ) ( -671 576 1280 ) ( -672 576 1281 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+( -640 576 1280 ) ( -640 576 1281 ) ( -640 577 1280 ) defaultTextures/greyPaint_seamless 0 0 0 1 1
+}
+}

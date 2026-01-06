@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Moria
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -3840 -64 -16 ) ( -3840 -63 -16 ) ( -3840 -64 -15 ) defaultTextures/otherTrunk_seamless 0 0 0 12 12
+( -1696 -5024 -16 ) ( -1696 -5024 -15 ) ( -1682.125 -5024 -16 ) defaultTextures/otherTrunk_seamless 58.234238 0 0 12 12
+( -1696 -64 -16 ) ( -1682.125 -64 -16 ) ( -1696 -63 -16 ) defaultTextures/otherTrunk_seamless 58.234234 0 0 12 12
+( 80 64 16 ) ( 80 65 16 ) ( 93.87499999999984 64 16 ) defaultTextures/otherTrunk_seamless 58.234234 0 0 12 12
+( 80 5872 16 ) ( 93.87499999999984 5872 16 ) ( 80 5872 17 ) defaultTextures/otherTrunk_seamless 58.234234 0 0 12 12
+( 4576 64 16 ) ( 4576 64 17 ) ( 4576 65 16 ) defaultTextures/otherTrunk_seamless 0 0 0 12 12
+}
+}

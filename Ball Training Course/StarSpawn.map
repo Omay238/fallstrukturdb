@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Ball Training Course!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 0 -16 16 ) ( -64 0 16 ) ( -64 0 144 ) defaultTextures/WhiteShade 0 0 0 1 1
+( -64 0 16 ) ( 0 16 16 ) ( 0 16 144 ) defaultTextures/WhiteShade 0 0 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) defaultTextures/WhiteShade 0 0 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) defaultTextures/WhiteShade -127.99994 -128 0 0.50000024 0.124999985
+( 64 0 16 ) ( 0 -16 16 ) ( 0 -16 144 ) defaultTextures/WhiteShade 0 0 0 1 1
+( 0 16 16 ) ( 64 0 16 ) ( 64 0 144 ) defaultTextures/WhiteShade 0 0 0 1 1
+}
+}

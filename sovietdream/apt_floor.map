@@ -1,0 +1,131 @@
+// Game: FALLSTRUKTUR - Pong!
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -128 320 192 ) ( -128 256 192 ) ( -128 256 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -128 256 192 ) ( 128 256 192 ) ( 128 256 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 256 176 ) ( 128 320 176 ) ( -128 320 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -128 320 192 ) ( 128 320 192 ) ( 128 256 192 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 320 176 ) ( 128 320 192 ) ( -128 320 192 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 256 192 ) ( 128 320 192 ) ( 128 320 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+}
+// brush 1
+{
+( -128 256 192 ) ( -128 -256 -16 ) ( -128 -256 -28 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 -16 ) ( -128 -256 -16 ) ( -128 256 192 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 -16 ) ( 64 -228 -16 ) ( -64 -228 -16 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 -28 ) ( -64 256 176 ) ( -128 256 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 256 176 ) ( -64 256 192 ) ( -128 256 192 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 -16 ) ( -64 256 192 ) ( -64 256 176 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+}
+// brush 2
+{
+( 64 256 192 ) ( 64 -256 400 ) ( 64 -256 384 ) defaultTextures/dirtyBrick_seamless 0 16 180 0.5 0.25
+( 64 -256 400 ) ( 128 -256 400 ) ( 128 -256 384 ) defaultTextures/dirtyBrick_seamless 0 16 180 0.5 0.25
+( 128 -256 384 ) ( 128 256 176 ) ( 64 256 176 ) defaultTextures/dirtyBrick_seamless 0 0 180 0.5 0.25
+( 64 256 192 ) ( 128 256 192 ) ( 128 -256 400 ) defaultTextures/dirtyBrick_seamless 0 0 180 0.5 0.25
+( 128 256 176 ) ( 128 256 192 ) ( 64 256 192 ) defaultTextures/dirtyBrick_seamless 0 0 180 0.5 0.25
+( 128 -256 400 ) ( 128 256 192 ) ( 128 256 176 ) defaultTextures/dirtyBrick_seamless 0 16 180 0.5 0.25
+}
+// brush 3
+{
+( -128 256 608 ) ( -128 -256 400 ) ( -128 -256 388 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -128 -256 400 ) ( -64 -256 400 ) ( -64 -256 388 ) defaultTextures/dirtyBrick_seamless 0 16 0 0.5 0.25
+( -64 -256 400 ) ( -64 -228 400 ) ( 64 -228 400 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 388 ) ( -64 256 592 ) ( -128 256 592 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -64 -256 400 ) ( -64 256 608 ) ( -64 256 592 ) defaultTextures/dirtyConcrete_seamless 0 0 0 0.5 0.25
+}
+// brush 4
+{
+( -128 -256 400 ) ( -128 -320 400 ) ( -128 -320 384 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -128 -320 400 ) ( 128 -320 400 ) ( 128 -320 384 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 -320 384 ) ( 128 -256 384 ) ( -128 -256 384 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( -128 -256 400 ) ( 128 -256 400 ) ( 128 -320 400 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 -256 384 ) ( 128 -256 400 ) ( -128 -256 400 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+( 128 -320 400 ) ( 128 -256 400 ) ( 128 -256 384 ) defaultTextures/dirtyBrick_seamless 0 0 0 0.5 0.25
+}
+// brush 5
+{
+( 128 336 400 ) ( 128 -336 400 ) ( 128 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 -336 400 ) ( 144 -336 400 ) ( 144 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 144 -336 -16 ) ( 144 336 -16 ) ( 128 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 336 400 ) ( 144 336 400 ) ( 144 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 144 336 -16 ) ( 144 336 400 ) ( 128 336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 144 -336 400 ) ( 144 336 400 ) ( 144 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+}
+// brush 6
+{
+( -144 336 400 ) ( -144 -336 400 ) ( -144 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( -144 -336 400 ) ( -128 -336 400 ) ( -128 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( -128 -336 -16 ) ( -128 336 -16 ) ( -144 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -144 336 400 ) ( -128 336 400 ) ( -128 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 336 -16 ) ( -128 336 400 ) ( -144 336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( -128 -336 400 ) ( -128 336 400 ) ( -128 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 7
+{
+( 28 336 400 ) ( 28 320 400 ) ( 28 336 -16 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+( 128 320 -16 ) ( 28 320 -16 ) ( 128 320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 336 -16 ) ( 28 336 -16 ) ( 128 320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 320 400 ) ( 28 320 400 ) ( 128 336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 336 400 ) ( 28 336 400 ) ( 128 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 128 320 400 ) ( 128 336 400 ) ( 128 320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 8
+{
+( -128 320 -16 ) ( -128 336 -16 ) ( -128 320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 320 400 ) ( -28 320 400 ) ( -128 320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 320 -16 ) ( -28 320 -16 ) ( -128 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 336 400 ) ( -28 336 400 ) ( -128 320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 336 -16 ) ( -28 336 -16 ) ( -128 336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( -28 320 -16 ) ( -28 320 400 ) ( -28 336 -16 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+}
+// brush 9
+{
+( -28 320 400 ) ( -28 320 280 ) ( -28 336 400 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+( 28 320 400 ) ( 28 320 280 ) ( -28 320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 28 320 280 ) ( 28 336 280 ) ( -28 320 280 ) defaultTextures/dirtyConcrete_seamless 0 156 0 1 1
+( 28 320 400 ) ( -28 320 400 ) ( 28 336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -28 336 400 ) ( -28 336 280 ) ( 28 336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 28 336 400 ) ( 28 336 280 ) ( 28 320 400 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+}
+// brush 10
+{
+( -28 336 -16 ) ( -28 336 192 ) ( -28 320 -16 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+( -28 320 -16 ) ( -28 320 192 ) ( 28 320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 28 336 -16 ) ( -28 336 -16 ) ( 28 320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -28 336 192 ) ( 28 336 192 ) ( -28 320 192 ) defaultTextures/dirtyConcrete_seamless 0 156 0 1 1
+( 28 336 -16 ) ( 28 336 192 ) ( -28 336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 28 320 -16 ) ( 28 320 192 ) ( 28 336 -16 ) defaultTextures/dirtyConcrete_seamless -156 208 0 1 1
+}
+// brush 11
+{
+( 28 -320 400 ) ( 28 -336 400 ) ( 28 -320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 -336 -16 ) ( 28 -336 -16 ) ( 128 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 128 -320 -16 ) ( 28 -320 -16 ) ( 128 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 -336 400 ) ( 28 -336 400 ) ( 128 -320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 -320 400 ) ( 28 -320 400 ) ( 128 -320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 128 -336 400 ) ( 128 -320 400 ) ( 128 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 12
+{
+( -128 -336 -16 ) ( -128 -320 -16 ) ( -128 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 -336 400 ) ( -28 -336 400 ) ( -128 -336 -16 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( -128 -336 -16 ) ( -28 -336 -16 ) ( -128 -320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 -320 400 ) ( -28 -320 400 ) ( -128 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -128 -320 -16 ) ( -28 -320 -16 ) ( -128 -320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -28 -336 -16 ) ( -28 -336 400 ) ( -28 -320 -16 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+// brush 13
+{
+( -28 -336 400 ) ( -28 -336 72 ) ( -28 -320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 28 -336 400 ) ( 28 -336 72 ) ( -28 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 -16 0 1 1
+( 28 -336 72 ) ( 28 -320 72 ) ( -28 -336 72 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 28 -336 400 ) ( -28 -336 400 ) ( 28 -320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( -28 -320 400 ) ( -28 -320 72 ) ( 28 -320 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+( 28 -320 400 ) ( 28 -320 72 ) ( 28 -336 400 ) defaultTextures/dirtyConcrete_seamless 0 0 0 1 1
+}
+}

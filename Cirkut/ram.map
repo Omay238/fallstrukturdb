@@ -1,0 +1,42 @@
+// Game: FALLSTRUKTUR - Cirkut
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 8 -248 -16 ) ( 8 -247 -16 ) ( 8 -248 -15 ) defaultTextures/grainton2 0 0 0 1 1
+( 8 -248 -16 ) ( 8 -248 -15 ) ( 9 -248 -16 ) defaultTextures/grainton2 0 0 0 1 1
+( 8 -248 -16 ) ( 9 -248 -16 ) ( 8 -247 -16 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 8 -8 ) ( 16 9 -8 ) ( 17 8 -8 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 8 -8 ) ( 17 8 -8 ) ( 16 8 -7 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 8 -8 ) ( 16 8 -7 ) ( 16 9 -8 ) defaultTextures/grainton2 0 0 0 1 1
+}
+// brush 1
+{
+( 8 -248 -8 ) ( 8 -247 -8 ) ( 8 -248 -7 ) defaultTextures/circuits 0 -16 0 1 1
+( 8 -248 -8 ) ( 8 -248 -7 ) ( 9 -248 -8 ) defaultTextures/circuits 0 -16 0 1 1
+( 8 -248 -8 ) ( 9 -248 -8 ) ( 8 -247 -8 ) defaultTextures/circuits 0 -16 0 1 1
+( 16 8 16 ) ( 16 9 16 ) ( 17 8 16 ) defaultTextures/circuits 0 -16 0 1 1
+( 16 8 16 ) ( 17 8 16 ) ( 16 8 17 ) defaultTextures/circuits 0 -16 0 1 1
+( 16 8 16 ) ( 16 8 17 ) ( 16 9 16 ) defaultTextures/circuits 0 -16 0 1 1
+}
+// brush 2
+{
+( 0 -240 16 ) ( 0 -239 16 ) ( 0 -240 17 ) defaultTextures/grainton2 0 0 0 1 1
+( 0 -240 16 ) ( 0 -240 17 ) ( 1 -240 16 ) defaultTextures/grainton2 0 0 0 1 1
+( 0 -240 16 ) ( 1 -240 16 ) ( 0 -239 16 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 0 24 ) ( 16 1 24 ) ( 17 0 24 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 0 24 ) ( 17 0 24 ) ( 16 0 25 ) defaultTextures/grainton2 0 0 0 1 1
+( 16 0 24 ) ( 16 0 25 ) ( 16 1 24 ) defaultTextures/grainton2 0 0 0 1 1
+}
+// brush 3
+{
+( 0 -240 0 ) ( 0 -239 0 ) ( 0 -240 0.6666666666666679 ) defaultTextures/grainton2 0 8 0 1 0.6666667
+( 0 -240 0 ) ( 0 -240 0.6666666666666679 ) ( 1 -240 0 ) defaultTextures/grainton2 0 8 0 1 0.6666667
+( 0 -240 0 ) ( 1 -240 0 ) ( 0 -239 0 ) defaultTextures/grainton2 0 0 0 1 1
+( 8 0 16 ) ( 8 1 16 ) ( 9 0 16 ) defaultTextures/grainton2 0 0 0 1 1
+( 8 0 16 ) ( 9 0 16 ) ( 8 0 16.666666666666664 ) defaultTextures/grainton2 0 8 0 1 0.6666667
+( 8 0 16 ) ( 8 0 16.666666666666664 ) ( 8 1 16 ) defaultTextures/grainton2 0 8 0 1 0.6666667
+}
+}

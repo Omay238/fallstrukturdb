@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - TUNGSTEN
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 64 16 ) ( -64 -64 16 ) ( -64 -64 -112 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+( -64 -64 16 ) ( 64 -64 16 ) ( 64 -64 -112 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+( 64 -64 -112 ) ( 64 64 -112 ) ( -64 64 -112 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+( -64 64 16 ) ( 64 64 16 ) ( 64 -64 16 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+( 64 64 -112 ) ( 64 64 16 ) ( -64 64 16 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+( 64 -64 16 ) ( 64 64 16 ) ( 64 64 -112 ) defaultTextures/grainton -128 -224 0 0.5 0.5
+}
+}

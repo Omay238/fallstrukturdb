@@ -1,0 +1,15 @@
+// Game: FALLSTRUKTUR - Very basic
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( -64 -64 -128 ) ( -64 -63 -128 ) ( -64 -64 -124 ) coolstone 64 0 0 1 8
+( -64 -64 -128 ) ( -64 -64 -124 ) ( -63 -64 -128 ) coolstone -64 0 0 1 8
+( -64 -64 -128 ) ( -63 -64 -128 ) ( -64 -63 -128 ) coolstone -64 -64 0 1 1
+( 64 64 0 ) ( 64 65 0 ) ( 65 64 0 ) coolstone -64 -64 0 1 1
+( 64 64 0 ) ( 65 64 0 ) ( 64 64 4 ) coolstone -64 0 0 1 8
+( 64 64 0 ) ( 64 64 4 ) ( 64 65 0 ) coolstone 64 0 0 1 8
+}
+}
